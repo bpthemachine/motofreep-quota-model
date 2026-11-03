@@ -92,4 +92,4 @@ The workbooks open in Excel (Microsoft 365) with no setup. To regenerate the dat
 
 ## Who built what
 
-I made the planning and modeling decisions and built the core capacity and quota calculations in Excel. Claude generated the synthetic data, scripts and workbook templates, and built the round 2 backtest and forecast columns at my direction. My Predictive Analytics professor was consulted on the attainment forecast model.
+I made the planning and modeling decisions and built the core capacity and quota calculations in Excel. Claude generated the synthetic data, scripts and workbook templates. My Predictive Analytics professor was consulted on the attainment forecast model.
