@@ -1,0 +1,59 @@
+rep_id,rep_name,territory_id,segment,hire_date,departure_date
+R001,Marc Marquez,AMER-ENT-01,Enterprise,2021-02-01,
+R002,Francesco Bagnaia,AMER-ENT-02,Enterprise,2022-02-01,
+R003,Pedro Acosta,AMER-ENT-03,Enterprise,2019-03-01,2025-11-30
+R004,Brad Binder,AMER-ENT-03,Enterprise,2026-02-01,
+R005,Jorge Martin,AMER-ENT-04,Enterprise,2019-01-01,
+R006,Marco Bezzecchi,AMER-ENT-05,Enterprise,2018-08-01,
+R007,Fabio Quartararo,AMER-ENT-06,Enterprise,2019-02-01,
+R008,Alex Rins,AMER-ENT-07,Enterprise,2018-06-01,
+R009,Luca Marini,AMER-ENT-08,Enterprise,2018-01-01,
+R010,Joan Mir,AMER-COM-01,Commercial,2018-09-01,
+R011,Fabio Di Giannantonio,AMER-COM-02,Commercial,2019-12-01,
+R012,Franco Morbidelli,AMER-COM-03,Commercial,2018-05-01,
+R013,Alex Marquez,AMER-COM-04,Commercial,2020-03-01,
+R014,Fermin Aldeguer,AMER-COM-05,Commercial,2020-07-01,
+R015,Jack Miller,AMER-COM-06,Commercial,2019-01-01,
+R016,Toprak Razgatlioglu,AMER-COM-07,Commercial,2021-09-01,
+R017,Raul Fernandez,AMER-COM-08,Commercial,2021-03-01,2025-10-31
+R018,Ai Ogura,AMER-COM-08,Commercial,2026-01-01,2026-03-31
+R019,Maverick Vinales,AMER-COM-08,Commercial,2026-06-01,2026-12-31
+R020,Enea Bastianini,AMER-COM-09,Commercial,2019-12-01,
+R021,Johann Zarco,AMER-COM-10,Commercial,2019-07-01,2026-04-30
+R022,Diogo Moreira,AMER-COM-10,Commercial,2026-07-01,
+R023,Joe Roberts,AMER-COM-11,Commercial,2022-05-01,
+R024,Filip Salac,AMER-COM-12,Commercial,2020-06-01,
+R025,Daniel Holgado,EMEA-ENT-01,Enterprise,2020-02-01,2026-02-28
+R026,David Alonso,EMEA-ENT-01,Enterprise,2026-05-01,
+R027,Izan Guevara,EMEA-ENT-02,Enterprise,2020-03-01,2025-02-28
+R028,Alberto Ferrandez,EMEA-ENT-02,Enterprise,2025-04-01,
+R029,Barry Baltus,EMEA-ENT-03,Enterprise,2022-06-01,
+R030,Tony Arbolino,EMEA-ENT-04,Enterprise,2021-08-01,
+R031,Sergio Garcia,EMEA-ENT-05,Enterprise,2021-05-01,2026-12-31
+R032,Alonso Lopez,EMEA-COM-01,Commercial,2018-10-01,2024-06-30
+R033,Mario Aji,EMEA-COM-01,Commercial,2024-08-01,
+R034,Taiyo Furusato,EMEA-COM-02,Commercial,2022-04-01,2023-03-31
+R035,Adrian Huertas,EMEA-COM-02,Commercial,2023-06-01,
+R036,Daniel Munoz,EMEA-COM-03,Commercial,2019-07-01,2024-07-31
+R037,Jorge Navarro,EMEA-COM-03,Commercial,2024-09-01,
+R038,Alex Escrig,EMEA-COM-04,Commercial,2020-03-01,
+R039,Senna Agius,EMEA-COM-05,Commercial,2019-08-01,2026-09-30
+R040,Manuel Gonzalez,EMEA-COM-05,Commercial,2026-12-01,
+R041,Aron Canet,EMEA-COM-06,Commercial,2019-10-01,
+R042,Deniz Oncu,EMEA-COM-07,Commercial,2020-10-01,
+R043,Angel Piqueras,APAC-ENT-01,Enterprise,2018-06-01,
+R044,Ivan Ortola,APAC-ENT-02,Enterprise,2020-08-01,
+R045,Collin Veijer,APAC-ENT-03,Enterprise,2018-10-01,2023-02-28
+R046,Jose Antonio Rueda,APAC-ENT-03,Enterprise,2023-05-01,2025-12-31
+R047,Ayumu Sasaki,APAC-ENT-03,Enterprise,2026-03-01,
+R048,Zonta van den Goorbergh,APAC-COM-01,Commercial,2022-06-01,2024-06-30
+R049,Celestino Vietti,APAC-COM-01,Commercial,2024-08-01,
+R050,Luca Lunetta,APAC-COM-02,Commercial,2019-05-01,
+R051,Cameron Beaubier,APAC-COM-03,Commercial,2022-05-01,
+R052,Mathew Scholtz,APAC-COM-04,Commercial,2019-05-01,
+R053,Bobby Fong,APAC-COM-05,Commercial,2018-01-01,
+R054,JD Beach,OVL-AMER-1,All,2025-01-01,
+R055,Sean Dylan Kelly,OVL-AMER-2,All,2025-01-01,
+R056,Cameron Petersen,OVL-EMEA-1,All,2025-01-01,
+R057,PJ Jacobsen,OVL-APAC-1,All,2025-01-01,2025-09-30
+R058,Richie Escalante,OVL-APAC-1,All,2025-12-01,

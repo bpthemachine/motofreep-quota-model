@@ -1,0 +1,16 @@
+leader_id,leader_name,role,region,segment,team_id,reports_to_id
+L-CRO,Giacomo Agostini,Chief Revenue Officer,Global,All,,
+L-GEO-AMER,Kenny Roberts,Geo leader,AMER,All,,L-CRO
+L-GEO-EMEA,Valentino Rossi,Geo leader,EMEA,All,,L-CRO
+L-GEO-APAC,Mick Doohan,Geo leader,APAC,All,,L-CRO
+L-AVP-AMER-ENT,Wayne Rainey,AVP,AMER,Enterprise,,L-GEO-AMER
+L-AVP-AMER-COM,Kevin Schwantz,AVP,AMER,Commercial,,L-GEO-AMER
+L-TL-AMER-ENT-1,Eddie Lawson,Team leader,AMER,Enterprise,T-AMER-ENT-1,L-AVP-AMER-ENT
+L-TL-AMER-ENT-2,Freddie Spencer,Team leader,AMER,Enterprise,T-AMER-ENT-2,L-AVP-AMER-ENT
+L-TL-AMER-COM-1,Kenny Roberts Jr.,Team leader,AMER,Commercial,T-AMER-COM-1,L-AVP-AMER-COM
+L-TL-AMER-COM-2,Marco Lucchinelli,Team leader,AMER,Commercial,T-AMER-COM-2,L-AVP-AMER-COM
+L-TL-EMEA-ENT,Alex Criville,Team leader,EMEA,Enterprise,T-EMEA-ENT,L-GEO-EMEA
+L-TL-EMEA-COM,Franco Uncini,Team leader,EMEA,Commercial,T-EMEA-COM,L-GEO-EMEA
+L-TL-APAC-ENT,Casey Stoner,Team leader,APAC,Enterprise,T-APAC-ENT,L-GEO-APAC
+L-TL-APAC-COM,Wayne Gardner,Team leader,APAC,Commercial,T-APAC-COM,L-GEO-APAC
+L-TL-OVERLAY,Dani Pedrosa,Overlay team leader,Global,AI Race Coach,T-OVERLAY,L-CRO

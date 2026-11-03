@@ -1,0 +1,26 @@
+region,segment,territories,metric,priority,weight,spread_before_cv,spread_after_cv,accounts_moved,accounts_in_group
+AMER,Enterprise,11,open pipeline credited,1,0.4,0.75,0.091,80,212
+AMER,Enterprise,11,FY2026 won core,2,0.25,0.677,0.022,80,212
+AMER,Enterprise,11,core potential,3,0.2,0.675,0.029,80,212
+AMER,Enterprise,11,accounts,4,0.1,0.613,0.07,80,212
+AMER,Enterprise,11,customers,5,0.05,0.622,0.043,80,212
+AMER,Commercial,14,open pipeline credited,1,0.4,0.57,0.037,93,540
+AMER,Commercial,14,FY2026 won core,2,0.25,0.501,0.025,93,540
+AMER,Commercial,14,core potential,3,0.2,0.455,0.019,93,540
+AMER,Commercial,14,accounts,4,0.1,0.408,0.177,93,540
+AMER,Commercial,14,customers,5,0.05,0.427,0.23,93,540
+EMEA,Enterprise,6,open pipeline credited,1,0.4,0.499,0.011,37,130
+EMEA,Enterprise,6,FY2026 won core,2,0.25,0.497,0.021,37,130
+EMEA,Enterprise,6,core potential,3,0.2,0.466,0.012,37,130
+EMEA,Enterprise,6,accounts,4,0.1,0.447,0.058,37,130
+EMEA,Enterprise,6,customers,5,0.05,0.464,0.085,37,130
+EMEA,Commercial,8,open pipeline credited,1,0.4,0.435,0.01,57,315
+EMEA,Commercial,8,FY2026 won core,2,0.25,0.458,0.026,57,315
+EMEA,Commercial,8,core potential,3,0.2,0.422,0.019,57,315
+EMEA,Commercial,8,accounts,4,0.1,0.378,0.114,57,315
+EMEA,Commercial,8,customers,5,0.05,0.386,0.098,57,315
+APAC,Enterprise,4,open pipeline credited,1,0.4,0.715,0.012,35,78
+APAC,Enterprise,4,FY2026 won core,2,0.25,0.629,0.038,35,78
+APAC,Enterprise,4,core potential,3,0.2,0.633,0.011,35,78
+APAC,Enterprise,4,accounts,4,0.1,0.577,0.026,35,78
+APAC,Enterprise,4,customers,5,0.05,0.597,0.077,35,78

@@ -1,0 +1,1501 @@
+account_id,account_name,account_type,region,segment,territory_id,simulator_stations,riders,telemetry_volume_index,enrolled_students,owns_rider_seats,licensed_stations,owns_telemetry_cloud,owns_ai_race_coach,arr_rider_seats,arr_telemetry_cloud,arr_ai_race_coach
+A00001,Paddock Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-01,21,272,43.5,759,True,15,False,False,176500.0,0.0,0.0
+A00002,Holeshot Riding Academy Charlotte,Riding Academy,AMER,Enterprise,AMER-ENT-01,14,101,13.4,370,True,10,False,True,103900.0,0.0,31100.0
+A00003,Wheelie Racing Portland,Race Team,AMER,Enterprise,AMER-ENT-01,17,279,9.3,0,True,13,False,False,140500.0,0.0,0.0
+A00004,Wheelie Riding Academy Monterey,Riding Academy,AMER,Enterprise,AMER-ENT-01,14,262,18.5,252,True,7,True,False,61400.0,53900.0,0.0
+A00005,Wheelie Racing Phoenix,Race Team,AMER,Enterprise,AMER-ENT-01,12,94,13.3,0,True,6,False,False,51100.0,0.0,0.0
+A00006,Highside Racing Monterey,Race Team,AMER,Enterprise,AMER-ENT-01,27,231,36.2,0,True,16,True,False,177500.0,105400.0,0.0
+A00007,Trail Brake Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-01,70,770,64.5,2354,False,0,False,False,0.0,0.0,0.0
+A00008,Gridline Riding Academy Phoenix,Riding Academy,AMER,Enterprise,AMER-ENT-01,46,417,17.0,1160,False,0,False,False,0.0,0.0,0.0
+A00009,Holeshot Motorcycles Monterey,Dealership,AMER,Enterprise,AMER-ENT-01,3,32,2.5,0,False,0,False,False,0.0,0.0,0.0
+A00010,Torque Racing Charlotte,Race Team,AMER,Enterprise,AMER-ENT-01,7,69,4.6,0,True,6,False,False,57100.0,0.0,0.0
+A00011,Slipstream Riding Academy Portland,Riding Academy,AMER,Enterprise,AMER-ENT-01,11,179,10.1,216,False,0,False,False,0.0,0.0,0.0
+A00012,Kneedown Racing Denver,Race Team,AMER,Enterprise,AMER-ENT-01,14,251,26.2,0,False,0,False,False,0.0,0.0,0.0
+A00013,Torque Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-01,6,98,13.5,94,True,2,False,False,23500.0,0.0,0.0
+A00014,Holeshot Riding Academy Seattle,Riding Academy,AMER,Enterprise,AMER-ENT-01,16,250,9.8,563,False,0,False,False,0.0,0.0,0.0
+A00015,Chicane Moto School Monterey,Riding School,AMER,Enterprise,AMER-ENT-01,8,120,9.0,263,True,5,True,False,59700.0,26200.0,0.0
+A00016,Torque Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-01,42,557,15.1,1321,True,28,True,False,286100.0,44000.0,0.0
+A00017,Tank Slap Motorcycles Atlanta,Dealership,AMER,Enterprise,AMER-ENT-01,8,113,15.9,0,True,5,False,False,48800.0,0.0,0.0
+A00018,Pitlane Motorcycles Charlotte,Dealership,AMER,Enterprise,AMER-ENT-01,3,46,2.6,0,True,2,True,False,18900.0,7600.0,0.0
+A00019,Quickshift Riding Academy Toronto,Riding Academy,AMER,Enterprise,AMER-ENT-01,13,117,8.5,255,False,0,False,False,0.0,0.0,0.0
+A00020,Torque Moto School Mexico City,Riding School,AMER,Enterprise,AMER-ENT-01,13,82,14.4,396,False,0,False,False,0.0,0.0,0.0
+A00021,Chicane Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-01,24,414,45.1,647,True,20,False,False,216500.0,0.0,0.0
+A00022,Holeshot Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-01,25,217,12.7,825,False,0,False,False,0.0,0.0,0.0
+A00023,Lean Angle Racing Austin,Race Team,AMER,Enterprise,AMER-ENT-01,13,90,8.9,0,True,6,False,False,62600.0,0.0,0.0
+A00024,Apex Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-01,72,836,273.7,1368,False,0,False,False,0.0,0.0,0.0
+A00025,Gridline Racing Monterey,Race Team,AMER,Enterprise,AMER-ENT-01,10,126,22.5,0,False,0,False,False,0.0,0.0,0.0
+A00026,Kneedown Moto Works Denver,Manufacturer,AMER,Enterprise,AMER-ENT-01,45,652,67.6,0,False,0,False,False,0.0,0.0,0.0
+A00027,Rev Limit Moto School Mexico City,Riding School,AMER,Enterprise,AMER-ENT-01,4,37,2.4,154,False,0,False,False,0.0,0.0,0.0
+A00028,Tank Slap Moto Works Seattle,Manufacturer,AMER,Enterprise,AMER-ENT-02,89,1046,150.1,0,False,0,False,False,0.0,0.0,0.0
+A00029,Highside Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-02,5,76,1.5,193,False,0,False,False,0.0,0.0,0.0
+A00030,Hairpin Sim Center Phoenix,Sim Center,AMER,Enterprise,AMER-ENT-02,37,240,43.7,0,False,0,False,False,0.0,0.0,0.0
+A00031,Apex Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-02,12,138,19.3,455,True,5,True,False,47000.0,56200.0,0.0
+A00032,Rev Limit Riding Academy Toronto,Riding Academy,AMER,Enterprise,AMER-ENT-02,31,377,21.0,883,False,0,False,False,0.0,0.0,0.0
+A00033,Kneedown Sim Center Charlotte,Sim Center,AMER,Enterprise,AMER-ENT-02,9,113,3.5,0,True,3,False,False,26900.0,0.0,0.0
+A00034,Apex Riding Academy Atlanta,Riding Academy,AMER,Enterprise,AMER-ENT-02,16,252,11.7,683,True,5,True,True,52500.0,34100.0,57400.0
+A00035,Quickshift Racing Toronto,Race Team,AMER,Enterprise,AMER-ENT-02,22,176,31.1,0,True,14,False,False,134300.0,0.0,0.0
+A00036,Rev Limit Sim Center Toronto,Sim Center,AMER,Enterprise,AMER-ENT-02,38,577,37.6,0,True,19,False,False,219700.0,0.0,0.0
+A00037,Holeshot Sim Center Charlotte,Sim Center,AMER,Enterprise,AMER-ENT-02,35,279,135.9,0,False,0,False,False,0.0,0.0,0.0
+A00038,Redline Riding Academy Seattle,Riding Academy,AMER,Enterprise,AMER-ENT-02,17,270,12.9,764,False,0,False,False,0.0,0.0,0.0
+A00039,Checkered Riding Academy Monterey,Riding Academy,AMER,Enterprise,AMER-ENT-02,32,225,27.8,1182,True,21,False,False,248300.0,0.0,0.0
+A00040,Countersteer Moto School Sao Paulo,Riding School,AMER,Enterprise,AMER-ENT-02,15,224,26.4,357,False,0,False,False,0.0,0.0,0.0
+A00041,Holeshot Motorcycles Toronto,Dealership,AMER,Enterprise,AMER-ENT-02,9,58,8.0,0,True,6,False,False,49300.0,0.0,0.0
+A00042,Gridline Moto School Portland,Riding School,AMER,Enterprise,AMER-ENT-02,4,74,6.7,104,True,2,True,False,16500.0,19500.0,0.0
+A00043,Throttle Motorcycles Charlotte,Dealership,AMER,Enterprise,AMER-ENT-02,8,83,12.8,0,True,4,True,False,46000.0,37300.0,0.0
+A00044,Slipstream Riding Academy Charlotte,Riding Academy,AMER,Enterprise,AMER-ENT-02,9,165,8.0,180,True,4,False,False,33100.0,0.0,0.0
+A00045,Trail Brake Riding Academy Seattle,Riding Academy,AMER,Enterprise,AMER-ENT-02,18,152,13.9,327,True,14,True,False,123400.0,40500.0,0.0
+A00046,Gridline Moto School Monterey,Riding School,AMER,Enterprise,AMER-ENT-02,22,394,40.1,878,True,13,True,False,137400.0,116700.0,0.0
+A00047,Highside Riding Academy Austin 4,Riding Academy,AMER,Enterprise,AMER-ENT-02,8,108,4.4,272,False,0,False,False,0.0,0.0,0.0
+A00048,Trail Brake Sim Center Sao Paulo,Sim Center,AMER,Enterprise,AMER-ENT-02,85,1224,62.8,0,True,39,False,False,440300.0,0.0,0.0
+A00049,Throttle Motorcycles Monterey,Dealership,AMER,Enterprise,AMER-ENT-02,8,85,2.8,0,False,0,False,False,0.0,0.0,0.0
+A00050,Braking Point Sim Center Seattle,Sim Center,AMER,Enterprise,AMER-ENT-02,49,412,30.7,0,False,0,False,False,0.0,0.0,0.0
+A00051,Hairpin Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-02,16,178,13.4,475,True,6,True,False,56100.0,39000.0,0.0
+A00052,Braking Point Motorcycles Phoenix,Dealership,AMER,Enterprise,AMER-ENT-02,12,195,6.8,0,True,11,False,False,130500.0,0.0,0.0
+A00053,Holeshot Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-02,22,184,17.0,967,True,17,True,False,180900.0,49500.0,0.0
+A00054,Quickshift Riding Academy Seattle,Riding Academy,AMER,Enterprise,AMER-ENT-02,39,385,61.8,1268,False,0,False,False,0.0,0.0,0.0
+A00055,Wheelie Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-03,36,591,9.3,0,True,31,False,False,334500.0,0.0,0.0
+A00056,Paddock Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-03,32,460,29.5,1383,True,23,True,False,227300.0,85900.0,0.0
+A00057,Hairpin Motorcycles Seattle,Dealership,AMER,Enterprise,AMER-ENT-03,3,37,1.1,0,False,0,False,False,0.0,0.0,0.0
+A00058,Wheelie Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-03,8,121,14.0,312,False,0,False,False,0.0,0.0,0.0
+A00059,Gridline Sim Center Portland,Sim Center,AMER,Enterprise,AMER-ENT-03,43,751,73.7,0,True,36,True,False,389600.0,214600.0,0.0
+A00060,Wheelie Sim Center Monterey,Sim Center,AMER,Enterprise,AMER-ENT-03,27,395,44.6,0,False,0,False,False,0.0,0.0,0.0
+A00061,Torque Riding Academy Atlanta,Riding Academy,AMER,Enterprise,AMER-ENT-03,18,216,13.4,684,True,14,True,True,129300.0,39000.0,57500.0
+A00062,Wheelie Motorcycles Atlanta,Dealership,AMER,Enterprise,AMER-ENT-03,3,23,1.0,0,True,1,True,False,8300.0,2900.0,0.0
+A00063,Gridline Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-03,60,1125,136.0,1234,False,0,False,False,0.0,0.0,0.0
+A00064,Braking Point Motorcycles Charlotte,Dealership,AMER,Enterprise,AMER-ENT-03,14,204,8.4,0,False,0,False,False,0.0,0.0,0.0
+A00065,Torque Racing Portland,Race Team,AMER,Enterprise,AMER-ENT-03,8,150,6.9,0,True,4,False,False,43600.0,0.0,0.0
+A00066,Tank Slap Motorcycles Sao Paulo,Dealership,AMER,Enterprise,AMER-ENT-03,5,79,6.7,0,True,2,False,False,16100.0,0.0,0.0
+A00067,Slipstream Riding Academy Toronto,Riding Academy,AMER,Enterprise,AMER-ENT-03,12,85,2.5,373,True,3,False,False,24600.0,0.0,0.0
+A00068,Gridline Riding Academy Sao Paulo,Riding Academy,AMER,Enterprise,AMER-ENT-03,41,362,95.1,1669,True,25,False,False,245600.0,0.0,0.0
+A00069,Hairpin Racing Charlotte,Race Team,AMER,Enterprise,AMER-ENT-03,18,131,59.1,0,True,15,False,False,176300.0,0.0,0.0
+A00070,Checkered Riding Academy Atlanta,Riding Academy,AMER,Enterprise,AMER-ENT-03,18,257,22.1,716,True,13,True,False,136400.0,64300.0,0.0
+A00071,Torque Moto School Denver,Riding School,AMER,Enterprise,AMER-ENT-03,8,57,7.6,136,False,0,False,False,0.0,0.0,0.0
+A00072,Torque Motorcycles Austin,Dealership,AMER,Enterprise,AMER-ENT-03,5,81,7.4,0,False,0,False,False,0.0,0.0,0.0
+A00073,Paddock Moto School Sao Paulo,Riding School,AMER,Enterprise,AMER-ENT-03,8,103,8.6,133,True,5,False,True,55700.0,0.0,11200.0
+A00074,Wheelie Riding Academy Sao Paulo,Riding Academy,AMER,Enterprise,AMER-ENT-03,31,351,29.6,1333,False,0,False,False,0.0,0.0,0.0
+A00075,Rev Limit Moto School Sao Paulo,Riding School,AMER,Enterprise,AMER-ENT-03,2,25,0.7,78,True,1,False,False,11700.0,0.0,0.0
+A00076,Pitlane Riding Academy Sao Paulo,Riding Academy,AMER,Enterprise,AMER-ENT-03,14,249,23.0,323,False,0,False,False,0.0,0.0,0.0
+A00077,Chicane Riding Academy Austin 8,Riding Academy,AMER,Enterprise,AMER-ENT-03,19,190,3.0,687,False,0,False,False,0.0,0.0,0.0
+A00078,Quickshift Motorcycles Phoenix,Dealership,AMER,Enterprise,AMER-ENT-03,4,78,3.4,0,False,0,False,False,0.0,0.0,0.0
+A00079,Braking Point Motorcycles Portland,Dealership,AMER,Enterprise,AMER-ENT-03,6,62,26.2,0,True,3,True,False,35000.0,76300.0,0.0
+A00080,Apex Riding Academy Monterey,Riding Academy,AMER,Enterprise,AMER-ENT-03,21,243,30.9,776,True,16,False,True,183300.0,0.0,65300.0
+A00081,Redline Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-03,49,314,55.3,1032,True,43,False,False,474600.0,0.0,0.0
+A00082,Holeshot Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-04,6,54,7.3,157,True,3,True,False,34000.0,21300.0,0.0
+A00083,Kneedown Riding Academy Phoenix,Riding Academy,AMER,Enterprise,AMER-ENT-04,11,80,3.4,395,False,0,False,False,0.0,0.0,0.0
+A00084,Torque Riding Academy Phoenix,Riding Academy,AMER,Enterprise,AMER-ENT-04,16,202,11.7,679,False,0,False,False,0.0,0.0,0.0
+A00085,Quickshift Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-04,2,17,4.1,73,True,1,True,False,8400.0,11900.0,0.0
+A00086,Braking Point Sim Center Sao Paulo,Sim Center,AMER,Enterprise,AMER-ENT-04,22,390,48.4,0,True,17,False,False,193400.0,0.0,0.0
+A00087,Pitlane Riding Academy Portland,Riding Academy,AMER,Enterprise,AMER-ENT-04,25,170,24.1,470,True,8,False,True,80400.0,0.0,39500.0
+A00088,Throttle Moto School Sao Paulo,Riding School,AMER,Enterprise,AMER-ENT-04,8,97,15.6,181,True,6,False,True,59500.0,0.0,15200.0
+A00089,Checkered Riding Academy Sao Paulo,Riding Academy,AMER,Enterprise,AMER-ENT-04,14,154,25.1,572,True,4,False,False,47900.0,0.0,0.0
+A00090,Countersteer Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-04,60,464,73.5,0,True,30,True,False,315100.0,214000.0,0.0
+A00091,Hairpin Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-04,10,125,6.3,274,False,0,False,False,0.0,0.0,0.0
+A00092,Torque Moto School Austin,Riding School,AMER,Enterprise,AMER-ENT-04,18,166,22.2,589,True,16,False,False,187800.0,0.0,0.0
+A00093,Torque Motorcycles Monterey,Dealership,AMER,Enterprise,AMER-ENT-04,5,87,5.7,0,True,3,False,False,33600.0,0.0,0.0
+A00094,Rev Limit Riding Academy Atlanta,Riding Academy,AMER,Enterprise,AMER-ENT-04,10,81,13.3,409,True,6,True,False,55500.0,38700.0,0.0
+A00095,Holeshot Motorcycles Monterey 5,Dealership,AMER,Enterprise,AMER-ENT-04,5,87,9.0,0,False,0,False,False,0.0,0.0,0.0
+A00096,Checkered Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-04,20,145,65.8,626,True,9,True,False,80500.0,191600.0,0.0
+A00097,Quickshift Sim Center Phoenix,Sim Center,AMER,Enterprise,AMER-ENT-04,100,765,167.5,0,True,77,False,False,728600.0,0.0,0.0
+A00098,Holeshot Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-04,31,596,23.2,0,False,0,False,False,0.0,0.0,0.0
+A00099,Braking Point Racing Charlotte,Race Team,AMER,Enterprise,AMER-ENT-04,6,60,4.0,0,False,0,False,False,0.0,0.0,0.0
+A00100,Tank Slap Motorcycles Atlanta 4,Dealership,AMER,Enterprise,AMER-ENT-04,14,126,9.5,0,False,0,False,False,0.0,0.0,0.0
+A00101,Trail Brake Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-04,18,319,18.6,307,False,0,False,False,0.0,0.0,0.0
+A00102,Checkered Moto School Atlanta,Riding School,AMER,Enterprise,AMER-ENT-04,8,149,9.6,186,True,6,False,False,66100.0,0.0,0.0
+A00103,Throttle Racing Denver,Race Team,AMER,Enterprise,AMER-ENT-04,11,96,6.9,0,True,5,True,False,53700.0,20100.0,0.0
+A00104,Apex Motorcycles Austin,Dealership,AMER,Enterprise,AMER-ENT-04,9,64,7.8,0,True,3,False,False,35000.0,0.0,0.0
+A00105,Paddock Moto School Charlotte,Riding School,AMER,Enterprise,AMER-ENT-04,7,99,6.1,193,False,0,False,False,0.0,0.0,0.0
+A00106,Apex Moto School Toronto,Riding School,AMER,Enterprise,AMER-ENT-04,15,141,13.9,426,True,4,True,False,47800.0,40500.0,0.0
+A00107,Tank Slap Sim Center Denver,Sim Center,AMER,Enterprise,AMER-ENT-04,20,240,29.2,0,True,7,False,False,58600.0,0.0,0.0
+A00108,Braking Point Moto School Portland,Riding School,AMER,Enterprise,AMER-ENT-04,4,28,2.2,151,False,0,False,False,0.0,0.0,0.0
+A00109,Tank Slap Moto School Mexico City,Riding School,AMER,Enterprise,AMER-ENT-05,9,142,5.6,252,True,8,False,False,75800.0,0.0,0.0
+A00110,Kneedown Motorcycles Atlanta,Dealership,AMER,Enterprise,AMER-ENT-05,8,50,23.7,0,True,7,False,False,57200.0,0.0,0.0
+A00111,Kneedown Motorcycles Phoenix,Dealership,AMER,Enterprise,AMER-ENT-05,2,22,2.3,0,True,1,True,False,11000.0,6700.0,0.0
+A00112,Wheelie Riding Academy Portland,Riding Academy,AMER,Enterprise,AMER-ENT-05,30,254,42.1,778,False,0,False,False,0.0,0.0,0.0
+A00113,Highside Motorcycles Austin,Dealership,AMER,Enterprise,AMER-ENT-05,3,19,4.2,0,True,2,True,False,18600.0,12200.0,0.0
+A00114,Tank Slap Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-05,8,109,7.6,151,False,0,False,False,0.0,0.0,0.0
+A00115,Countersteer Moto School Austin,Riding School,AMER,Enterprise,AMER-ENT-05,6,40,27.2,114,False,0,False,False,0.0,0.0,0.0
+A00116,Trail Brake Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-05,19,120,13.6,0,True,17,False,False,151200.0,0.0,0.0
+A00117,Apex Sim Center Mexico City,Sim Center,AMER,Enterprise,AMER-ENT-05,23,395,27.3,0,True,16,False,False,172800.0,0.0,0.0
+A00118,Slipstream Riding Academy Seattle,Riding Academy,AMER,Enterprise,AMER-ENT-05,15,199,7.8,362,True,10,False,False,105500.0,0.0,0.0
+A00119,Braking Point Moto School Denver,Riding School,AMER,Enterprise,AMER-ENT-05,2,32,1.5,60,True,1,True,False,9600.0,4400.0,0.0
+A00120,Countersteer Motorcycles Toronto,Dealership,AMER,Enterprise,AMER-ENT-05,4,56,12.2,0,False,0,False,False,0.0,0.0,0.0
+A00121,Paddock Motorcycles Sao Paulo,Dealership,AMER,Enterprise,AMER-ENT-05,14,142,11.1,0,True,5,False,False,52500.0,0.0,0.0
+A00122,Lean Angle Motorcycles Portland,Dealership,AMER,Enterprise,AMER-ENT-05,6,95,7.1,0,False,0,False,False,0.0,0.0,0.0
+A00123,Pitlane Moto School Portland,Riding School,AMER,Enterprise,AMER-ENT-05,10,110,10.8,268,False,0,False,False,0.0,0.0,0.0
+A00124,Torque Riding Academy Sao Paulo,Riding Academy,AMER,Enterprise,AMER-ENT-05,30,591,11.9,573,True,15,True,False,168100.0,34600.0,0.0
+A00125,Tank Slap Moto School Toronto,Riding School,AMER,Enterprise,AMER-ENT-05,15,182,8.3,418,True,8,False,False,95200.0,0.0,0.0
+A00126,Pitlane Riding Academy Charlotte,Riding Academy,AMER,Enterprise,AMER-ENT-05,14,151,16.2,225,False,0,False,False,0.0,0.0,0.0
+A00127,Checkered Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-05,10,142,8.3,362,False,0,False,False,0.0,0.0,0.0
+A00128,Apex Motorcycles Sao Paulo,Dealership,AMER,Enterprise,AMER-ENT-05,4,74,2.6,0,True,1,False,False,8700.0,0.0,0.0
+A00129,Torque Racing Sao Paulo,Race Team,AMER,Enterprise,AMER-ENT-05,25,375,27.4,0,True,21,True,False,208500.0,79800.0,0.0
+A00130,Torque Riding Academy Atlanta 5,Riding Academy,AMER,Enterprise,AMER-ENT-05,26,494,85.2,901,False,0,False,False,0.0,0.0,0.0
+A00131,Throttle Sim Center Sao Paulo,Sim Center,AMER,Enterprise,AMER-ENT-05,16,276,13.1,0,False,0,False,False,0.0,0.0,0.0
+A00132,Torque Riding Academy Sao Paulo 3,Riding Academy,AMER,Enterprise,AMER-ENT-05,17,323,8.1,571,True,7,True,False,64300.0,23600.0,0.0
+A00133,Slipstream Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-05,23,429,19.7,826,False,0,False,False,0.0,0.0,0.0
+A00134,Kneedown Motorcycles Sao Paulo,Dealership,AMER,Enterprise,AMER-ENT-05,4,50,1.1,0,True,3,True,False,35500.0,3200.0,0.0
+A00135,Apex Sim Center Phoenix,Sim Center,AMER,Enterprise,AMER-ENT-06,14,200,27.7,0,False,0,False,False,0.0,0.0,0.0
+A00136,Countersteer Riding Academy Charlotte,Riding Academy,AMER,Enterprise,AMER-ENT-06,38,719,20.2,1142,True,18,True,False,173800.0,58800.0,0.0
+A00137,Trail Brake Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-06,12,187,7.1,352,False,0,False,False,0.0,0.0,0.0
+A00138,Gridline Riding Academy Seattle,Riding Academy,AMER,Enterprise,AMER-ENT-06,31,579,27.0,1138,False,0,False,False,0.0,0.0,0.0
+A00139,Lean Angle Moto School Phoenix,Riding School,AMER,Enterprise,AMER-ENT-06,11,71,23.5,482,False,0,False,False,0.0,0.0,0.0
+A00140,Lean Angle Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-06,13,243,6.3,389,True,10,False,True,106900.0,0.0,32700.0
+A00141,Quickshift Racing Atlanta,Race Team,AMER,Enterprise,AMER-ENT-06,17,110,33.7,0,True,5,True,False,51300.0,98100.0,0.0
+A00142,Tank Slap Sim Center Sao Paulo,Sim Center,AMER,Enterprise,AMER-ENT-06,47,774,83.4,0,True,25,True,False,266800.0,242800.0,0.0
+A00143,Highside Racing Monterey 8,Race Team,AMER,Enterprise,AMER-ENT-06,11,154,17.4,0,True,5,True,False,46700.0,50700.0,0.0
+A00144,Holeshot Sim Center Phoenix,Sim Center,AMER,Enterprise,AMER-ENT-06,57,1093,38.2,0,True,37,False,False,348600.0,0.0,0.0
+A00145,Highside Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-06,14,214,9.7,596,True,13,True,False,132900.0,28200.0,0.0
+A00146,Hairpin Racing Sao Paulo,Race Team,AMER,Enterprise,AMER-ENT-06,15,239,10.6,0,False,0,False,False,0.0,0.0,0.0
+A00147,Wheelie Moto School Austin,Riding School,AMER,Enterprise,AMER-ENT-06,12,230,11.7,487,False,0,False,False,0.0,0.0,0.0
+A00148,Trail Brake Moto School Monterey,Riding School,AMER,Enterprise,AMER-ENT-06,5,95,3.8,180,True,3,False,False,26100.0,0.0,0.0
+A00149,Quickshift Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-06,31,569,55.5,999,False,0,False,False,0.0,0.0,0.0
+A00150,Braking Point Moto School Charlotte,Riding School,AMER,Enterprise,AMER-ENT-06,12,227,13.4,318,True,5,True,False,56800.0,39000.0,0.0
+A00151,Torque Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-06,18,156,8.7,453,True,10,False,False,97000.0,0.0,0.0
+A00152,Paddock Riding Academy Charlotte,Riding Academy,AMER,Enterprise,AMER-ENT-06,16,207,9.9,465,True,7,False,False,81000.0,0.0,0.0
+A00153,Countersteer Moto Works Atlanta,Manufacturer,AMER,Enterprise,AMER-ENT-06,48,810,61.7,0,False,0,False,False,0.0,0.0,0.0
+A00154,Tank Slap Moto School Monterey,Riding School,AMER,Enterprise,AMER-ENT-06,6,56,7.4,161,True,5,False,True,45300.0,0.0,13500.0
+A00155,Lean Angle Motorcycles Mexico City,Dealership,AMER,Enterprise,AMER-ENT-06,11,187,29.1,0,False,0,False,False,0.0,0.0,0.0
+A00156,Throttle Sim Center Denver,Sim Center,AMER,Enterprise,AMER-ENT-06,18,167,11.6,0,True,11,False,False,93600.0,0.0,0.0
+A00157,Holeshot Moto Works Mexico City,Manufacturer,AMER,Enterprise,AMER-ENT-06,17,279,11.6,0,True,15,True,False,161300.0,33800.0,0.0
+A00158,Hairpin Motorcycles Seattle 6,Dealership,AMER,Enterprise,AMER-ENT-06,5,30,23.2,0,True,3,True,False,24400.0,67500.0,0.0
+A00159,Braking Point Motorcycles Charlotte 4,Dealership,AMER,Enterprise,AMER-ENT-06,5,73,3.6,0,False,0,False,False,0.0,0.0,0.0
+A00160,Hairpin Riding Academy Portland,Riding Academy,AMER,Enterprise,AMER-ENT-06,33,347,76.2,845,True,17,True,False,169500.0,221800.0,0.0
+A00161,Rev Limit Riding Academy Sao Paulo,Riding Academy,AMER,Enterprise,AMER-ENT-07,62,983,68.8,2685,True,40,True,False,406400.0,200300.0,0.0
+A00162,Tank Slap Moto School Mexico City 7,Riding School,AMER,Enterprise,AMER-ENT-07,8,100,4.9,131,False,0,False,False,0.0,0.0,0.0
+A00163,Hairpin Sim Center Mexico City,Sim Center,AMER,Enterprise,AMER-ENT-07,31,413,23.8,0,True,29,False,False,245700.0,0.0,0.0
+A00164,Trail Brake Moto School Portland,Riding School,AMER,Enterprise,AMER-ENT-07,5,50,4.1,144,False,0,False,False,0.0,0.0,0.0
+A00165,Paddock Motorcycles Monterey,Dealership,AMER,Enterprise,AMER-ENT-07,12,116,16.4,0,True,9,False,False,99900.0,0.0,0.0
+A00166,Rev Limit Racing Mexico City,Race Team,AMER,Enterprise,AMER-ENT-07,18,309,6.1,0,True,16,False,False,130100.0,0.0,0.0
+A00167,Redline Moto School Seattle,Riding School,AMER,Enterprise,AMER-ENT-07,18,207,10.4,411,True,15,False,True,146400.0,0.0,34600.0
+A00168,Redline Racing Mexico City,Race Team,AMER,Enterprise,AMER-ENT-07,7,107,23.3,0,False,0,False,False,0.0,0.0,0.0
+A00169,Wheelie Riding Academy Austin,Riding Academy,AMER,Enterprise,AMER-ENT-07,85,1146,20.4,2459,True,54,True,False,473300.0,59400.0,0.0
+A00170,Kneedown Moto School Atlanta,Riding School,AMER,Enterprise,AMER-ENT-07,7,69,3.5,221,False,0,False,False,0.0,0.0,0.0
+A00171,Redline Moto School Mexico City,Riding School,AMER,Enterprise,AMER-ENT-07,7,139,11.0,165,True,2,False,False,18700.0,0.0,0.0
+A00172,Chicane Racing Charlotte,Race Team,AMER,Enterprise,AMER-ENT-07,16,219,38.6,0,True,6,True,False,66700.0,112400.0,0.0
+A00173,Lean Angle Sim Center Mexico City,Sim Center,AMER,Enterprise,AMER-ENT-07,14,236,13.0,0,False,0,False,False,0.0,0.0,0.0
+A00174,Pitlane Sim Center Monterey,Sim Center,AMER,Enterprise,AMER-ENT-07,45,868,48.9,0,True,23,True,False,204000.0,142400.0,0.0
+A00175,Trail Brake Moto School Charlotte,Riding School,AMER,Enterprise,AMER-ENT-07,2,27,0.9,33,True,1,False,False,8300.0,0.0,0.0
+A00176,Tank Slap Riding Academy Mexico City,Riding Academy,AMER,Enterprise,AMER-ENT-07,13,163,20.6,230,True,11,True,False,100200.0,60000.0,0.0
+A00177,Paddock Sim Center Charlotte,Sim Center,AMER,Enterprise,AMER-ENT-07,30,449,31.8,0,True,26,True,False,289600.0,92600.0,0.0
+A00178,Checkered Moto School Monterey,Riding School,AMER,Enterprise,AMER-ENT-07,5,44,7.3,137,False,0,False,False,0.0,0.0,0.0
+A00179,Kneedown Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-07,35,469,36.2,0,True,22,True,False,239100.0,105400.0,0.0
+A00180,Rev Limit Moto School Portland,Riding School,AMER,Enterprise,AMER-ENT-07,18,312,19.9,408,True,17,False,False,159600.0,0.0,0.0
+A00181,Kneedown Sim Center Toronto,Sim Center,AMER,Enterprise,AMER-ENT-07,44,562,64.6,0,True,18,True,False,187100.0,188100.0,0.0
+A00182,Kneedown Motorcycles Denver,Dealership,AMER,Enterprise,AMER-ENT-07,15,186,18.4,0,False,0,False,False,0.0,0.0,0.0
+A00183,Braking Point Moto School Charlotte 7,Riding School,AMER,Enterprise,AMER-ENT-07,15,137,22.6,303,True,6,True,False,53600.0,65800.0,0.0
+A00184,Hairpin Riding Academy Portland 4,Riding Academy,AMER,Enterprise,AMER-ENT-07,33,358,160.6,986,False,0,False,False,0.0,0.0,0.0
+A00185,Hairpin Racing Monterey,Race Team,AMER,Enterprise,AMER-ENT-07,11,170,8.3,0,True,9,True,False,89900.0,24200.0,0.0
+A00186,Countersteer Moto School Atlanta,Riding School,AMER,Enterprise,AMER-ENT-07,15,208,24.2,350,True,14,False,False,126200.0,0.0,0.0
+A00187,Paddock Riding Academy Austin 6,Riding Academy,AMER,Enterprise,AMER-ENT-08,14,121,21.6,618,True,7,False,False,70000.0,0.0,0.0
+A00188,Throttle Riding Academy Denver,Riding Academy,AMER,Enterprise,AMER-ENT-08,17,154,14.8,290,True,12,True,False,129800.0,43100.0,0.0
+A00189,Redline Motorcycles Charlotte,Dealership,AMER,Enterprise,AMER-ENT-08,5,42,4.3,0,False,0,False,False,0.0,0.0,0.0
+A00190,Slipstream Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-08,70,445,67.2,0,True,47,False,False,467900.0,0.0,0.0
+A00191,Pitlane Moto School Charlotte,Riding School,AMER,Enterprise,AMER-ENT-08,6,109,3.8,133,False,0,False,False,0.0,0.0,0.0
+A00192,Holeshot Riding Academy Mexico City 5,Riding Academy,AMER,Enterprise,AMER-ENT-08,28,300,46.7,592,False,0,False,False,0.0,0.0,0.0
+A00193,Wheelie Motorcycles Monterey,Dealership,AMER,Enterprise,AMER-ENT-08,4,49,3.9,0,True,3,False,False,30200.0,0.0,0.0
+A00194,Redline Racing Denver,Race Team,AMER,Enterprise,AMER-ENT-08,7,67,21.5,0,True,6,False,False,66600.0,0.0,0.0
+A00195,Apex Racing Denver,Race Team,AMER,Enterprise,AMER-ENT-08,10,69,21.7,0,True,3,False,False,31700.0,0.0,0.0
+A00196,Highside Motorcycles Atlanta,Dealership,AMER,Enterprise,AMER-ENT-08,11,187,10.8,0,True,6,False,False,64800.0,0.0,0.0
+A00197,Throttle Sim Center Austin,Sim Center,AMER,Enterprise,AMER-ENT-08,47,583,23.7,0,True,37,False,False,299700.0,0.0,0.0
+A00198,Checkered Racing Toronto,Race Team,AMER,Enterprise,AMER-ENT-08,6,87,10.8,0,True,4,True,False,46400.0,31400.0,0.0
+A00199,Checkered Motorcycles Denver,Dealership,AMER,Enterprise,AMER-ENT-08,11,185,4.1,0,True,3,False,False,32500.0,0.0,0.0
+A00200,Kneedown Riding Academy Phoenix 8,Riding Academy,AMER,Enterprise,AMER-ENT-08,31,482,33.5,959,True,27,False,True,268000.0,0.0,80700.0
+A00201,Gridline Riding Academy Toronto,Riding Academy,AMER,Enterprise,AMER-ENT-08,27,479,30.8,849,False,0,False,False,0.0,0.0,0.0
+A00202,Highside Motorcycles Mexico City,Dealership,AMER,Enterprise,AMER-ENT-08,15,109,5.7,0,True,4,False,False,42600.0,0.0,0.0
+A00203,Holeshot Motorcycles Austin,Dealership,AMER,Enterprise,AMER-ENT-08,7,132,3.7,0,True,2,False,False,19200.0,0.0,0.0
+A00204,Rev Limit Moto School Portland 5,Riding School,AMER,Enterprise,AMER-ENT-08,3,24,0.9,100,True,2,False,False,18100.0,0.0,0.0
+A00205,Braking Point Moto School Atlanta,Riding School,AMER,Enterprise,AMER-ENT-08,4,74,2.8,165,False,0,False,False,0.0,0.0,0.0
+A00206,Quickshift Sim Center Portland,Sim Center,AMER,Enterprise,AMER-ENT-08,18,312,11.0,0,True,7,False,False,65100.0,0.0,0.0
+A00207,Tank Slap Riding Academy Phoenix,Riding Academy,AMER,Enterprise,AMER-ENT-08,12,192,5.4,228,True,8,False,False,84100.0,0.0,0.0
+A00208,Chicane Motorcycles Sao Paulo,Dealership,AMER,Enterprise,AMER-ENT-08,4,68,2.3,0,True,1,False,False,11100.0,0.0,0.0
+A00209,Redline Moto School Atlanta,Riding School,AMER,Enterprise,AMER-ENT-08,11,115,12.4,171,True,6,False,False,52100.0,0.0,0.0
+A00210,Highside Motorcycles Sao Paulo,Dealership,AMER,Enterprise,AMER-ENT-08,6,108,10.6,0,False,0,False,False,0.0,0.0,0.0
+A00211,Pitlane Moto School Monterey,Riding School,AMER,Enterprise,AMER-ENT-08,7,81,10.7,230,True,6,True,False,63000.0,31100.0,0.0
+A00212,Slipstream Sim Center Toronto,Sim Center,AMER,Enterprise,AMER-ENT-08,21,301,17.6,0,False,0,False,False,0.0,0.0,0.0
+A00213,Slipstream Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-01,7,112,14.7,198,True,6,False,True,60300.0,0.0,16700.0
+A00214,Checkered Moto Works Atlanta,Manufacturer,AMER,Commercial,AMER-COM-01,23,226,31.0,0,True,13,False,False,148300.0,0.0,0.0
+A00215,Kneedown Motorcycles Atlanta 7,Dealership,AMER,Commercial,AMER-COM-01,1,13,0.6,0,False,0,False,False,0.0,0.0,0.0
+A00216,Hairpin Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-01,4,68,5.4,99,True,3,True,False,32300.0,15700.0,0.0
+A00217,Lean Angle Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-01,6,89,7.1,0,True,2,False,False,18700.0,0.0,0.0
+A00218,Checkered Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-01,4,41,4.9,131,True,3,False,True,25100.0,0.0,11000.0
+A00219,Wheelie Riding Academy Monterey 5,Riding Academy,AMER,Commercial,AMER-COM-01,16,235,32.6,445,True,11,False,False,108300.0,0.0,0.0
+A00220,Lean Angle Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-01,28,291,14.4,1210,True,13,False,True,118400.0,0.0,101800.0
+A00221,Kneedown Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-01,5,80,14.5,137,False,0,False,False,0.0,0.0,0.0
+A00222,Kneedown Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-01,7,117,3.2,199,True,3,False,False,27800.0,0.0,0.0
+A00223,Holeshot Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-01,16,291,21.9,315,True,8,True,False,95700.0,63800.0,0.0
+A00224,Lean Angle Motorcycles Sao Paulo,Dealership,AMER,Commercial,AMER-COM-01,3,46,6.8,0,True,2,False,False,16100.0,0.0,0.0
+A00225,Braking Point Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-01,14,169,11.0,248,True,5,False,False,54200.0,0.0,0.0
+A00226,Lean Angle Racing Atlanta,Race Team,AMER,Commercial,AMER-COM-01,4,24,3.3,0,True,1,False,False,11800.0,0.0,0.0
+A00227,Pitlane Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-01,5,45,7.9,0,False,0,False,False,0.0,0.0,0.0
+A00228,Trail Brake Sim Center Charlotte,Sim Center,AMER,Commercial,AMER-COM-01,9,117,6.0,0,True,5,False,False,52400.0,0.0,0.0
+A00229,Lean Angle Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-01,4,41,6.7,152,False,0,False,False,0.0,0.0,0.0
+A00230,Checkered Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-01,1,9,1.8,0,True,1,False,False,11800.0,0.0,0.0
+A00231,Holeshot Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-01,4,26,4.6,0,True,2,False,False,16900.0,0.0,0.0
+A00232,Rev Limit Sim Center Toronto 5,Sim Center,AMER,Commercial,AMER-COM-01,8,124,2.7,0,False,0,False,False,0.0,0.0,0.0
+A00233,Highside Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-01,4,41,2.7,0,False,0,False,False,0.0,0.0,0.0
+A00234,Rev Limit Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-01,4,24,1.9,0,False,0,False,False,0.0,0.0,0.0
+A00235,Gridline Sim Center Toronto,Sim Center,AMER,Commercial,AMER-COM-01,3,26,4.0,0,False,0,False,False,0.0,0.0,0.0
+A00236,Slipstream Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-01,13,244,32.2,351,True,7,True,True,76300.0,93700.0,29500.0
+A00237,Hairpin Sim Center Toronto,Sim Center,AMER,Commercial,AMER-COM-01,23,366,20.2,0,True,8,False,False,83700.0,0.0,0.0
+A00238,Braking Point Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-01,1,6,1.6,0,True,1,False,False,10400.0,0.0,0.0
+A00239,Slipstream Racing Portland,Race Team,AMER,Commercial,AMER-COM-01,9,102,3.7,0,True,4,False,False,33700.0,0.0,0.0
+A00240,Trail Brake Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-01,1,6,0.6,0,True,1,False,False,11000.0,0.0,0.0
+A00241,Kneedown Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-01,2,37,5.3,0,False,0,False,False,0.0,0.0,0.0
+A00242,Hairpin Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-01,4,51,2.1,0,False,0,False,False,0.0,0.0,0.0
+A00243,Wheelie Moto School Seattle 7,Riding School,AMER,Commercial,AMER-COM-01,8,67,3.9,210,True,4,False,True,37500.0,0.0,17700.0
+A00244,Chicane Sim Center Phoenix,Sim Center,AMER,Commercial,AMER-COM-01,17,259,14.6,0,True,13,False,False,107800.0,0.0,0.0
+A00245,Checkered Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-01,14,142,40.9,232,True,7,False,True,76900.0,0.0,19500.0
+A00246,Braking Point Motorcycles Portland 5,Dealership,AMER,Commercial,AMER-COM-01,7,119,1.3,0,True,5,True,False,54200.0,3800.0,0.0
+A00247,Holeshot Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-01,1,12,0.8,0,True,1,False,False,10500.0,0.0,0.0
+A00248,Wheelie Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-01,8,115,21.9,0,True,3,False,False,31800.0,0.0,0.0
+A00249,Wheelie Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-01,7,113,7.7,142,True,3,True,False,27700.0,22400.0,0.0
+A00250,Torque Sim Center Charlotte,Sim Center,AMER,Commercial,AMER-COM-01,15,111,7.6,0,True,11,True,False,93600.0,22100.0,0.0
+A00251,Tank Slap Motorcycles Sao Paulo 6,Dealership,AMER,Commercial,AMER-COM-01,1,15,1.6,0,True,1,True,False,11300.0,4700.0,0.0
+A00252,Redline Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-01,4,32,2.2,0,True,1,False,False,10800.0,0.0,0.0
+A00253,Tank Slap Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-01,25,483,6.8,0,False,0,False,False,0.0,0.0,0.0
+A00254,Apex Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-01,8,131,9.2,174,False,0,False,False,0.0,0.0,0.0
+A00255,Chicane Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-01,14,152,16.8,0,True,11,True,False,132500.0,48900.0,0.0
+A00256,Trail Brake Moto School Seattle 2,Riding School,AMER,Commercial,AMER-COM-01,5,65,5.2,92,True,4,True,True,36800.0,15100.0,7700.0
+A00257,Highside Motorcycles Denver 6,Dealership,AMER,Commercial,AMER-COM-01,2,26,1.4,0,True,1,False,False,9400.0,0.0,0.0
+A00258,Checkered Moto School Portland,Riding School,AMER,Commercial,AMER-COM-02,3,44,4.1,49,False,0,False,False,0.0,0.0,0.0
+A00259,Tank Slap Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-02,13,116,18.4,294,True,9,True,True,92600.0,53600.0,24700.0
+A00260,Wheelie Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-02,13,228,8.4,483,True,7,False,True,58700.0,0.0,40600.0
+A00261,Redline Sim Center Toronto,Sim Center,AMER,Commercial,AMER-COM-02,25,400,23.6,0,True,16,False,False,150200.0,0.0,0.0
+A00262,Gridline Racing Denver,Race Team,AMER,Commercial,AMER-COM-02,10,168,3.2,0,True,3,False,False,28600.0,0.0,0.0
+A00263,Torque Riding Academy Mexico City 3,Riding Academy,AMER,Commercial,AMER-COM-02,18,211,13.2,564,True,15,True,True,179400.0,38400.0,47400.0
+A00264,Slipstream Riding Academy Charlotte 4,Riding Academy,AMER,Commercial,AMER-COM-02,7,135,16.2,277,True,4,False,False,43300.0,0.0,0.0
+A00265,Slipstream Racing Portland 2,Race Team,AMER,Commercial,AMER-COM-02,11,82,4.6,0,False,0,False,False,0.0,0.0,0.0
+A00266,Braking Point Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-02,8,55,12.7,253,True,3,False,True,36300.0,0.0,21300.0
+A00267,Checkered Riding Academy Phoenix 8,Riding Academy,AMER,Commercial,AMER-COM-02,8,109,10.9,211,True,2,False,True,23600.0,0.0,17700.0
+A00268,Braking Point Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-02,1,15,0.6,18,True,1,False,True,9300.0,0.0,1500.0
+A00269,Gridline Moto Works Monterey,Manufacturer,AMER,Commercial,AMER-COM-02,28,203,118.7,0,False,0,False,False,0.0,0.0,0.0
+A00270,Throttle Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-02,5,79,2.2,212,True,1,True,True,8300.0,6400.0,17800.0
+A00271,Gridline Moto Works Portland,Manufacturer,AMER,Commercial,AMER-COM-02,9,157,16.4,0,False,0,False,False,0.0,0.0,0.0
+A00272,Pitlane Riding Academy Austin,Riding Academy,AMER,Commercial,AMER-COM-02,14,105,4.6,629,False,0,False,False,0.0,0.0,0.0
+A00273,Countersteer Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-02,1,7,1.1,0,True,1,False,False,11100.0,0.0,0.0
+A00274,Holeshot Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-02,2,34,4.4,0,True,1,False,False,10600.0,0.0,0.0
+A00275,Kneedown Sim Center Austin 4,Sim Center,AMER,Commercial,AMER-COM-02,10,171,4.9,0,True,4,True,False,35300.0,14300.0,0.0
+A00276,Apex Riding Academy Atlanta 5,Riding Academy,AMER,Commercial,AMER-COM-02,15,242,12.4,531,False,0,False,False,0.0,0.0,0.0
+A00277,Torque Motorcycles Sao Paulo,Dealership,AMER,Commercial,AMER-COM-02,5,88,7.0,0,True,4,False,False,34200.0,0.0,0.0
+A00278,Lean Angle Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-02,7,97,32.9,212,True,3,False,True,27400.0,0.0,17800.0
+A00279,Redline Riding Academy Seattle 6,Riding Academy,AMER,Commercial,AMER-COM-02,19,211,17.3,578,True,12,True,True,139600.0,50400.0,48600.0
+A00280,Countersteer Motorcycles Phoenix,Dealership,AMER,Commercial,AMER-COM-02,2,22,0.7,0,True,1,False,False,8200.0,0.0,0.0
+A00281,Lean Angle Sim Center Seattle,Sim Center,AMER,Commercial,AMER-COM-02,10,166,7.6,0,True,3,False,False,27200.0,0.0,0.0
+A00282,Apex Riding Academy Portland,Riding Academy,AMER,Commercial,AMER-COM-02,7,104,10.4,122,False,0,False,False,0.0,0.0,0.0
+A00283,Paddock Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-02,3,46,8.2,70,True,2,False,True,21500.0,0.0,5900.0
+A00284,Pitlane Racing Charlotte,Race Team,AMER,Commercial,AMER-COM-02,13,205,23.5,0,False,0,False,False,0.0,0.0,0.0
+A00285,Wheelie Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-02,16,288,11.6,637,True,8,False,False,82700.0,0.0,0.0
+A00286,Chicane Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-02,13,152,7.9,369,True,8,True,False,74900.0,23000.0,0.0
+A00287,Lean Angle Sim Center Portland 3,Sim Center,AMER,Commercial,AMER-COM-02,29,241,38.6,0,True,10,False,False,116900.0,0.0,0.0
+A00288,Braking Point Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-02,6,110,6.3,167,True,5,False,True,52600.0,0.0,14000.0
+A00289,Pitlane Moto School Monterey 6,Riding School,AMER,Commercial,AMER-COM-02,4,71,3.6,64,False,0,False,False,0.0,0.0,0.0
+A00290,Gridline Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-02,9,102,17.2,298,True,3,False,False,30400.0,0.0,0.0
+A00291,Lean Angle Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-02,4,37,5.5,96,True,3,True,False,28000.0,16000.0,0.0
+A00292,Checkered Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-02,21,241,21.2,628,False,0,False,False,0.0,0.0,0.0
+A00293,Countersteer Moto School Denver,Riding School,AMER,Commercial,AMER-COM-02,6,41,2.6,155,False,0,False,False,0.0,0.0,0.0
+A00294,Tank Slap Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-02,9,83,7.8,0,True,4,False,False,42100.0,0.0,0.0
+A00295,Slipstream Riding Academy Austin 6,Riding Academy,AMER,Commercial,AMER-COM-02,13,145,13.5,274,True,10,False,True,95700.0,0.0,23000.0
+A00296,Slipstream Motorcycles Austin,Dealership,AMER,Commercial,AMER-COM-02,3,43,2.7,0,False,0,False,False,0.0,0.0,0.0
+A00297,Gridline Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-02,2,30,1.7,0,False,0,False,False,0.0,0.0,0.0
+A00298,Chicane Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-02,2,31,1.3,0,True,1,False,False,11200.0,0.0,0.0
+A00299,Checkered Riding Academy Austin,Riding Academy,AMER,Commercial,AMER-COM-02,12,176,44.6,265,True,11,False,True,129400.0,0.0,22300.0
+A00300,Tank Slap Sim Center Sao Paulo 4,Sim Center,AMER,Commercial,AMER-COM-02,6,71,6.1,0,False,0,False,False,0.0,0.0,0.0
+A00301,Countersteer Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-02,31,528,21.7,1146,True,29,False,True,268200.0,0.0,96400.0
+A00302,Braking Point Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-02,23,212,19.5,357,False,0,False,False,0.0,0.0,0.0
+A00303,Pitlane Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-03,11,131,10.0,336,True,10,False,False,105800.0,0.0,0.0
+A00304,Pitlane Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-03,6,67,5.6,185,True,3,True,False,29300.0,16300.0,0.0
+A00305,Checkered Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-03,8,77,8.2,170,False,0,False,False,0.0,0.0,0.0
+A00306,Paddock Moto School Sao Paulo 5,Riding School,AMER,Commercial,AMER-COM-03,2,25,1.6,30,True,1,True,True,9900.0,4700.0,2500.0
+A00307,Gridline Moto School Austin,Riding School,AMER,Commercial,AMER-COM-03,8,56,3.9,207,True,2,True,False,22300.0,11400.0,0.0
+A00308,Countersteer Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-03,11,190,16.9,343,True,4,True,True,38300.0,49200.0,28800.0
+A00309,Gridline Sim Center Toronto 2,Sim Center,AMER,Commercial,AMER-COM-03,5,83,3.5,0,True,2,True,False,19400.0,10200.0,0.0
+A00310,Throttle Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-03,2,30,2.1,0,True,1,True,False,8300.0,6100.0,0.0
+A00311,Kneedown Racing Monterey,Race Team,AMER,Commercial,AMER-COM-03,5,67,7.8,0,True,4,False,False,41900.0,0.0,0.0
+A00312,Braking Point Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-03,9,154,13.0,0,True,7,False,False,83300.0,0.0,0.0
+A00313,Rev Limit Motorcycles Mexico City 6,Dealership,AMER,Commercial,AMER-COM-03,3,45,11.9,0,False,0,False,False,0.0,0.0,0.0
+A00314,Apex Riding Academy Monterey 6,Riding Academy,AMER,Commercial,AMER-COM-03,4,70,4.4,111,True,3,False,False,34400.0,0.0,0.0
+A00315,Highside Sim Center Monterey,Sim Center,AMER,Commercial,AMER-COM-03,34,552,47.7,0,False,0,False,False,0.0,0.0,0.0
+A00316,Paddock Sim Center Phoenix,Sim Center,AMER,Commercial,AMER-COM-03,5,69,2.3,0,True,3,False,False,25800.0,0.0,0.0
+A00317,Tank Slap Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-03,4,70,6.0,0,False,0,False,False,0.0,0.0,0.0
+A00318,Gridline Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-03,1,6,1.1,0,True,1,True,False,9200.0,3200.0,0.0
+A00319,Tank Slap Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-03,23,349,24.4,0,True,9,True,False,75000.0,71000.0,0.0
+A00320,Pitlane Racing Toronto,Race Team,AMER,Commercial,AMER-COM-03,6,60,2.7,0,False,0,False,False,0.0,0.0,0.0
+A00321,Trail Brake Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-03,6,96,3.5,90,True,5,True,False,47400.0,10200.0,0.0
+A00322,Countersteer Motorcycles Toronto 7,Dealership,AMER,Commercial,AMER-COM-03,3,20,4.5,0,True,1,True,False,11500.0,13100.0,0.0
+A00323,Slipstream Riding Academy Toronto 8,Riding Academy,AMER,Commercial,AMER-COM-03,11,174,10.3,237,True,4,True,False,41000.0,30000.0,0.0
+A00324,Paddock Riding Academy Sao Paulo,Riding Academy,AMER,Commercial,AMER-COM-03,9,152,7.3,327,True,2,True,False,16300.0,21300.0,0.0
+A00325,Kneedown Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-03,3,53,4.2,69,True,1,True,False,10200.0,12200.0,0.0
+A00326,Lean Angle Moto School Austin,Riding School,AMER,Commercial,AMER-COM-03,3,25,3.6,84,True,2,False,False,18300.0,0.0,0.0
+A00327,Holeshot Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-03,2,38,1.1,84,False,0,False,False,0.0,0.0,0.0
+A00328,Quickshift Riding Academy Toronto 4,Riding Academy,AMER,Commercial,AMER-COM-03,12,206,18.1,248,True,8,False,True,68500.0,0.0,20900.0
+A00329,Countersteer Riding Academy Portland,Riding Academy,AMER,Commercial,AMER-COM-03,5,97,7.7,198,True,4,False,False,43000.0,0.0,0.0
+A00330,Apex Motorcycles Austin 6,Dealership,AMER,Commercial,AMER-COM-03,3,54,3.1,0,False,0,False,False,0.0,0.0,0.0
+A00331,Trail Brake Motorcycles Monterey,Dealership,AMER,Commercial,AMER-COM-03,2,28,1.4,0,True,1,False,False,8500.0,0.0,0.0
+A00332,Slipstream Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-03,2,29,3.8,60,True,1,False,True,11000.0,0.0,5000.0
+A00333,Countersteer Sim Center Charlotte,Sim Center,AMER,Commercial,AMER-COM-03,15,182,23.3,0,True,10,True,False,96300.0,67800.0,0.0
+A00334,Braking Point Motorcycles Phoenix 6,Dealership,AMER,Commercial,AMER-COM-03,2,17,0.9,0,True,1,True,False,8400.0,2600.0,0.0
+A00335,Chicane Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-03,3,20,5.2,0,False,0,False,False,0.0,0.0,0.0
+A00336,Checkered Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-03,5,73,4.9,0,True,2,True,False,18500.0,14300.0,0.0
+A00337,Torque Moto School Portland,Riding School,AMER,Commercial,AMER-COM-03,1,19,1.9,22,False,0,False,False,0.0,0.0,0.0
+A00338,Highside Sim Center Phoenix,Sim Center,AMER,Commercial,AMER-COM-03,25,259,30.0,0,False,0,False,False,0.0,0.0,0.0
+A00339,Countersteer Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-03,3,59,2.2,96,True,2,False,False,16600.0,0.0,0.0
+A00340,Rev Limit Racing Seattle,Race Team,AMER,Commercial,AMER-COM-03,4,71,0.9,0,False,0,False,False,0.0,0.0,0.0
+A00341,Lean Angle Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-03,2,16,1.8,53,True,1,False,False,11700.0,0.0,0.0
+A00342,Gridline Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-03,3,53,3.3,71,True,1,False,False,10400.0,0.0,0.0
+A00343,Chicane Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-03,9,150,6.5,293,True,7,True,False,81600.0,18900.0,0.0
+A00344,Apex Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-03,4,34,2.9,158,True,1,False,True,10500.0,0.0,13300.0
+A00345,Braking Point Racing Monterey,Race Team,AMER,Commercial,AMER-COM-03,8,153,24.4,0,False,0,False,False,0.0,0.0,0.0
+A00346,Rev Limit Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-03,3,21,2.8,55,True,1,False,True,8100.0,0.0,4600.0
+A00347,Kneedown Sim Center Monterey,Sim Center,AMER,Commercial,AMER-COM-03,8,141,8.9,0,False,0,False,False,0.0,0.0,0.0
+A00348,Redline Moto School Mexico City 2,Riding School,AMER,Commercial,AMER-COM-04,6,105,5.2,114,False,0,False,False,0.0,0.0,0.0
+A00349,Wheelie Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-04,2,27,1.8,0,True,1,True,False,9000.0,5200.0,0.0
+A00350,Hairpin Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-04,4,47,5.4,135,True,3,False,False,35800.0,0.0,0.0
+A00351,Gridline Riding Academy Monterey 3,Riding Academy,AMER,Commercial,AMER-COM-04,9,76,23.3,381,False,0,False,False,0.0,0.0,0.0
+A00352,Slipstream Riding Academy Portland 8,Riding Academy,AMER,Commercial,AMER-COM-04,4,66,3.9,153,False,0,False,False,0.0,0.0,0.0
+A00353,Lean Angle Sim Center Denver,Sim Center,AMER,Commercial,AMER-COM-04,11,172,21.7,0,True,9,True,False,80800.0,63200.0,0.0
+A00354,Holeshot Sim Center Mexico City,Sim Center,AMER,Commercial,AMER-COM-04,10,69,13.8,0,False,0,False,False,0.0,0.0,0.0
+A00355,Pitlane Riding Academy Austin 3,Riding Academy,AMER,Commercial,AMER-COM-04,6,66,3.6,239,True,5,True,False,48000.0,10500.0,0.0
+A00356,Quickshift Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-04,5,63,2.3,219,True,4,True,True,35400.0,6700.0,18400.0
+A00357,Highside Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-04,10,82,7.5,0,True,8,False,False,75300.0,0.0,0.0
+A00358,Throttle Racing Seattle,Race Team,AMER,Commercial,AMER-COM-04,1,13,1.2,0,False,0,False,False,0.0,0.0,0.0
+A00359,Rev Limit Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-04,13,199,19.4,0,False,0,False,False,0.0,0.0,0.0
+A00360,Chicane Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-04,12,198,8.8,291,True,11,True,False,118200.0,25600.0,0.0
+A00361,Braking Point Moto Works Toronto,Manufacturer,AMER,Commercial,AMER-COM-04,27,499,16.2,0,False,0,False,False,0.0,0.0,0.0
+A00362,Kneedown Moto School Atlanta 2,Riding School,AMER,Commercial,AMER-COM-04,4,60,6.7,158,True,1,False,True,10700.0,0.0,13300.0
+A00363,Trail Brake Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-04,11,204,14.7,0,False,0,False,False,0.0,0.0,0.0
+A00364,Trail Brake Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-04,9,115,8.3,138,False,0,False,False,0.0,0.0,0.0
+A00365,Apex Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-04,1,7,2.2,0,True,1,False,False,10300.0,0.0,0.0
+A00366,Countersteer Motorcycles Monterey,Dealership,AMER,Commercial,AMER-COM-04,1,6,0.3,0,True,1,False,False,9600.0,0.0,0.0
+A00367,Pitlane Sim Center Mexico City,Sim Center,AMER,Commercial,AMER-COM-04,34,349,48.5,0,False,0,False,False,0.0,0.0,0.0
+A00368,Highside Racing Austin,Race Team,AMER,Commercial,AMER-COM-04,6,52,11.8,0,True,5,True,False,56000.0,34400.0,0.0
+A00369,Tank Slap Racing Atlanta,Race Team,AMER,Commercial,AMER-COM-04,5,62,2.1,0,True,3,True,False,31200.0,6100.0,0.0
+A00370,Highside Motorcycles Atlanta 8,Dealership,AMER,Commercial,AMER-COM-04,2,15,1.5,0,True,1,True,False,8900.0,4400.0,0.0
+A00371,Gridline Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-04,3,53,4.2,96,False,0,False,False,0.0,0.0,0.0
+A00372,Trail Brake Racing Portland,Race Team,AMER,Commercial,AMER-COM-04,4,58,3.0,0,True,3,True,False,27800.0,8700.0,0.0
+A00373,Pitlane Riding Academy Monterey 4,Riding Academy,AMER,Commercial,AMER-COM-04,7,127,12.7,176,True,5,False,False,54500.0,0.0,0.0
+A00374,Highside Motorcycles Sao Paulo 7,Dealership,AMER,Commercial,AMER-COM-04,1,7,0.4,0,False,0,False,False,0.0,0.0,0.0
+A00375,Torque Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-04,7,64,2.6,153,True,3,False,False,34300.0,0.0,0.0
+A00376,Throttle Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-04,4,41,5.0,110,True,1,True,False,11600.0,14600.0,0.0
+A00377,Slipstream Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-04,4,69,1.0,0,True,3,False,False,26600.0,0.0,0.0
+A00378,Redline Moto School Atlanta 8,Riding School,AMER,Commercial,AMER-COM-04,4,74,2.3,79,True,2,True,False,20200.0,6700.0,0.0
+A00379,Torque Racing Denver,Race Team,AMER,Commercial,AMER-COM-04,2,23,1.0,0,False,0,False,False,0.0,0.0,0.0
+A00380,Hairpin Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-04,13,210,7.9,386,False,0,False,False,0.0,0.0,0.0
+A00381,Torque Motorcycles Sao Paulo 6,Dealership,AMER,Commercial,AMER-COM-04,2,13,1.7,0,True,1,True,False,9700.0,4900.0,0.0
+A00382,Redline Riding Academy Sao Paulo,Riding Academy,AMER,Commercial,AMER-COM-04,21,258,47.4,566,False,0,False,False,0.0,0.0,0.0
+A00383,Gridline Moto School Seattle,Riding School,AMER,Commercial,AMER-COM-04,2,37,4.5,73,False,0,False,False,0.0,0.0,0.0
+A00384,Gridline Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-04,3,40,5.0,89,False,0,False,False,0.0,0.0,0.0
+A00385,Rev Limit Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-04,13,221,12.5,199,True,10,False,True,84500.0,0.0,16700.0
+A00386,Lean Angle Moto Works Portland,Manufacturer,AMER,Commercial,AMER-COM-04,12,122,16.7,0,True,7,False,False,72900.0,0.0,0.0
+A00387,Highside Racing Toronto,Race Team,AMER,Commercial,AMER-COM-04,4,49,3.9,0,True,3,False,False,31700.0,0.0,0.0
+A00388,Kneedown Racing Monterey 7,Race Team,AMER,Commercial,AMER-COM-04,4,27,14.9,0,True,1,False,False,9000.0,0.0,0.0
+A00389,Highside Moto School Toronto,Riding School,AMER,Commercial,AMER-COM-04,3,29,4.8,46,True,2,False,False,20100.0,0.0,0.0
+A00390,Kneedown Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-04,6,90,6.4,0,True,2,True,False,16400.0,18600.0,0.0
+A00391,Kneedown Sim Center Seattle,Sim Center,AMER,Commercial,AMER-COM-04,8,145,6.0,0,False,0,False,False,0.0,0.0,0.0
+A00392,Holeshot Riding Academy Austin 2,Riding Academy,AMER,Commercial,AMER-COM-04,16,177,23.6,307,False,0,False,False,0.0,0.0,0.0
+A00393,Chicane Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-05,2,27,3.9,0,False,0,False,False,0.0,0.0,0.0
+A00394,Tank Slap Moto Works Mexico City,Manufacturer,AMER,Commercial,AMER-COM-05,15,100,9.3,0,False,0,False,False,0.0,0.0,0.0
+A00395,Wheelie Moto Works Seattle,Manufacturer,AMER,Commercial,AMER-COM-05,36,245,24.1,0,False,0,False,False,0.0,0.0,0.0
+A00396,Gridline Riding Academy Sao Paulo 3,Riding Academy,AMER,Commercial,AMER-COM-05,8,112,10.7,322,False,0,False,False,0.0,0.0,0.0
+A00397,Countersteer Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-05,15,288,24.4,0,True,7,False,False,66900.0,0.0,0.0
+A00398,Countersteer Sim Center Austin 3,Sim Center,AMER,Commercial,AMER-COM-05,13,111,13.2,0,False,0,False,False,0.0,0.0,0.0
+A00399,Throttle Racing Phoenix,Race Team,AMER,Commercial,AMER-COM-05,3,40,0.9,0,False,0,False,False,0.0,0.0,0.0
+A00400,Braking Point Riding Academy Toronto 4,Riding Academy,AMER,Commercial,AMER-COM-05,15,150,6.4,419,True,8,False,True,94900.0,0.0,35200.0
+A00401,Checkered Racing Denver,Race Team,AMER,Commercial,AMER-COM-05,2,19,1.3,0,True,1,True,False,10400.0,3800.0,0.0
+A00402,Rev Limit Moto School Mexico City 4,Riding School,AMER,Commercial,AMER-COM-05,8,112,6.6,149,False,0,False,False,0.0,0.0,0.0
+A00403,Highside Sim Center Monterey 7,Sim Center,AMER,Commercial,AMER-COM-05,17,219,14.7,0,True,15,True,False,145000.0,42800.0,0.0
+A00404,Highside Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-05,4,39,2.6,91,True,3,False,True,25400.0,0.0,7700.0
+A00405,Wheelie Riding Academy Austin 8,Riding Academy,AMER,Commercial,AMER-COM-05,11,72,18.8,401,True,10,False,False,98600.0,0.0,0.0
+A00406,Countersteer Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-05,7,91,8.3,0,True,3,True,False,29900.0,24200.0,0.0
+A00407,Hairpin Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-05,4,24,2.1,143,False,0,False,False,0.0,0.0,0.0
+A00408,Highside Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-05,1,16,1.2,0,True,1,True,False,11400.0,3500.0,0.0
+A00409,Hairpin Moto School Portland,Riding School,AMER,Commercial,AMER-COM-05,5,65,4.1,78,True,4,False,True,43400.0,0.0,6600.0
+A00410,Gridline Sim Center Denver,Sim Center,AMER,Commercial,AMER-COM-05,15,112,6.0,0,True,5,True,False,45900.0,17500.0,0.0
+A00411,Chicane Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-05,4,59,1.2,135,True,2,False,False,18000.0,0.0,0.0
+A00412,Slipstream Sim Center Sao Paulo,Sim Center,AMER,Commercial,AMER-COM-05,6,84,11.7,0,False,0,False,False,0.0,0.0,0.0
+A00413,Countersteer Racing Austin,Race Team,AMER,Commercial,AMER-COM-05,4,55,5.5,0,True,1,False,False,10100.0,0.0,0.0
+A00414,Redline Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-05,2,20,2.3,0,True,1,False,False,9400.0,0.0,0.0
+A00415,Slipstream Riding Academy Charlotte 5,Riding Academy,AMER,Commercial,AMER-COM-05,13,117,6.9,288,True,5,False,False,41400.0,0.0,0.0
+A00416,Countersteer Riding Academy Austin,Riding Academy,AMER,Commercial,AMER-COM-05,10,125,13.6,347,False,0,False,False,0.0,0.0,0.0
+A00417,Throttle Moto School Monterey 3,Riding School,AMER,Commercial,AMER-COM-05,3,54,1.4,58,False,0,False,False,0.0,0.0,0.0
+A00418,Holeshot Racing Toronto,Race Team,AMER,Commercial,AMER-COM-05,3,47,2.7,0,True,2,False,False,23300.0,0.0,0.0
+A00419,Highside Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-05,2,12,4.3,44,False,0,False,False,0.0,0.0,0.0
+A00420,Countersteer Moto School Portland,Riding School,AMER,Commercial,AMER-COM-05,2,13,1.1,46,True,1,True,False,8700.0,3200.0,0.0
+A00421,Tank Slap Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-05,4,58,3.3,0,False,0,False,False,0.0,0.0,0.0
+A00422,Holeshot Racing Seattle,Race Team,AMER,Commercial,AMER-COM-05,15,135,12.7,0,False,0,False,False,0.0,0.0,0.0
+A00423,Tank Slap Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-05,9,86,7.1,397,False,0,False,False,0.0,0.0,0.0
+A00424,Wheelie Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-05,1,16,1.1,0,True,1,True,False,10500.0,3200.0,0.0
+A00425,Hairpin Racing Portland,Race Team,AMER,Commercial,AMER-COM-05,5,36,11.2,0,False,0,False,False,0.0,0.0,0.0
+A00426,Paddock Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-05,4,53,5.0,177,False,0,False,False,0.0,0.0,0.0
+A00427,Braking Point Motorcycles Portland 2,Dealership,AMER,Commercial,AMER-COM-05,3,29,1.5,0,True,1,True,False,10800.0,4400.0,0.0
+A00428,Wheelie Riding Academy Portland 3,Riding Academy,AMER,Commercial,AMER-COM-05,10,128,9.7,308,True,6,False,False,71600.0,0.0,0.0
+A00429,Apex Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-05,7,76,6.6,0,True,3,False,False,29400.0,0.0,0.0
+A00430,Countersteer Moto School Denver 3,Riding School,AMER,Commercial,AMER-COM-05,4,44,1.2,60,True,2,True,False,22200.0,3500.0,0.0
+A00431,Rev Limit Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-05,9,153,3.0,0,True,7,False,False,76000.0,0.0,0.0
+A00432,Holeshot Motorcycles Portland 4,Dealership,AMER,Commercial,AMER-COM-05,1,12,2.2,0,True,1,False,False,11900.0,0.0,0.0
+A00433,Wheelie Racing Denver,Race Team,AMER,Commercial,AMER-COM-05,7,132,4.4,0,True,5,True,False,47800.0,12800.0,0.0
+A00434,Gridline Moto School Seattle 6,Riding School,AMER,Commercial,AMER-COM-05,2,22,1.9,52,True,1,False,False,12000.0,0.0,0.0
+A00435,Highside Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-05,18,349,15.1,439,False,0,False,False,0.0,0.0,0.0
+A00436,Hairpin Riding Academy Sao Paulo,Riding Academy,AMER,Commercial,AMER-COM-05,7,67,3.1,147,False,0,False,False,0.0,0.0,0.0
+A00437,Quickshift Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-05,12,128,5.4,404,True,4,False,False,36700.0,0.0,0.0
+A00438,Hairpin Racing Toronto,Race Team,AMER,Commercial,AMER-COM-06,7,76,7.8,0,False,0,False,False,0.0,0.0,0.0
+A00439,Hairpin Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-06,4,69,3.7,0,True,2,False,False,18300.0,0.0,0.0
+A00440,Countersteer Riding Academy Sao Paulo,Riding Academy,AMER,Commercial,AMER-COM-06,5,32,4.1,161,True,2,False,False,22900.0,0.0,0.0
+A00441,Checkered Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-06,5,47,4.2,136,False,0,False,False,0.0,0.0,0.0
+A00442,Countersteer Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-06,1,6,0.8,0,True,1,False,False,8800.0,0.0,0.0
+A00443,Torque Racing Phoenix,Race Team,AMER,Commercial,AMER-COM-06,5,39,3.7,0,True,4,True,False,42100.0,10800.0,0.0
+A00444,Redline Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-06,7,55,4.5,276,True,4,False,False,45200.0,0.0,0.0
+A00445,Pitlane Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-06,11,68,14.7,245,True,5,True,False,40500.0,42800.0,0.0
+A00446,Kneedown Moto Works Denver 4,Manufacturer,AMER,Commercial,AMER-COM-06,19,291,39.9,0,True,17,False,False,203500.0,0.0,0.0
+A00447,Redline Moto School Denver,Riding School,AMER,Commercial,AMER-COM-06,4,59,3.2,66,False,0,False,False,0.0,0.0,0.0
+A00448,Chicane Moto School Sao Paulo 5,Riding School,AMER,Commercial,AMER-COM-06,7,82,18.3,266,True,2,True,False,17800.0,53300.0,0.0
+A00449,Torque Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-06,1,11,1.3,39,True,1,True,False,10700.0,3800.0,0.0
+A00450,Trail Brake Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-06,3,59,10.5,0,True,2,True,False,17000.0,30600.0,0.0
+A00451,Slipstream Moto School Portland,Riding School,AMER,Commercial,AMER-COM-06,3,57,3.1,120,True,2,True,False,22900.0,9000.0,0.0
+A00452,Quickshift Riding Academy Atlanta 4,Riding Academy,AMER,Commercial,AMER-COM-06,16,158,30.1,364,False,0,False,False,0.0,0.0,0.0
+A00453,Slipstream Moto School Austin,Riding School,AMER,Commercial,AMER-COM-06,3,52,2.6,80,True,1,True,False,11600.0,7600.0,0.0
+A00454,Throttle Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-06,2,16,1.3,0,False,0,False,False,0.0,0.0,0.0
+A00455,Countersteer Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-06,1,9,0.8,0,True,1,False,False,9300.0,0.0,0.0
+A00456,Lean Angle Riding Academy Denver 6,Riding Academy,AMER,Commercial,AMER-COM-06,53,680,39.5,875,False,0,False,False,0.0,0.0,0.0
+A00457,Chicane Motorcycles Toronto 5,Dealership,AMER,Commercial,AMER-COM-06,5,46,6.6,0,True,4,False,False,37700.0,0.0,0.0
+A00458,Paddock Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-06,2,32,1.9,68,True,1,False,False,10900.0,0.0,0.0
+A00459,Highside Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-06,11,132,14.9,183,False,0,False,False,0.0,0.0,0.0
+A00460,Rev Limit Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-06,3,32,6.5,0,True,2,False,False,16200.0,0.0,0.0
+A00461,Braking Point Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-06,6,116,1.6,243,True,2,False,False,17500.0,0.0,0.0
+A00462,Pitlane Sim Center Monterey 7,Sim Center,AMER,Commercial,AMER-COM-06,16,221,19.3,0,False,0,False,False,0.0,0.0,0.0
+A00463,Kneedown Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-06,12,213,33.0,304,True,9,True,False,106700.0,96100.0,0.0
+A00464,Wheelie Motorcycles Austin,Dealership,AMER,Commercial,AMER-COM-06,6,85,11.8,0,True,5,False,False,41100.0,0.0,0.0
+A00465,Trail Brake Racing Seattle,Race Team,AMER,Commercial,AMER-COM-06,7,108,4.9,0,True,5,True,False,40400.0,14300.0,0.0
+A00466,Chicane Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-06,4,33,7.1,0,True,3,True,False,35900.0,20700.0,0.0
+A00467,Quickshift Racing Denver,Race Team,AMER,Commercial,AMER-COM-06,2,24,2.0,0,False,0,False,False,0.0,0.0,0.0
+A00468,Redline Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-06,5,64,6.0,204,True,3,True,False,32600.0,17500.0,0.0
+A00469,Paddock Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-06,10,151,12.1,416,True,6,False,True,64000.0,0.0,35000.0
+A00470,Holeshot Riding Academy Austin 8,Riding Academy,AMER,Commercial,AMER-COM-06,18,247,20.4,618,False,0,False,False,0.0,0.0,0.0
+A00471,Throttle Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-06,12,165,10.5,368,True,9,True,False,84200.0,30600.0,0.0
+A00472,Hairpin Sim Center Toronto 2,Sim Center,AMER,Commercial,AMER-COM-06,12,98,5.1,0,True,7,False,False,60700.0,0.0,0.0
+A00473,Kneedown Racing Sao Paulo,Race Team,AMER,Commercial,AMER-COM-06,3,32,3.5,0,False,0,False,False,0.0,0.0,0.0
+A00474,Lean Angle Motorcycles Austin,Dealership,AMER,Commercial,AMER-COM-06,3,51,6.5,0,False,0,False,False,0.0,0.0,0.0
+A00475,Torque Riding Academy Phoenix 4,Riding Academy,AMER,Commercial,AMER-COM-06,16,116,9.3,646,True,6,True,False,66400.0,27100.0,0.0
+A00476,Redline Riding Academy Seattle 2,Riding Academy,AMER,Commercial,AMER-COM-06,10,198,10.7,380,False,0,False,False,0.0,0.0,0.0
+A00477,Apex Sim Center Charlotte,Sim Center,AMER,Commercial,AMER-COM-06,39,371,29.6,0,False,0,False,False,0.0,0.0,0.0
+A00478,Apex Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-06,6,91,14.7,155,True,1,False,False,12000.0,0.0,0.0
+A00479,Lean Angle Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-06,10,165,11.9,305,True,5,False,False,54600.0,0.0,0.0
+A00480,Slipstream Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-06,2,18,2.1,0,True,1,False,False,8400.0,0.0,0.0
+A00481,Pitlane Moto School Charlotte 4,Riding School,AMER,Commercial,AMER-COM-06,6,71,3.7,183,True,2,False,True,16100.0,0.0,15400.0
+A00482,Slipstream Riding Academy Mexico City 3,Riding Academy,AMER,Commercial,AMER-COM-06,5,94,1.9,108,True,1,False,False,10200.0,0.0,0.0
+A00483,Redline Moto Works Denver,Manufacturer,AMER,Commercial,AMER-COM-07,21,349,23.6,0,True,10,True,False,104000.0,68700.0,0.0
+A00484,Trail Brake Riding Academy Sao Paulo,Riding Academy,AMER,Commercial,AMER-COM-07,9,75,4.1,320,True,5,True,True,49300.0,11900.0,26900.0
+A00485,Torque Motorcycles Sao Paulo 5,Dealership,AMER,Commercial,AMER-COM-07,5,65,3.8,0,True,4,False,False,37500.0,0.0,0.0
+A00486,Redline Racing Denver 5,Race Team,AMER,Commercial,AMER-COM-07,12,145,12.5,0,True,6,False,False,51800.0,0.0,0.0
+A00487,Kneedown Moto School Seattle,Riding School,AMER,Commercial,AMER-COM-07,4,34,3.7,131,False,0,False,False,0.0,0.0,0.0
+A00488,Gridline Moto School Sao Paulo 2,Riding School,AMER,Commercial,AMER-COM-07,2,37,5.3,40,False,0,False,False,0.0,0.0,0.0
+A00489,Gridline Sim Center Phoenix,Sim Center,AMER,Commercial,AMER-COM-07,7,137,6.3,0,False,0,False,False,0.0,0.0,0.0
+A00490,Throttle Riding Academy Atlanta 2,Riding Academy,AMER,Commercial,AMER-COM-07,11,145,16.5,407,True,6,False,False,52200.0,0.0,0.0
+A00491,Kneedown Motorcycles Austin,Dealership,AMER,Commercial,AMER-COM-07,3,36,3.2,0,False,0,False,False,0.0,0.0,0.0
+A00492,Pitlane Sim Center Seattle,Sim Center,AMER,Commercial,AMER-COM-07,17,187,13.8,0,True,9,False,False,81000.0,0.0,0.0
+A00493,Gridline Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-07,2,28,2.4,0,True,1,True,False,9000.0,7000.0,0.0
+A00494,Apex Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-07,5,45,3.4,0,False,0,False,False,0.0,0.0,0.0
+A00495,Trail Brake Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-07,6,99,7.7,0,True,2,True,False,19100.0,22400.0,0.0
+A00496,Lean Angle Moto Works Austin,Manufacturer,AMER,Commercial,AMER-COM-07,38,249,9.9,0,True,35,False,False,357100.0,0.0,0.0
+A00497,Lean Angle Riding Academy Denver 5,Riding Academy,AMER,Commercial,AMER-COM-07,12,141,10.9,461,True,8,False,False,74800.0,0.0,0.0
+A00498,Rev Limit Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-07,1,11,0.6,0,True,1,False,False,9700.0,0.0,0.0
+A00499,Countersteer Moto School Portland 5,Riding School,AMER,Commercial,AMER-COM-07,3,45,3.0,68,True,1,False,False,10000.0,0.0,0.0
+A00500,Paddock Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-07,3,59,1.8,0,True,2,False,False,24000.0,0.0,0.0
+A00501,Rev Limit Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-07,7,129,7.0,164,False,0,False,False,0.0,0.0,0.0
+A00502,Braking Point Moto Works Portland,Manufacturer,AMER,Commercial,AMER-COM-07,20,340,11.2,0,False,0,False,False,0.0,0.0,0.0
+A00503,Apex Riding Academy Atlanta 3,Riding Academy,AMER,Commercial,AMER-COM-07,14,115,32.5,363,True,8,False,False,73000.0,0.0,0.0
+A00504,Redline Moto School Seattle 5,Riding School,AMER,Commercial,AMER-COM-07,7,115,3.4,184,True,6,False,True,54800.0,0.0,15500.0
+A00505,Wheelie Moto School Denver,Riding School,AMER,Commercial,AMER-COM-07,8,55,29.9,156,True,3,True,True,26100.0,87000.0,13100.0
+A00506,Chicane Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-07,5,68,1.1,0,True,1,True,False,11800.0,3200.0,0.0
+A00507,Trail Brake Racing Austin,Race Team,AMER,Commercial,AMER-COM-07,4,44,7.5,0,True,3,False,False,31500.0,0.0,0.0
+A00508,Highside Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-07,12,213,26.3,238,False,0,False,False,0.0,0.0,0.0
+A00509,Kneedown Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-07,5,56,4.4,203,True,1,True,False,10200.0,12800.0,0.0
+A00510,Torque Riding Academy Atlanta 7,Riding Academy,AMER,Commercial,AMER-COM-07,3,33,1.6,46,False,0,False,False,0.0,0.0,0.0
+A00511,Checkered Racing Toronto 5,Race Team,AMER,Commercial,AMER-COM-07,7,91,7.0,0,False,0,False,False,0.0,0.0,0.0
+A00512,Gridline Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-07,6,110,2.2,120,True,3,True,False,28700.0,6400.0,0.0
+A00513,Apex Racing Seattle,Race Team,AMER,Commercial,AMER-COM-07,5,45,6.8,0,True,2,False,False,17800.0,0.0,0.0
+A00514,Holeshot Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-07,7,138,2.8,296,True,4,False,False,37800.0,0.0,0.0
+A00515,Tank Slap Sim Center Toronto,Sim Center,AMER,Commercial,AMER-COM-07,30,591,30.1,0,False,0,False,False,0.0,0.0,0.0
+A00516,Tank Slap Motorcycles Sao Paulo 2,Dealership,AMER,Commercial,AMER-COM-07,2,36,3.3,0,True,1,False,False,9500.0,0.0,0.0
+A00517,Throttle Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-07,20,165,54.4,363,True,19,True,True,169300.0,158400.0,30500.0
+A00518,Redline Motorcycles Mexico City 4,Dealership,AMER,Commercial,AMER-COM-07,7,55,7.8,0,True,3,False,False,25100.0,0.0,0.0
+A00519,Braking Point Moto School Austin,Riding School,AMER,Commercial,AMER-COM-07,11,94,15.1,274,True,10,False,False,118500.0,0.0,0.0
+A00520,Kneedown Moto School Phoenix 7,Riding School,AMER,Commercial,AMER-COM-07,12,238,43.9,310,True,8,True,False,95800.0,127800.0,0.0
+A00521,Holeshot Riding Academy Seattle 3,Riding Academy,AMER,Commercial,AMER-COM-07,8,112,9.8,137,True,6,False,False,65000.0,0.0,0.0
+A00522,Braking Point Sim Center Mexico City,Sim Center,AMER,Commercial,AMER-COM-07,12,112,7.4,0,True,10,False,False,112300.0,0.0,0.0
+A00523,Hairpin Racing Toronto 6,Race Team,AMER,Commercial,AMER-COM-07,6,50,8.1,0,True,5,True,False,40700.0,23600.0,0.0
+A00524,Throttle Moto School Toronto,Riding School,AMER,Commercial,AMER-COM-07,3,46,3.3,68,True,2,False,False,21300.0,0.0,0.0
+A00525,Trail Brake Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-07,7,108,7.0,145,True,2,True,False,18800.0,20400.0,0.0
+A00526,Trail Brake Riding Academy Austin 2,Riding Academy,AMER,Commercial,AMER-COM-07,8,123,12.6,158,True,4,True,True,46300.0,36700.0,13300.0
+A00527,Highside Racing Denver,Race Team,AMER,Commercial,AMER-COM-07,3,56,5.5,0,False,0,False,False,0.0,0.0,0.0
+A00528,Braking Point Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-08,2,25,1.4,0,True,1,False,False,11700.0,0.0,0.0
+A00529,Lean Angle Moto School Seattle,Riding School,AMER,Commercial,AMER-COM-08,3,36,6.1,74,True,2,True,True,21900.0,17800.0,6200.0
+A00530,Paddock Moto Works Atlanta,Manufacturer,AMER,Commercial,AMER-COM-08,12,108,12.4,0,False,0,False,False,0.0,0.0,0.0
+A00531,Kneedown Moto School Seattle 8,Riding School,AMER,Commercial,AMER-COM-08,2,12,2.5,77,False,0,False,False,0.0,0.0,0.0
+A00532,Torque Motorcycles Mexico City,Dealership,AMER,Commercial,AMER-COM-08,3,30,2.6,0,False,0,False,False,0.0,0.0,0.0
+A00533,Holeshot Sim Center Charlotte 5,Sim Center,AMER,Commercial,AMER-COM-08,13,209,9.7,0,False,0,False,False,0.0,0.0,0.0
+A00534,Chicane Motorcycles Denver 3,Dealership,AMER,Commercial,AMER-COM-08,4,69,2.6,0,False,0,False,False,0.0,0.0,0.0
+A00535,Braking Point Sim Center Seattle 3,Sim Center,AMER,Commercial,AMER-COM-08,9,162,10.2,0,True,2,False,False,19000.0,0.0,0.0
+A00536,Paddock Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-08,6,39,6.1,188,True,3,True,True,26500.0,17800.0,15800.0
+A00537,Lean Angle Moto School Portland,Riding School,AMER,Commercial,AMER-COM-08,3,46,2.3,92,True,1,False,False,9200.0,0.0,0.0
+A00538,Rev Limit Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-08,8,67,7.7,318,False,0,False,False,0.0,0.0,0.0
+A00539,Trail Brake Motorcycles Austin,Dealership,AMER,Commercial,AMER-COM-08,4,54,7.8,0,True,3,False,False,35700.0,0.0,0.0
+A00540,Paddock Racing Atlanta,Race Team,AMER,Commercial,AMER-COM-08,5,39,15.7,0,True,2,True,False,16700.0,45700.0,0.0
+A00541,Slipstream Moto School Monterey 4,Riding School,AMER,Commercial,AMER-COM-08,2,35,3.5,36,False,0,False,False,0.0,0.0,0.0
+A00542,Kneedown Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-08,5,41,7.5,91,True,2,False,True,17200.0,0.0,7700.0
+A00543,Quickshift Motorcycles Monterey,Dealership,AMER,Commercial,AMER-COM-08,3,39,6.1,0,True,2,True,False,21500.0,17800.0,0.0
+A00544,Hairpin Riding Academy Toronto 4,Riding Academy,AMER,Commercial,AMER-COM-08,12,100,6.5,298,False,0,False,False,0.0,0.0,0.0
+A00545,Quickshift Motorcycles Phoenix 5,Dealership,AMER,Commercial,AMER-COM-08,2,24,1.4,0,True,1,False,False,9000.0,0.0,0.0
+A00546,Tank Slap Riding Academy Portland,Riding Academy,AMER,Commercial,AMER-COM-08,11,127,8.4,339,True,4,False,True,38300.0,0.0,28500.0
+A00547,Rev Limit Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-08,3,31,1.1,0,True,1,True,False,8500.0,3200.0,0.0
+A00548,Lean Angle Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-08,8,91,7.3,283,True,7,False,False,78400.0,0.0,0.0
+A00549,Redline Sim Center Denver,Sim Center,AMER,Commercial,AMER-COM-08,21,274,39.8,0,False,0,False,False,0.0,0.0,0.0
+A00550,Lean Angle Riding Academy Sao Paulo,Riding Academy,AMER,Commercial,AMER-COM-08,8,80,6.2,230,True,3,False,True,32400.0,0.0,19300.0
+A00551,Torque Moto School Portland 4,Riding School,AMER,Commercial,AMER-COM-08,2,32,4.8,88,False,0,False,False,0.0,0.0,0.0
+A00552,Kneedown Racing Seattle,Race Team,AMER,Commercial,AMER-COM-08,3,19,3.0,0,True,1,True,False,8400.0,8700.0,0.0
+A00553,Pitlane Sim Center Charlotte,Sim Center,AMER,Commercial,AMER-COM-08,11,107,38.1,0,False,0,False,False,0.0,0.0,0.0
+A00554,Wheelie Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-08,12,217,31.4,502,True,6,False,False,62500.0,0.0,0.0
+A00555,Torque Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-08,2,12,1.7,43,True,1,False,False,12100.0,0.0,0.0
+A00556,Countersteer Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-08,5,40,8.1,124,False,0,False,False,0.0,0.0,0.0
+A00557,Throttle Racing Denver 2,Race Team,AMER,Commercial,AMER-COM-08,10,146,16.9,0,True,4,False,False,33700.0,0.0,0.0
+A00558,Braking Point Sim Center Denver,Sim Center,AMER,Commercial,AMER-COM-08,14,203,12.3,0,False,0,False,False,0.0,0.0,0.0
+A00559,Kneedown Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-08,10,83,13.1,292,False,0,False,False,0.0,0.0,0.0
+A00560,Slipstream Racing Denver,Race Team,AMER,Commercial,AMER-COM-08,3,29,7.3,0,True,2,True,False,16700.0,21300.0,0.0
+A00561,Wheelie Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-08,1,17,1.6,0,True,1,True,False,9100.0,4700.0,0.0
+A00562,Gridline Moto School Denver,Riding School,AMER,Commercial,AMER-COM-08,2,28,0.9,40,False,0,False,False,0.0,0.0,0.0
+A00563,Hairpin Moto School Mexico City 4,Riding School,AMER,Commercial,AMER-COM-08,1,10,1.2,25,True,1,True,False,11800.0,3500.0,0.0
+A00564,Checkered Racing Monterey,Race Team,AMER,Commercial,AMER-COM-08,8,50,7.8,0,True,5,False,False,41800.0,0.0,0.0
+A00565,Braking Point Motorcycles Charlotte 5,Dealership,AMER,Commercial,AMER-COM-08,2,14,1.0,0,True,1,True,False,9000.0,2900.0,0.0
+A00566,Trail Brake Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-08,12,216,18.4,478,True,5,False,False,56100.0,0.0,0.0
+A00567,Highside Moto School Portland,Riding School,AMER,Commercial,AMER-COM-08,4,51,4.6,109,True,2,True,False,20800.0,13400.0,0.0
+A00568,Kneedown Sim Center Denver,Sim Center,AMER,Commercial,AMER-COM-08,17,177,24.7,0,False,0,False,False,0.0,0.0,0.0
+A00569,Braking Point Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-08,5,98,3.7,92,False,0,False,False,0.0,0.0,0.0
+A00570,Gridline Sim Center Toronto 7,Sim Center,AMER,Commercial,AMER-COM-08,6,88,6.9,0,False,0,False,False,0.0,0.0,0.0
+A00571,Gridline Moto School Monterey 5,Riding School,AMER,Commercial,AMER-COM-08,3,32,4.7,60,False,0,False,False,0.0,0.0,0.0
+A00572,Highside Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-08,16,215,11.8,0,False,0,False,False,0.0,0.0,0.0
+A00573,Gridline Moto School Denver 8,Riding School,AMER,Commercial,AMER-COM-09,1,11,1.7,20,True,1,False,True,11200.0,0.0,1700.0
+A00574,Wheelie Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-09,47,420,49.5,1367,False,0,False,False,0.0,0.0,0.0
+A00575,Lean Angle Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-09,8,159,32.4,161,False,0,False,False,0.0,0.0,0.0
+A00576,Rev Limit Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-09,5,46,6.7,161,False,0,False,False,0.0,0.0,0.0
+A00577,Chicane Riding Academy Portland,Riding Academy,AMER,Commercial,AMER-COM-09,3,24,2.8,106,False,0,False,False,0.0,0.0,0.0
+A00578,Hairpin Racing Mexico City,Race Team,AMER,Commercial,AMER-COM-09,7,92,3.1,0,False,0,False,False,0.0,0.0,0.0
+A00579,Holeshot Sim Center Phoenix 7,Sim Center,AMER,Commercial,AMER-COM-09,16,225,11.0,0,True,5,False,False,40800.0,0.0,0.0
+A00580,Throttle Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-09,12,72,18.6,0,True,10,False,False,118400.0,0.0,0.0
+A00581,Gridline Sim Center Seattle,Sim Center,AMER,Commercial,AMER-COM-09,10,152,14.2,0,False,0,False,False,0.0,0.0,0.0
+A00582,Countersteer Sim Center Austin 7,Sim Center,AMER,Commercial,AMER-COM-09,20,227,21.8,0,False,0,False,False,0.0,0.0,0.0
+A00583,Braking Point Riding Academy Toronto 3,Riding Academy,AMER,Commercial,AMER-COM-09,13,147,24.3,574,True,11,False,False,125800.0,0.0,0.0
+A00584,Apex Moto School Monterey 6,Riding School,AMER,Commercial,AMER-COM-09,7,126,6.1,273,True,4,True,False,47400.0,17800.0,0.0
+A00585,Pitlane Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-09,2,29,3.4,0,True,1,True,False,9700.0,9900.0,0.0
+A00586,Wheelie Riding Academy Austin 2,Riding Academy,AMER,Commercial,AMER-COM-09,23,208,36.0,390,False,0,False,False,0.0,0.0,0.0
+A00587,Kneedown Motorcycles Monterey,Dealership,AMER,Commercial,AMER-COM-09,2,28,2.3,0,False,0,False,False,0.0,0.0,0.0
+A00588,Gridline Riding Academy Mexico City 8,Riding Academy,AMER,Commercial,AMER-COM-09,17,190,20.6,352,False,0,False,False,0.0,0.0,0.0
+A00589,Kneedown Moto School Atlanta 8,Riding School,AMER,Commercial,AMER-COM-09,1,19,0.6,28,False,0,False,False,0.0,0.0,0.0
+A00590,Slipstream Moto School Monterey 6,Riding School,AMER,Commercial,AMER-COM-09,6,79,9.5,188,False,0,False,False,0.0,0.0,0.0
+A00591,Chicane Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-09,13,136,22.6,412,True,8,False,True,75200.0,0.0,34700.0
+A00592,Countersteer Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-09,17,193,8.9,372,True,6,False,False,60700.0,0.0,0.0
+A00593,Slipstream Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-09,4,46,4.3,137,True,1,True,False,8200.0,12500.0,0.0
+A00594,Quickshift Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-09,6,63,1.6,151,True,4,False,True,38600.0,0.0,12700.0
+A00595,Lean Angle Motorcycles Portland 6,Dealership,AMER,Commercial,AMER-COM-09,6,69,15.0,0,True,4,False,False,38000.0,0.0,0.0
+A00596,Quickshift Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-09,8,149,16.0,197,True,5,False,True,53400.0,0.0,16600.0
+A00597,Rev Limit Riding Academy Atlanta 4,Riding Academy,AMER,Commercial,AMER-COM-09,28,277,21.7,1156,False,0,False,False,0.0,0.0,0.0
+A00598,Lean Angle Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-09,2,17,3.0,0,False,0,False,False,0.0,0.0,0.0
+A00599,Kneedown Racing Sao Paulo 7,Race Team,AMER,Commercial,AMER-COM-09,4,37,2.6,0,True,3,True,False,27000.0,7600.0,0.0
+A00600,Kneedown Sim Center Charlotte 2,Sim Center,AMER,Commercial,AMER-COM-09,12,190,11.1,0,True,8,True,False,88400.0,32300.0,0.0
+A00601,Highside Moto School Portland 7,Riding School,AMER,Commercial,AMER-COM-09,2,33,2.9,71,False,0,False,False,0.0,0.0,0.0
+A00602,Holeshot Moto School Austin,Riding School,AMER,Commercial,AMER-COM-09,5,82,7.3,82,True,2,False,False,19900.0,0.0,0.0
+A00603,Paddock Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-09,10,69,5.9,0,True,5,False,False,49200.0,0.0,0.0
+A00604,Paddock Riding Academy Austin 8,Riding Academy,AMER,Commercial,AMER-COM-09,8,60,9.7,179,True,4,True,False,36400.0,28200.0,0.0
+A00605,Hairpin Motorcycles Austin,Dealership,AMER,Commercial,AMER-COM-09,17,258,14.9,0,True,15,True,False,139800.0,43400.0,0.0
+A00606,Slipstream Riding Academy Toronto 7,Riding Academy,AMER,Commercial,AMER-COM-09,6,40,5.0,205,True,4,True,False,46700.0,14600.0,0.0
+A00607,Tank Slap Riding Academy Phoenix 2,Riding Academy,AMER,Commercial,AMER-COM-09,9,137,9.5,323,True,3,False,False,25100.0,0.0,0.0
+A00608,Pitlane Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-09,5,67,10.8,183,False,0,False,False,0.0,0.0,0.0
+A00609,Gridline Racing Phoenix,Race Team,AMER,Commercial,AMER-COM-09,5,35,1.7,0,False,0,False,False,0.0,0.0,0.0
+A00610,Highside Racing Monterey 6,Race Team,AMER,Commercial,AMER-COM-09,5,98,3.7,0,False,0,False,False,0.0,0.0,0.0
+A00611,Slipstream Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-09,3,32,1.6,0,True,2,False,False,21300.0,0.0,0.0
+A00612,Braking Point Motorcycles Charlotte 8,Dealership,AMER,Commercial,AMER-COM-09,2,27,1.6,0,False,0,False,False,0.0,0.0,0.0
+A00613,Gridline Motorcycles Phoenix,Dealership,AMER,Commercial,AMER-COM-09,3,36,2.0,0,True,1,False,False,9100.0,0.0,0.0
+A00614,Holeshot Moto School Toronto,Riding School,AMER,Commercial,AMER-COM-09,3,55,3.2,132,False,0,False,False,0.0,0.0,0.0
+A00615,Braking Point Motorcycles Charlotte 6,Dealership,AMER,Commercial,AMER-COM-09,2,19,3.0,0,True,1,True,False,9300.0,8700.0,0.0
+A00616,Throttle Sim Center Sao Paulo 2,Sim Center,AMER,Commercial,AMER-COM-09,12,215,14.1,0,False,0,False,False,0.0,0.0,0.0
+A00617,Throttle Racing Atlanta,Race Team,AMER,Commercial,AMER-COM-09,6,87,8.4,0,False,0,False,False,0.0,0.0,0.0
+A00618,Redline Moto School Portland,Riding School,AMER,Commercial,AMER-COM-10,4,44,3.0,132,False,0,False,False,0.0,0.0,0.0
+A00619,Kneedown Motorcycles Austin 3,Dealership,AMER,Commercial,AMER-COM-10,3,40,3.0,0,True,2,False,False,22900.0,0.0,0.0
+A00620,Torque Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-10,1,13,0.4,0,True,1,False,False,8300.0,0.0,0.0
+A00621,Hairpin Riding Academy Portland 8,Riding Academy,AMER,Commercial,AMER-COM-10,7,42,2.8,138,False,0,False,False,0.0,0.0,0.0
+A00622,Tank Slap Moto School Seattle 5,Riding School,AMER,Commercial,AMER-COM-10,2,21,1.5,78,False,0,False,False,0.0,0.0,0.0
+A00623,Wheelie Riding Academy Charlotte 3,Riding Academy,AMER,Commercial,AMER-COM-10,14,112,22.6,509,False,0,False,False,0.0,0.0,0.0
+A00624,Paddock Riding Academy Denver 4,Riding Academy,AMER,Commercial,AMER-COM-10,6,75,5.8,195,True,2,False,False,20200.0,0.0,0.0
+A00625,Braking Point Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-10,7,105,7.4,309,True,5,False,False,42400.0,0.0,0.0
+A00626,Tank Slap Riding Academy Austin,Riding Academy,AMER,Commercial,AMER-COM-10,9,150,14.3,342,True,5,False,False,48000.0,0.0,0.0
+A00627,Pitlane Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-10,4,45,6.6,0,False,0,False,False,0.0,0.0,0.0
+A00628,Kneedown Moto School Charlotte 8,Riding School,AMER,Commercial,AMER-COM-10,4,41,5.9,151,True,2,False,False,23900.0,0.0,0.0
+A00629,Quickshift Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-10,3,51,2.3,0,False,0,False,False,0.0,0.0,0.0
+A00630,Countersteer Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-10,2,29,2.0,79,True,1,False,False,10400.0,0.0,0.0
+A00631,Checkered Racing Monterey 7,Race Team,AMER,Commercial,AMER-COM-10,10,149,6.4,0,False,0,False,False,0.0,0.0,0.0
+A00632,Slipstream Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-10,2,20,2.0,0,True,1,False,False,11700.0,0.0,0.0
+A00633,Paddock Sim Center Sao Paulo,Sim Center,AMER,Commercial,AMER-COM-10,13,220,7.1,0,False,0,False,False,0.0,0.0,0.0
+A00634,Redline Moto School Seattle 7,Riding School,AMER,Commercial,AMER-COM-10,3,19,4.3,52,True,2,True,True,18900.0,12500.0,4400.0
+A00635,Tank Slap Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-10,11,83,3.8,269,False,0,False,False,0.0,0.0,0.0
+A00636,Wheelie Moto School Austin 7,Riding School,AMER,Commercial,AMER-COM-10,3,26,1.9,61,True,1,False,False,9900.0,0.0,0.0
+A00637,Braking Point Moto School Atlanta 4,Riding School,AMER,Commercial,AMER-COM-10,2,24,2.3,42,False,0,False,False,0.0,0.0,0.0
+A00638,Kneedown Racing Mexico City,Race Team,AMER,Commercial,AMER-COM-10,3,54,2.2,0,False,0,False,False,0.0,0.0,0.0
+A00639,Tank Slap Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-10,2,26,4.8,0,False,0,False,False,0.0,0.0,0.0
+A00640,Pitlane Riding Academy Portland 2,Riding Academy,AMER,Commercial,AMER-COM-10,21,402,73.1,697,True,9,True,False,74200.0,212800.0,0.0
+A00641,Checkered Racing Seattle,Race Team,AMER,Commercial,AMER-COM-10,17,182,6.2,0,True,8,False,False,82000.0,0.0,0.0
+A00642,Hairpin Moto School Mexico City 3,Riding School,AMER,Commercial,AMER-COM-10,5,75,2.6,185,True,3,True,False,24600.0,7600.0,0.0
+A00643,Tank Slap Racing Denver,Race Team,AMER,Commercial,AMER-COM-10,3,24,3.8,0,True,1,True,False,9500.0,11100.0,0.0
+A00644,Rev Limit Sim Center Seattle,Sim Center,AMER,Commercial,AMER-COM-10,11,92,3.9,0,True,10,False,False,102500.0,0.0,0.0
+A00645,Pitlane Racing Austin,Race Team,AMER,Commercial,AMER-COM-10,5,62,4.1,0,True,4,True,False,43800.0,11900.0,0.0
+A00646,Trail Brake Riding Academy Toronto 8,Riding Academy,AMER,Commercial,AMER-COM-10,7,90,4.3,149,True,2,True,False,20800.0,12500.0,0.0
+A00647,Braking Point Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-10,15,117,33.2,0,False,0,False,False,0.0,0.0,0.0
+A00648,Rev Limit Racing Toronto,Race Team,AMER,Commercial,AMER-COM-10,4,79,6.6,0,True,3,False,False,33700.0,0.0,0.0
+A00649,Kneedown Racing Monterey 4,Race Team,AMER,Commercial,AMER-COM-10,2,39,2.5,0,True,1,False,False,9700.0,0.0,0.0
+A00650,Wheelie Sim Center Austin 3,Sim Center,AMER,Commercial,AMER-COM-10,21,207,21.5,0,False,0,False,False,0.0,0.0,0.0
+A00651,Throttle Sim Center Charlotte,Sim Center,AMER,Commercial,AMER-COM-10,3,24,1.1,0,False,0,False,False,0.0,0.0,0.0
+A00652,Lean Angle Motorcycles Seattle,Dealership,AMER,Commercial,AMER-COM-10,6,51,7.7,0,True,4,False,False,36800.0,0.0,0.0
+A00653,Throttle Sim Center Austin 4,Sim Center,AMER,Commercial,AMER-COM-10,9,146,6.6,0,False,0,False,False,0.0,0.0,0.0
+A00654,Checkered Riding Academy Portland,Riding Academy,AMER,Commercial,AMER-COM-10,8,135,5.5,307,True,4,True,False,43300.0,16000.0,0.0
+A00655,Chicane Riding Academy Portland 3,Riding Academy,AMER,Commercial,AMER-COM-10,5,39,6.8,174,False,0,False,False,0.0,0.0,0.0
+A00656,Kneedown Riding Academy Mexico City 2,Riding Academy,AMER,Commercial,AMER-COM-10,11,78,7.8,345,True,8,False,False,66900.0,0.0,0.0
+A00657,Quickshift Riding Academy Portland,Riding Academy,AMER,Commercial,AMER-COM-10,12,166,6.1,190,False,0,False,False,0.0,0.0,0.0
+A00658,Redline Racing Denver 8,Race Team,AMER,Commercial,AMER-COM-10,4,28,3.6,0,True,2,True,False,17400.0,10500.0,0.0
+A00659,Highside Sim Center Atlanta,Sim Center,AMER,Commercial,AMER-COM-10,11,158,9.7,0,False,0,False,False,0.0,0.0,0.0
+A00660,Wheelie Motorcycles Portland,Dealership,AMER,Commercial,AMER-COM-10,7,91,25.5,0,False,0,False,False,0.0,0.0,0.0
+A00661,Countersteer Riding Academy Denver 7,Riding Academy,AMER,Commercial,AMER-COM-10,17,246,32.1,735,True,7,False,True,57400.0,0.0,61800.0
+A00662,Tank Slap Motorcycles Seattle 2,Dealership,AMER,Commercial,AMER-COM-10,4,47,2.3,0,True,1,True,False,9300.0,6700.0,0.0
+A00663,Apex Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-11,1,12,0.9,0,True,1,True,False,10200.0,2600.0,0.0
+A00664,Slipstream Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-11,6,114,16.5,195,False,0,False,False,0.0,0.0,0.0
+A00665,Trail Brake Motorcycles Phoenix,Dealership,AMER,Commercial,AMER-COM-11,7,138,5.1,0,True,2,True,False,19800.0,14800.0,0.0
+A00666,Hairpin Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-11,3,22,4.3,66,False,0,False,False,0.0,0.0,0.0
+A00667,Lean Angle Sim Center Toronto,Sim Center,AMER,Commercial,AMER-COM-11,53,519,233.7,0,True,26,False,False,232000.0,0.0,0.0
+A00668,Paddock Riding Academy Charlotte 7,Riding Academy,AMER,Commercial,AMER-COM-11,6,61,5.0,114,True,4,True,False,33100.0,14600.0,0.0
+A00669,Lean Angle Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-11,1,17,1.1,30,True,1,False,False,11000.0,0.0,0.0
+A00670,Lean Angle Racing Austin 8,Race Team,AMER,Commercial,AMER-COM-11,7,48,15.4,0,False,0,False,False,0.0,0.0,0.0
+A00671,Pitlane Moto School Monterey 5,Riding School,AMER,Commercial,AMER-COM-11,6,101,4.4,158,True,3,False,False,24600.0,0.0,0.0
+A00672,Throttle Racing Atlanta 7,Race Team,AMER,Commercial,AMER-COM-11,6,80,5.3,0,True,3,False,False,28100.0,0.0,0.0
+A00673,Apex Moto School Seattle 8,Riding School,AMER,Commercial,AMER-COM-11,2,29,25.3,84,True,1,False,True,11200.0,0.0,7100.0
+A00674,Hairpin Motorcycles Monterey,Dealership,AMER,Commercial,AMER-COM-11,3,59,0.8,0,False,0,False,False,0.0,0.0,0.0
+A00675,Slipstream Motorcycles Phoenix,Dealership,AMER,Commercial,AMER-COM-11,1,16,1.0,0,True,1,True,False,11500.0,2900.0,0.0
+A00676,Apex Riding Academy Seattle,Riding Academy,AMER,Commercial,AMER-COM-11,8,138,17.8,332,True,7,False,False,62300.0,0.0,0.0
+A00677,Apex Moto School Mexico City,Riding School,AMER,Commercial,AMER-COM-11,3,29,3.5,87,False,0,False,False,0.0,0.0,0.0
+A00678,Holeshot Moto School Monterey,Riding School,AMER,Commercial,AMER-COM-11,4,64,2.3,74,False,0,False,False,0.0,0.0,0.0
+A00679,Checkered Riding Academy Denver,Riding Academy,AMER,Commercial,AMER-COM-11,4,51,5.8,127,True,3,True,False,34500.0,16900.0,0.0
+A00680,Gridline Moto Works Phoenix,Manufacturer,AMER,Commercial,AMER-COM-11,19,203,22.2,0,True,13,False,False,145100.0,0.0,0.0
+A00681,Hairpin Moto School Toronto,Riding School,AMER,Commercial,AMER-COM-11,5,46,8.8,181,True,4,True,False,41300.0,25600.0,0.0
+A00682,Lean Angle Sim Center Phoenix,Sim Center,AMER,Commercial,AMER-COM-11,7,97,9.8,0,True,6,False,False,51900.0,0.0,0.0
+A00683,Holeshot Racing Monterey,Race Team,AMER,Commercial,AMER-COM-11,4,54,6.5,0,True,1,True,False,9900.0,18900.0,0.0
+A00684,Holeshot Riding Academy Toronto 6,Riding Academy,AMER,Commercial,AMER-COM-11,7,72,5.9,196,True,3,False,True,34700.0,0.0,16500.0
+A00685,Gridline Moto Works Toronto,Manufacturer,AMER,Commercial,AMER-COM-11,23,214,45.4,0,False,0,False,False,0.0,0.0,0.0
+A00686,Redline Riding Academy Seattle 5,Riding Academy,AMER,Commercial,AMER-COM-11,19,357,22.1,505,True,14,True,False,129200.0,64300.0,0.0
+A00687,Checkered Racing Portland,Race Team,AMER,Commercial,AMER-COM-11,5,64,2.1,0,True,1,False,False,11400.0,0.0,0.0
+A00688,Lean Angle Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-11,14,236,5.3,219,False,0,False,False,0.0,0.0,0.0
+A00689,Countersteer Motorcycles Denver,Dealership,AMER,Commercial,AMER-COM-11,3,31,2.1,0,True,2,False,False,23000.0,0.0,0.0
+A00690,Paddock Moto School Portland,Riding School,AMER,Commercial,AMER-COM-11,4,47,4.8,149,True,3,False,True,31100.0,0.0,12500.0
+A00691,Quickshift Riding Academy Toronto 2,Riding Academy,AMER,Commercial,AMER-COM-11,8,150,9.0,189,True,7,True,False,65700.0,26200.0,0.0
+A00692,Paddock Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-11,3,27,8.1,0,True,2,False,False,22400.0,0.0,0.0
+A00693,Lean Angle Moto School Phoenix 7,Riding School,AMER,Commercial,AMER-COM-11,5,51,3.3,123,False,0,False,False,0.0,0.0,0.0
+A00694,Countersteer Moto School Atlanta 7,Riding School,AMER,Commercial,AMER-COM-11,3,37,7.2,67,True,2,False,False,23600.0,0.0,0.0
+A00695,Wheelie Motorcycles Sao Paulo,Dealership,AMER,Commercial,AMER-COM-11,3,45,1.1,0,True,2,True,False,17600.0,3200.0,0.0
+A00696,Tank Slap Riding Academy Denver 4,Riding Academy,AMER,Commercial,AMER-COM-11,19,282,57.8,620,True,9,True,False,83400.0,168300.0,0.0
+A00697,Countersteer Riding Academy Seattle 4,Riding Academy,AMER,Commercial,AMER-COM-11,22,437,13.3,618,True,14,True,False,139800.0,38700.0,0.0
+A00698,Trail Brake Motorcycles Denver 7,Dealership,AMER,Commercial,AMER-COM-11,2,30,3.4,0,False,0,False,False,0.0,0.0,0.0
+A00699,Hairpin Moto School Portland 7,Riding School,AMER,Commercial,AMER-COM-11,3,47,8.9,105,False,0,False,False,0.0,0.0,0.0
+A00700,Kneedown Riding Academy Austin,Riding Academy,AMER,Commercial,AMER-COM-11,13,172,9.0,386,False,0,False,False,0.0,0.0,0.0
+A00701,Redline Riding Academy Sao Paulo 4,Riding Academy,AMER,Commercial,AMER-COM-11,6,65,3.5,249,False,0,False,False,0.0,0.0,0.0
+A00702,Checkered Moto Works Phoenix,Manufacturer,AMER,Commercial,AMER-COM-11,17,296,15.6,0,False,0,False,False,0.0,0.0,0.0
+A00703,Torque Motorcycles Austin 5,Dealership,AMER,Commercial,AMER-COM-11,1,12,0.5,0,False,0,False,False,0.0,0.0,0.0
+A00704,Slipstream Motorcycles Sao Paulo,Dealership,AMER,Commercial,AMER-COM-11,2,20,1.5,0,True,1,True,False,11500.0,4400.0,0.0
+A00705,Pitlane Riding Academy Phoenix,Riding Academy,AMER,Commercial,AMER-COM-11,5,97,2.5,153,False,0,False,False,0.0,0.0,0.0
+A00706,Kneedown Moto School Denver,Riding School,AMER,Commercial,AMER-COM-11,2,36,3.3,42,False,0,False,False,0.0,0.0,0.0
+A00707,Holeshot Moto School Atlanta,Riding School,AMER,Commercial,AMER-COM-11,2,28,1.4,67,False,0,False,False,0.0,0.0,0.0
+A00708,Braking Point Moto School Austin 8,Riding School,AMER,Commercial,AMER-COM-12,1,14,1.6,34,False,0,False,False,0.0,0.0,0.0
+A00709,Tank Slap Sim Center Seattle,Sim Center,AMER,Commercial,AMER-COM-12,12,139,30.3,0,True,11,True,False,112800.0,88200.0,0.0
+A00710,Trail Brake Riding Academy Toronto 4,Riding Academy,AMER,Commercial,AMER-COM-12,16,145,14.7,565,False,0,False,False,0.0,0.0,0.0
+A00711,Checkered Riding Academy Atlanta 4,Riding Academy,AMER,Commercial,AMER-COM-12,17,228,10.8,621,True,12,False,True,139900.0,0.0,52200.0
+A00712,Apex Riding Academy Denver 6,Riding Academy,AMER,Commercial,AMER-COM-12,5,52,4.5,81,True,3,True,False,28000.0,13100.0,0.0
+A00713,Chicane Sim Center Portland,Sim Center,AMER,Commercial,AMER-COM-12,5,55,1.8,0,True,4,False,False,45800.0,0.0,0.0
+A00714,Braking Point Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-12,4,54,5.9,0,False,0,False,False,0.0,0.0,0.0
+A00715,Holeshot Moto School Portland,Riding School,AMER,Commercial,AMER-COM-12,2,25,1.2,56,False,0,False,False,0.0,0.0,0.0
+A00716,Hairpin Motorcycles Phoenix,Dealership,AMER,Commercial,AMER-COM-12,3,18,3.9,0,True,1,False,False,11700.0,0.0,0.0
+A00717,Paddock Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-12,6,63,6.3,147,False,0,False,False,0.0,0.0,0.0
+A00718,Highside Motorcycles Mexico City 3,Dealership,AMER,Commercial,AMER-COM-12,2,38,2.2,0,True,1,False,False,9500.0,0.0,0.0
+A00719,Slipstream Riding Academy Seattle 2,Riding Academy,AMER,Commercial,AMER-COM-12,14,212,18.4,254,True,13,True,False,108300.0,53600.0,0.0
+A00720,Redline Riding Academy Charlotte,Riding Academy,AMER,Commercial,AMER-COM-12,11,125,39.7,230,True,6,False,False,71700.0,0.0,0.0
+A00721,Tank Slap Motorcycles Toronto,Dealership,AMER,Commercial,AMER-COM-12,1,18,0.8,0,True,1,True,False,11400.0,2300.0,0.0
+A00722,Holeshot Motorcycles Sao Paulo,Dealership,AMER,Commercial,AMER-COM-12,1,19,1.6,0,True,1,False,False,10000.0,0.0,0.0
+A00723,Paddock Riding Academy Atlanta,Riding Academy,AMER,Commercial,AMER-COM-12,5,71,6.5,205,False,0,False,False,0.0,0.0,0.0
+A00724,Checkered Racing Seattle 5,Race Team,AMER,Commercial,AMER-COM-12,3,37,1.2,0,False,0,False,False,0.0,0.0,0.0
+A00725,Paddock Sim Center Phoenix 4,Sim Center,AMER,Commercial,AMER-COM-12,11,68,20.2,0,True,5,False,False,42200.0,0.0,0.0
+A00726,Paddock Moto School Monterey 2,Riding School,AMER,Commercial,AMER-COM-12,5,70,22.6,87,False,0,False,False,0.0,0.0,0.0
+A00727,Holeshot Motorcycles Monterey 2,Dealership,AMER,Commercial,AMER-COM-12,3,30,2.2,0,True,2,True,False,17800.0,6400.0,0.0
+A00728,Tank Slap Riding Academy Toronto,Riding Academy,AMER,Commercial,AMER-COM-12,7,66,6.9,124,True,3,False,False,24400.0,0.0,0.0
+A00729,Tank Slap Riding Academy Atlanta 2,Riding Academy,AMER,Commercial,AMER-COM-12,21,303,25.1,535,True,7,False,False,58400.0,0.0,0.0
+A00730,Holeshot Moto School Sao Paulo,Riding School,AMER,Commercial,AMER-COM-12,3,40,2.8,126,False,0,False,False,0.0,0.0,0.0
+A00731,Chicane Motorcycles Charlotte,Dealership,AMER,Commercial,AMER-COM-12,3,39,6.1,0,True,2,False,False,20600.0,0.0,0.0
+A00732,Hairpin Sim Center Mexico City 5,Sim Center,AMER,Commercial,AMER-COM-12,7,128,4.0,0,True,2,True,False,19900.0,11600.0,0.0
+A00733,Chicane Motorcycles Atlanta,Dealership,AMER,Commercial,AMER-COM-12,9,106,13.1,0,True,5,True,False,57900.0,38100.0,0.0
+A00734,Highside Motorcycles Atlanta 5,Dealership,AMER,Commercial,AMER-COM-12,2,22,4.2,0,True,1,True,False,10700.0,12200.0,0.0
+A00735,Holeshot Riding Academy Charlotte 2,Riding Academy,AMER,Commercial,AMER-COM-12,5,86,18.7,170,True,2,True,False,19000.0,54400.0,0.0
+A00736,Rev Limit Motorcycles Mexico City 7,Dealership,AMER,Commercial,AMER-COM-12,6,105,6.3,0,True,4,True,False,41100.0,18300.0,0.0
+A00737,Trail Brake Racing Denver,Race Team,AMER,Commercial,AMER-COM-12,8,122,16.5,0,False,0,False,False,0.0,0.0,0.0
+A00738,Checkered Moto School Atlanta 5,Riding School,AMER,Commercial,AMER-COM-12,4,42,2.7,144,True,1,True,True,12000.0,7900.0,12100.0
+A00739,Throttle Motorcycles Monterey 7,Dealership,AMER,Commercial,AMER-COM-12,4,64,4.1,0,True,3,False,False,36100.0,0.0,0.0
+A00740,Highside Riding Academy Mexico City 7,Riding Academy,AMER,Commercial,AMER-COM-12,15,196,8.4,609,True,9,True,True,106700.0,24500.0,51200.0
+A00741,Braking Point Riding Academy Mexico City,Riding Academy,AMER,Commercial,AMER-COM-12,5,69,5.2,196,False,0,False,False,0.0,0.0,0.0
+A00742,Checkered Riding Academy Charlotte 7,Riding Academy,AMER,Commercial,AMER-COM-12,12,118,19.5,188,False,0,False,False,0.0,0.0,0.0
+A00743,Throttle Moto School Denver,Riding School,AMER,Commercial,AMER-COM-12,4,74,1.4,144,True,3,False,False,27700.0,0.0,0.0
+A00744,Hairpin Riding Academy Monterey,Riding Academy,AMER,Commercial,AMER-COM-12,17,216,9.6,580,True,14,True,False,153700.0,27900.0,0.0
+A00745,Chicane Moto School Austin,Riding School,AMER,Commercial,AMER-COM-12,2,16,2.1,35,False,0,False,False,0.0,0.0,0.0
+A00746,Redline Moto School Phoenix,Riding School,AMER,Commercial,AMER-COM-12,3,45,4.1,80,True,1,True,False,12000.0,11900.0,0.0
+A00747,Apex Moto Works Austin,Manufacturer,AMER,Commercial,AMER-COM-12,8,122,24.8,0,True,6,False,False,62600.0,0.0,0.0
+A00748,Braking Point Motorcycles Denver 5,Dealership,AMER,Commercial,AMER-COM-12,2,24,1.1,0,True,1,False,False,12100.0,0.0,0.0
+A00749,Rev Limit Moto School Sao Paulo 4,Riding School,AMER,Commercial,AMER-COM-12,7,49,2.0,223,False,0,False,False,0.0,0.0,0.0
+A00750,Countersteer Moto School Charlotte,Riding School,AMER,Commercial,AMER-COM-12,5,82,3.1,100,True,3,False,False,26600.0,0.0,0.0
+A00751,Hairpin Moto School Phoenix 2,Riding School,AMER,Commercial,AMER-COM-12,5,86,3.8,167,False,0,False,False,0.0,0.0,0.0
+A00752,Quickshift Sim Center Toronto,Sim Center,AMER,Commercial,AMER-COM-12,12,147,8.7,0,True,6,True,False,59800.0,25300.0,0.0
+A00753,Slipstream Moto School Munich,Riding School,EMEA,Enterprise,EMEA-ENT-01,12,92,15.3,232,True,10,False,False,101600.0,0.0,0.0
+A00754,Apex Moto School Portimao,Riding School,EMEA,Enterprise,EMEA-ENT-01,13,93,27.0,327,False,0,False,False,0.0,0.0,0.0
+A00755,Gridline Riding Academy Portimao,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,41,631,65.4,1597,False,0,False,False,0.0,0.0,0.0
+A00756,Apex Moto School Brno,Riding School,EMEA,Enterprise,EMEA-ENT-01,15,141,20.9,630,False,0,False,False,0.0,0.0,0.0
+A00757,Rev Limit Moto School Mugello,Riding School,EMEA,Enterprise,EMEA-ENT-01,8,124,8.1,127,True,5,False,False,51600.0,0.0,0.0
+A00758,Kneedown Motorcycles Portimao,Dealership,EMEA,Enterprise,EMEA-ENT-01,6,53,6.5,0,True,5,False,False,59500.0,0.0,0.0
+A00759,Throttle Riding Academy Barcelona,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,12,164,11.0,364,False,0,False,False,0.0,0.0,0.0
+A00760,Tank Slap Sim Center Portimao,Sim Center,EMEA,Enterprise,EMEA-ENT-01,19,130,17.6,0,False,0,False,False,0.0,0.0,0.0
+A00761,Paddock Riding Academy Dubai,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,18,291,19.6,503,True,5,False,False,56200.0,0.0,0.0
+A00762,Quickshift Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-01,1,19,1.2,0,True,1,False,False,10900.0,0.0,0.0
+A00763,Tank Slap Moto School Munich,Riding School,EMEA,Enterprise,EMEA-ENT-01,6,92,7.9,164,True,5,False,False,42500.0,0.0,0.0
+A00764,Countersteer Riding Academy Barcelona,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,20,151,33.4,601,True,7,True,False,62600.0,97200.0,0.0
+A00765,Braking Point Motorcycles Brno,Dealership,EMEA,Enterprise,EMEA-ENT-01,10,102,10.3,0,True,4,False,False,43500.0,0.0,0.0
+A00766,Gridline Moto School Portimao,Riding School,EMEA,Enterprise,EMEA-ENT-01,11,214,11.1,184,True,9,True,True,86600.0,32300.0,15500.0
+A00767,Braking Point Riding Academy Mugello,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,14,130,6.4,508,False,0,False,False,0.0,0.0,0.0
+A00768,Torque Racing Silverstone,Race Team,EMEA,Enterprise,EMEA-ENT-01,28,224,48.5,0,False,0,False,False,0.0,0.0,0.0
+A00769,Countersteer Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-01,7,85,13.3,0,True,3,True,False,33000.0,38700.0,0.0
+A00770,Torque Riding Academy Brno,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,27,413,11.9,839,True,11,True,False,124100.0,34600.0,0.0
+A00771,Throttle Riding Academy Munich,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,42,671,30.7,807,False,0,False,False,0.0,0.0,0.0
+A00772,Kneedown Racing Barcelona,Race Team,EMEA,Enterprise,EMEA-ENT-01,11,208,10.8,0,False,0,False,False,0.0,0.0,0.0
+A00773,Apex Sim Center Assen,Sim Center,EMEA,Enterprise,EMEA-ENT-01,15,296,7.3,0,True,4,False,False,33200.0,0.0,0.0
+A00774,Paddock Riding Academy Brno,Riding Academy,EMEA,Enterprise,EMEA-ENT-01,14,136,16.6,238,True,8,True,False,82900.0,48300.0,0.0
+A00775,Wheelie Sim Center Assen,Sim Center,EMEA,Enterprise,EMEA-ENT-01,60,1040,28.8,0,True,59,True,False,710300.0,83800.0,0.0
+A00776,Slipstream Motorcycles Dubai,Dealership,EMEA,Enterprise,EMEA-ENT-01,8,68,4.1,0,True,2,False,False,17800.0,0.0,0.0
+A00777,Torque Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-01,15,230,24.8,0,True,13,False,False,121800.0,0.0,0.0
+A00778,Throttle Motorcycles Brno,Dealership,EMEA,Enterprise,EMEA-ENT-01,12,87,12.5,0,True,10,True,False,100300.0,36400.0,0.0
+A00779,Lean Angle Motorcycles Mugello,Dealership,EMEA,Enterprise,EMEA-ENT-02,17,116,12.3,0,True,14,True,False,156000.0,35800.0,0.0
+A00780,Trail Brake Moto Works Munich,Manufacturer,EMEA,Enterprise,EMEA-ENT-02,92,1399,140.3,0,False,0,False,False,0.0,0.0,0.0
+A00781,Checkered Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-02,8,77,6.6,0,True,7,False,False,83800.0,0.0,0.0
+A00782,Gridline Moto School Brno,Riding School,EMEA,Enterprise,EMEA-ENT-02,4,68,13.7,168,False,0,False,False,0.0,0.0,0.0
+A00783,Rev Limit Moto School Dubai,Riding School,EMEA,Enterprise,EMEA-ENT-02,3,53,3.9,72,False,0,False,False,0.0,0.0,0.0
+A00784,Countersteer Riding Academy Portimao,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,28,454,39.2,988,True,21,True,True,196800.0,114100.0,83100.0
+A00785,Braking Point Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-02,4,29,3.9,0,True,1,False,False,10500.0,0.0,0.0
+A00786,Countersteer Racing Portimao,Race Team,EMEA,Enterprise,EMEA-ENT-02,14,250,9.9,0,False,0,False,False,0.0,0.0,0.0
+A00787,Kneedown Motorcycles Mugello,Dealership,EMEA,Enterprise,EMEA-ENT-02,2,15,2.4,0,False,0,False,False,0.0,0.0,0.0
+A00788,Gridline Motorcycles Assen,Dealership,EMEA,Enterprise,EMEA-ENT-02,9,164,3.9,0,True,4,True,False,40800.0,11400.0,0.0
+A00789,Quickshift Riding Academy Dubai,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,12,138,9.4,261,True,9,False,False,102100.0,0.0,0.0
+A00790,Torque Riding Academy Portimao,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,19,298,24.0,415,False,0,False,False,0.0,0.0,0.0
+A00791,Quickshift Riding Academy Mugello,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,36,618,33.8,686,True,15,False,False,164600.0,0.0,0.0
+A00792,Wheelie Racing Dubai,Race Team,EMEA,Enterprise,EMEA-ENT-02,15,152,5.2,0,True,4,True,False,45200.0,15100.0,0.0
+A00793,Braking Point Riding Academy Le Mans,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,10,190,10.0,197,True,4,False,False,47200.0,0.0,0.0
+A00794,Wheelie Moto School Mugello,Riding School,EMEA,Enterprise,EMEA-ENT-02,8,97,18.7,330,False,0,False,False,0.0,0.0,0.0
+A00795,Slipstream Motorcycles Dubai 7,Dealership,EMEA,Enterprise,EMEA-ENT-02,11,134,9.7,0,False,0,False,False,0.0,0.0,0.0
+A00796,Gridline Moto School Portimao 6,Riding School,EMEA,Enterprise,EMEA-ENT-02,7,95,10.6,268,True,4,False,True,36000.0,0.0,22500.0
+A00797,Redline Moto School Portimao,Riding School,EMEA,Enterprise,EMEA-ENT-02,5,71,6.7,208,True,1,False,True,9700.0,0.0,17500.0
+A00798,Torque Sim Center Silverstone,Sim Center,EMEA,Enterprise,EMEA-ENT-02,72,1141,81.2,0,False,0,False,False,0.0,0.0,0.0
+A00799,Quickshift Motorcycles Le Mans,Dealership,EMEA,Enterprise,EMEA-ENT-02,7,116,9.9,0,True,6,False,False,54600.0,0.0,0.0
+A00800,Torque Sim Center Silverstone 8,Sim Center,EMEA,Enterprise,EMEA-ENT-02,33,574,14.1,0,False,0,False,False,0.0,0.0,0.0
+A00801,Slipstream Riding Academy Dubai,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,24,342,33.1,942,False,0,False,False,0.0,0.0,0.0
+A00802,Chicane Moto Works Brno,Manufacturer,EMEA,Enterprise,EMEA-ENT-02,24,210,27.1,0,True,19,False,False,227700.0,0.0,0.0
+A00803,Chicane Sim Center Silverstone,Sim Center,EMEA,Enterprise,EMEA-ENT-02,20,150,41.7,0,False,0,False,False,0.0,0.0,0.0
+A00804,Apex Riding Academy Valencia,Riding Academy,EMEA,Enterprise,EMEA-ENT-02,12,118,22.2,489,True,4,False,True,48100.0,0.0,41100.0
+A00805,Trail Brake Moto School Brno,Riding School,EMEA,Enterprise,EMEA-ENT-03,7,53,5.1,197,True,3,True,False,32200.0,14800.0,0.0
+A00806,Wheelie Riding Academy Valencia,Riding Academy,EMEA,Enterprise,EMEA-ENT-03,13,250,13.3,246,False,0,False,False,0.0,0.0,0.0
+A00807,Holeshot Moto School Valencia,Riding School,EMEA,Enterprise,EMEA-ENT-03,9,158,9.0,325,True,8,True,False,93700.0,26200.0,0.0
+A00808,Lean Angle Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-03,2,21,3.7,0,True,1,False,False,11400.0,0.0,0.0
+A00809,Paddock Moto School Le Mans,Riding School,EMEA,Enterprise,EMEA-ENT-03,8,120,5.8,171,False,0,False,False,0.0,0.0,0.0
+A00810,Throttle Motorcycles Assen,Dealership,EMEA,Enterprise,EMEA-ENT-03,6,53,3.1,0,True,1,False,False,12000.0,0.0,0.0
+A00811,Highside Motorcycles Mugello,Dealership,EMEA,Enterprise,EMEA-ENT-03,3,35,2.6,0,False,0,False,False,0.0,0.0,0.0
+A00812,Wheelie Riding Academy Brno,Riding Academy,EMEA,Enterprise,EMEA-ENT-03,29,403,30.9,976,True,12,True,False,109100.0,90000.0,0.0
+A00813,Throttle Moto School Valencia,Riding School,EMEA,Enterprise,EMEA-ENT-03,12,182,3.7,302,True,10,False,False,104000.0,0.0,0.0
+A00814,Wheelie Moto Works Munich,Manufacturer,EMEA,Enterprise,EMEA-ENT-03,79,875,69.1,0,True,33,True,False,292300.0,201200.0,0.0
+A00815,Countersteer Motorcycles Mugello,Dealership,EMEA,Enterprise,EMEA-ENT-03,10,189,16.5,0,True,5,False,False,42500.0,0.0,0.0
+A00816,Paddock Motorcycles Assen,Dealership,EMEA,Enterprise,EMEA-ENT-03,9,88,6.4,0,True,4,True,False,37700.0,18600.0,0.0
+A00817,Checkered Riding Academy Mugello,Riding Academy,EMEA,Enterprise,EMEA-ENT-03,11,185,5.9,372,True,5,True,False,41900.0,17200.0,0.0
+A00818,Tank Slap Motorcycles Valencia,Dealership,EMEA,Enterprise,EMEA-ENT-03,10,170,5.3,0,True,4,False,False,42400.0,0.0,0.0
+A00819,Rev Limit Moto Works Le Mans,Manufacturer,EMEA,Enterprise,EMEA-ENT-03,58,649,63.1,0,False,0,False,False,0.0,0.0,0.0
+A00820,Slipstream Riding Academy Brno,Riding Academy,EMEA,Enterprise,EMEA-ENT-03,28,234,22.1,982,True,15,False,False,152600.0,0.0,0.0
+A00821,Kneedown Sim Center Mugello,Sim Center,EMEA,Enterprise,EMEA-ENT-03,31,543,73.2,0,True,17,False,False,174000.0,0.0,0.0
+A00822,Wheelie Motorcycles Brno,Dealership,EMEA,Enterprise,EMEA-ENT-03,7,57,2.6,0,False,0,False,False,0.0,0.0,0.0
+A00823,Kneedown Sim Center Munich,Sim Center,EMEA,Enterprise,EMEA-ENT-03,29,414,28.1,0,False,0,False,False,0.0,0.0,0.0
+A00824,Wheelie Moto School Barcelona,Riding School,EMEA,Enterprise,EMEA-ENT-03,5,63,3.4,149,True,2,False,False,23300.0,0.0,0.0
+A00825,Countersteer Racing Le Mans,Race Team,EMEA,Enterprise,EMEA-ENT-03,16,137,21.7,0,True,5,False,False,42400.0,0.0,0.0
+A00826,Kneedown Sim Center Munich 8,Sim Center,EMEA,Enterprise,EMEA-ENT-03,29,537,22.4,0,True,11,True,False,113000.0,65200.0,0.0
+A00827,Paddock Motorcycles Assen 5,Dealership,EMEA,Enterprise,EMEA-ENT-03,6,58,4.5,0,True,3,False,False,31200.0,0.0,0.0
+A00828,Paddock Riding Academy Mugello,Riding Academy,EMEA,Enterprise,EMEA-ENT-03,28,227,37.8,694,False,0,False,False,0.0,0.0,0.0
+A00829,Highside Riding Academy Valencia,Riding Academy,EMEA,Enterprise,EMEA-ENT-03,18,263,15.6,773,True,12,True,False,110500.0,45400.0,0.0
+A00830,Tank Slap Moto School Barcelona,Riding School,EMEA,Enterprise,EMEA-ENT-03,4,28,2.0,131,True,1,True,False,8600.0,5800.0,0.0
+A00831,Hairpin Sim Center Assen,Sim Center,EMEA,Enterprise,EMEA-ENT-04,29,209,23.7,0,False,0,False,False,0.0,0.0,0.0
+A00832,Paddock Sim Center Barcelona,Sim Center,EMEA,Enterprise,EMEA-ENT-04,29,230,18.3,0,True,17,True,False,151700.0,53300.0,0.0
+A00833,Highside Moto Works Barcelona,Manufacturer,EMEA,Enterprise,EMEA-ENT-04,38,346,30.9,0,True,31,True,False,313800.0,90000.0,0.0
+A00834,Throttle Riding Academy Le Mans,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,13,112,3.8,552,True,7,False,True,61500.0,0.0,46400.0
+A00835,Torque Sim Center Munich,Sim Center,EMEA,Enterprise,EMEA-ENT-04,31,364,14.3,0,True,24,False,False,244000.0,0.0,0.0
+A00836,Pitlane Riding Academy Assen,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,47,912,125.1,1039,True,46,False,False,406900.0,0.0,0.0
+A00837,Hairpin Riding Academy Barcelona,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,54,563,82.7,1206,True,46,True,False,452200.0,240800.0,0.0
+A00838,Lean Angle Moto School Munich,Riding School,EMEA,Enterprise,EMEA-ENT-04,6,36,5.8,174,False,0,False,False,0.0,0.0,0.0
+A00839,Kneedown Motorcycles Brno,Dealership,EMEA,Enterprise,EMEA-ENT-04,5,44,7.6,0,True,2,False,False,19900.0,0.0,0.0
+A00840,Highside Motorcycles Mugello 3,Dealership,EMEA,Enterprise,EMEA-ENT-04,4,46,7.3,0,True,2,False,False,22600.0,0.0,0.0
+A00841,Hairpin Sim Center Dubai,Sim Center,EMEA,Enterprise,EMEA-ENT-04,87,1208,71.5,0,True,49,True,False,497100.0,208200.0,0.0
+A00842,Holeshot Moto School Portimao,Riding School,EMEA,Enterprise,EMEA-ENT-04,4,56,9.5,73,False,0,False,False,0.0,0.0,0.0
+A00843,Tank Slap Motorcycles Brno,Dealership,EMEA,Enterprise,EMEA-ENT-04,3,42,4.7,0,True,1,True,False,11100.0,13700.0,0.0
+A00844,Gridline Moto School Barcelona,Riding School,EMEA,Enterprise,EMEA-ENT-04,12,125,16.7,270,True,7,True,False,57400.0,48600.0,0.0
+A00845,Holeshot Moto School Munich,Riding School,EMEA,Enterprise,EMEA-ENT-04,7,93,15.1,158,True,3,False,False,28600.0,0.0,0.0
+A00846,Torque Riding Academy Silverstone,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,18,274,16.6,290,True,9,False,True,108000.0,0.0,24400.0
+A00847,Gridline Motorcycles Silverstone,Dealership,EMEA,Enterprise,EMEA-ENT-04,6,59,13.9,0,False,0,False,False,0.0,0.0,0.0
+A00848,Highside Moto School Mugello,Riding School,EMEA,Enterprise,EMEA-ENT-04,6,43,5.4,172,True,2,False,False,23500.0,0.0,0.0
+A00849,Apex Moto School Barcelona,Riding School,EMEA,Enterprise,EMEA-ENT-04,11,140,12.7,487,True,8,False,False,91800.0,0.0,0.0
+A00850,Gridline Riding Academy Assen,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,21,270,22.4,589,True,20,True,True,185400.0,65200.0,49500.0
+A00851,Apex Racing Portimao,Race Team,EMEA,Enterprise,EMEA-ENT-04,17,205,10.3,0,False,0,False,False,0.0,0.0,0.0
+A00852,Gridline Riding Academy Barcelona,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,17,225,17.4,299,False,0,False,False,0.0,0.0,0.0
+A00853,Trail Brake Moto School Silverstone,Riding School,EMEA,Enterprise,EMEA-ENT-04,9,156,11.8,340,True,8,False,False,88600.0,0.0,0.0
+A00854,Countersteer Riding Academy Munich,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,46,680,62.4,1826,True,38,True,False,319000.0,181700.0,0.0
+A00855,Countersteer Moto School Assen,Riding School,EMEA,Enterprise,EMEA-ENT-04,12,139,13.1,200,True,5,False,False,58700.0,0.0,0.0
+A00856,Checkered Riding Academy Portimao,Riding Academy,EMEA,Enterprise,EMEA-ENT-04,15,113,12.1,328,False,0,False,False,0.0,0.0,0.0
+A00857,Rev Limit Riding Academy Brno,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,17,103,18.8,289,True,13,False,False,139000.0,0.0,0.0
+A00858,Kneedown Moto School Valencia,Riding School,EMEA,Enterprise,EMEA-ENT-05,5,49,8.9,213,True,1,False,True,10200.0,0.0,17900.0
+A00859,Gridline Racing Mugello,Race Team,EMEA,Enterprise,EMEA-ENT-05,15,105,14.0,0,True,14,False,False,123500.0,0.0,0.0
+A00860,Holeshot Sim Center Silverstone,Sim Center,EMEA,Enterprise,EMEA-ENT-05,49,318,31.4,0,True,17,False,False,158400.0,0.0,0.0
+A00861,Quickshift Moto School Le Mans,Riding School,EMEA,Enterprise,EMEA-ENT-05,9,68,23.3,154,True,8,False,True,69900.0,0.0,13000.0
+A00862,Highside Racing Munich,Race Team,EMEA,Enterprise,EMEA-ENT-05,11,89,31.6,0,True,4,False,False,43600.0,0.0,0.0
+A00863,Gridline Racing Assen,Race Team,EMEA,Enterprise,EMEA-ENT-05,21,335,22.1,0,True,14,False,False,149100.0,0.0,0.0
+A00864,Kneedown Moto School Dubai,Riding School,EMEA,Enterprise,EMEA-ENT-05,8,112,5.9,350,False,0,False,False,0.0,0.0,0.0
+A00865,Tank Slap Motorcycles Munich,Dealership,EMEA,Enterprise,EMEA-ENT-05,4,66,3.1,0,True,3,True,False,28600.0,9000.0,0.0
+A00866,Countersteer Motorcycles Le Mans,Dealership,EMEA,Enterprise,EMEA-ENT-05,3,45,2.0,0,True,2,True,False,18000.0,5800.0,0.0
+A00867,Tank Slap Riding Academy Silverstone,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,33,226,59.6,498,True,24,False,False,209400.0,0.0,0.0
+A00868,Holeshot Riding Academy Assen,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,36,651,93.7,1148,True,18,True,True,199100.0,272800.0,96600.0
+A00869,Tank Slap Riding Academy Silverstone 3,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,16,319,24.5,660,False,0,False,False,0.0,0.0,0.0
+A00870,Rev Limit Motorcycles Le Mans,Dealership,EMEA,Enterprise,EMEA-ENT-05,11,153,7.9,0,False,0,False,False,0.0,0.0,0.0
+A00871,Rev Limit Moto School Dubai 6,Riding School,EMEA,Enterprise,EMEA-ENT-05,11,128,2.4,361,True,9,False,False,80500.0,0.0,0.0
+A00872,Countersteer Riding Academy Dubai,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,16,225,13.0,252,True,5,False,False,40800.0,0.0,0.0
+A00873,Apex Moto School Assen,Riding School,EMEA,Enterprise,EMEA-ENT-05,7,111,3.2,204,True,3,False,False,32700.0,0.0,0.0
+A00874,Chicane Sim Center Brno,Sim Center,EMEA,Enterprise,EMEA-ENT-05,17,156,12.8,0,False,0,False,False,0.0,0.0,0.0
+A00875,Countersteer Moto School Le Mans,Riding School,EMEA,Enterprise,EMEA-ENT-05,17,313,15.3,750,True,16,True,True,188000.0,44500.0,63100.0
+A00876,Lean Angle Motorcycles Assen,Dealership,EMEA,Enterprise,EMEA-ENT-05,2,24,0.9,0,False,0,False,False,0.0,0.0,0.0
+A00877,Throttle Riding Academy Silverstone,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,33,253,48.3,843,False,0,False,False,0.0,0.0,0.0
+A00878,Hairpin Motorcycles Barcelona,Dealership,EMEA,Enterprise,EMEA-ENT-05,10,71,6.4,0,False,0,False,False,0.0,0.0,0.0
+A00879,Trail Brake Riding Academy Brno,Riding Academy,EMEA,Enterprise,EMEA-ENT-05,73,665,78.8,2648,True,66,False,True,622200.0,0.0,222700.0
+A00880,Braking Point Sim Center Le Mans,Sim Center,EMEA,Enterprise,EMEA-ENT-05,20,277,30.0,0,True,19,True,False,225300.0,87300.0,0.0
+A00881,Pitlane Motorcycles Valencia,Dealership,EMEA,Enterprise,EMEA-ENT-05,5,45,1.2,0,True,1,True,False,8700.0,3500.0,0.0
+A00882,Apex Sim Center Assen 5,Sim Center,EMEA,Enterprise,EMEA-ENT-05,60,580,148.4,0,True,40,True,False,460100.0,432000.0,0.0
+A00883,Torque Sim Center Dubai,Sim Center,EMEA,Commercial,EMEA-COM-01,10,113,19.7,0,False,0,False,False,0.0,0.0,0.0
+A00884,Trail Brake Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-01,1,13,0.3,0,True,1,False,False,10500.0,0.0,0.0
+A00885,Checkered Moto Works Assen,Manufacturer,EMEA,Commercial,EMEA-COM-01,25,390,9.3,0,False,0,False,False,0.0,0.0,0.0
+A00886,Trail Brake Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-01,13,91,8.4,275,True,8,False,True,79400.0,0.0,23100.0
+A00887,Torque Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-01,3,23,4.9,76,False,0,False,False,0.0,0.0,0.0
+A00888,Highside Moto School Le Mans,Riding School,EMEA,Commercial,EMEA-COM-01,3,51,1.4,97,True,2,False,False,22200.0,0.0,0.0
+A00889,Paddock Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-01,6,77,4.4,243,False,0,False,False,0.0,0.0,0.0
+A00890,Tank Slap Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-01,3,54,4.5,99,True,1,True,False,9400.0,13100.0,0.0
+A00891,Holeshot Moto School Le Mans,Riding School,EMEA,Commercial,EMEA-COM-01,3,54,8.6,48,False,0,False,False,0.0,0.0,0.0
+A00892,Hairpin Motorcycles Assen,Dealership,EMEA,Commercial,EMEA-COM-01,2,32,1.6,0,True,1,False,False,8800.0,0.0,0.0
+A00893,Wheelie Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-01,15,92,15.2,303,True,13,True,True,136300.0,44300.0,25500.0
+A00894,Gridline Motorcycles Brno,Dealership,EMEA,Commercial,EMEA-COM-01,7,124,6.1,0,True,2,True,False,16800.0,17800.0,0.0
+A00895,Redline Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-01,2,36,2.0,36,False,0,False,False,0.0,0.0,0.0
+A00896,Wheelie Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-01,1,11,0.6,0,True,1,True,False,11400.0,1700.0,0.0
+A00897,Apex Riding Academy Valencia 5,Riding Academy,EMEA,Commercial,EMEA-COM-01,11,165,20.0,301,True,6,False,False,58700.0,0.0,0.0
+A00898,Kneedown Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-01,5,59,8.2,186,False,0,False,False,0.0,0.0,0.0
+A00899,Checkered Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-01,2,32,2.9,0,False,0,False,False,0.0,0.0,0.0
+A00900,Holeshot Sim Center Silverstone 8,Sim Center,EMEA,Commercial,EMEA-COM-01,17,227,9.2,0,True,16,False,False,147600.0,0.0,0.0
+A00901,Rev Limit Racing Le Mans,Race Team,EMEA,Commercial,EMEA-COM-01,3,38,1.9,0,True,2,False,False,18100.0,0.0,0.0
+A00902,Paddock Moto School Brno,Riding School,EMEA,Commercial,EMEA-COM-01,7,111,8.4,216,True,3,True,False,31300.0,24500.0,0.0
+A00903,Trail Brake Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-01,7,115,5.3,126,True,5,False,False,48000.0,0.0,0.0
+A00904,Throttle Racing Portimao,Race Team,EMEA,Commercial,EMEA-COM-01,3,35,1.3,0,True,1,True,False,11400.0,3800.0,0.0
+A00905,Kneedown Moto School Mugello,Riding School,EMEA,Commercial,EMEA-COM-01,4,42,2.2,178,False,0,False,False,0.0,0.0,0.0
+A00906,Highside Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-01,2,35,1.4,34,True,1,False,False,10600.0,0.0,0.0
+A00907,Wheelie Sim Center Mugello,Sim Center,EMEA,Commercial,EMEA-COM-01,7,129,5.3,0,True,2,False,False,18500.0,0.0,0.0
+A00908,Gridline Motorcycles Brno 4,Dealership,EMEA,Commercial,EMEA-COM-01,2,37,2.5,0,False,0,False,False,0.0,0.0,0.0
+A00909,Rev Limit Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-01,1,12,0.8,20,True,1,False,True,8400.0,0.0,1700.0
+A00910,Tank Slap Moto School Assen,Riding School,EMEA,Commercial,EMEA-COM-01,3,23,3.4,105,False,0,False,False,0.0,0.0,0.0
+A00911,Apex Sim Center Barcelona,Sim Center,EMEA,Commercial,EMEA-COM-01,26,354,16.7,0,True,25,False,False,298100.0,0.0,0.0
+A00912,Gridline Moto School Brno 4,Riding School,EMEA,Commercial,EMEA-COM-01,10,94,3.9,227,False,0,False,False,0.0,0.0,0.0
+A00913,Checkered Moto School Mugello,Riding School,EMEA,Commercial,EMEA-COM-01,1,11,1.9,25,True,1,False,True,11600.0,0.0,2100.0
+A00914,Checkered Racing Barcelona,Race Team,EMEA,Commercial,EMEA-COM-01,3,20,3.2,0,False,0,False,False,0.0,0.0,0.0
+A00915,Gridline Moto School Brno 7,Riding School,EMEA,Commercial,EMEA-COM-01,5,77,5.4,108,True,2,True,False,19400.0,15700.0,0.0
+A00916,Countersteer Racing Assen,Race Team,EMEA,Commercial,EMEA-COM-01,5,93,11.1,0,False,0,False,False,0.0,0.0,0.0
+A00917,Checkered Moto School Assen,Riding School,EMEA,Commercial,EMEA-COM-01,1,9,0.3,34,True,1,False,True,9000.0,0.0,2900.0
+A00918,Wheelie Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-01,6,116,5.8,113,False,0,False,False,0.0,0.0,0.0
+A00919,Slipstream Sim Center Munich,Sim Center,EMEA,Commercial,EMEA-COM-01,6,101,20.3,0,True,4,False,False,38700.0,0.0,0.0
+A00920,Chicane Racing Le Mans,Race Team,EMEA,Commercial,EMEA-COM-01,5,37,4.2,0,False,0,False,False,0.0,0.0,0.0
+A00921,Rev Limit Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-01,9,135,4.3,315,False,0,False,False,0.0,0.0,0.0
+A00922,Redline Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-01,10,134,16.2,191,True,6,False,False,70500.0,0.0,0.0
+A00923,Pitlane Sim Center Assen,Sim Center,EMEA,Commercial,EMEA-COM-01,18,279,29.1,0,True,15,False,False,179700.0,0.0,0.0
+A00924,Pitlane Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-01,5,89,7.1,0,True,1,False,False,8400.0,0.0,0.0
+A00925,Gridline Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-01,1,11,1.2,0,False,0,False,False,0.0,0.0,0.0
+A00926,Quickshift Motorcycles Mugello,Dealership,EMEA,Commercial,EMEA-COM-01,2,38,2.5,0,True,1,True,False,9500.0,7300.0,0.0
+A00927,Throttle Motorcycles Brno 2,Dealership,EMEA,Commercial,EMEA-COM-01,4,40,9.0,0,False,0,False,False,0.0,0.0,0.0
+A00928,Pitlane Moto Works Le Mans,Manufacturer,EMEA,Commercial,EMEA-COM-02,37,513,24.8,0,True,30,False,False,346400.0,0.0,0.0
+A00929,Slipstream Moto Works Barcelona,Manufacturer,EMEA,Commercial,EMEA-COM-02,22,253,16.0,0,True,16,False,False,192200.0,0.0,0.0
+A00930,Lean Angle Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-02,5,51,5.6,124,True,2,True,False,17700.0,16300.0,0.0
+A00931,Countersteer Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-02,4,28,2.8,0,True,1,False,False,10100.0,0.0,0.0
+A00932,Apex Moto School Assen 7,Riding School,EMEA,Commercial,EMEA-COM-02,3,31,7.0,64,True,1,False,False,11500.0,0.0,0.0
+A00933,Rev Limit Sim Center Portimao,Sim Center,EMEA,Commercial,EMEA-COM-02,11,136,9.1,0,True,7,True,False,80300.0,26500.0,0.0
+A00934,Lean Angle Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-02,11,127,11.2,490,True,5,False,True,46400.0,0.0,41200.0
+A00935,Chicane Motorcycles Le Mans,Dealership,EMEA,Commercial,EMEA-COM-02,2,21,1.1,0,False,0,False,False,0.0,0.0,0.0
+A00936,Wheelie Racing Silverstone,Race Team,EMEA,Commercial,EMEA-COM-02,6,68,3.6,0,False,0,False,False,0.0,0.0,0.0
+A00937,Highside Moto Works Munich,Manufacturer,EMEA,Commercial,EMEA-COM-02,24,273,29.3,0,False,0,False,False,0.0,0.0,0.0
+A00938,Pitlane Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-02,2,36,1.1,79,False,0,False,False,0.0,0.0,0.0
+A00939,Kneedown Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-02,10,69,12.0,320,False,0,False,False,0.0,0.0,0.0
+A00940,Throttle Moto School Brno,Riding School,EMEA,Commercial,EMEA-COM-02,1,8,0.4,25,False,0,False,False,0.0,0.0,0.0
+A00941,Gridline Racing Mugello 4,Race Team,EMEA,Commercial,EMEA-COM-02,3,25,1.7,0,False,0,False,False,0.0,0.0,0.0
+A00942,Lean Angle Moto School Dubai 4,Riding School,EMEA,Commercial,EMEA-COM-02,3,34,1.7,54,False,0,False,False,0.0,0.0,0.0
+A00943,Paddock Riding Academy Mugello 7,Riding Academy,EMEA,Commercial,EMEA-COM-02,17,249,12.2,623,True,7,False,False,75400.0,0.0,0.0
+A00944,Rev Limit Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-02,1,15,1.1,0,False,0,False,False,0.0,0.0,0.0
+A00945,Redline Motorcycles Valencia,Dealership,EMEA,Commercial,EMEA-COM-02,7,50,4.1,0,False,0,False,False,0.0,0.0,0.0
+A00946,Holeshot Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-02,3,23,4.5,0,True,1,False,False,8500.0,0.0,0.0
+A00947,Countersteer Racing Assen 2,Race Team,EMEA,Commercial,EMEA-COM-02,11,181,11.5,0,False,0,False,False,0.0,0.0,0.0
+A00948,Tank Slap Riding Academy Dubai,Riding Academy,EMEA,Commercial,EMEA-COM-02,9,122,19.0,265,True,4,False,False,46300.0,0.0,0.0
+A00949,Torque Moto School Assen,Riding School,EMEA,Commercial,EMEA-COM-02,3,47,3.2,67,True,1,False,False,8100.0,0.0,0.0
+A00950,Holeshot Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-02,21,354,18.2,698,False,0,False,False,0.0,0.0,0.0
+A00951,Quickshift Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-02,7,126,10.1,257,False,0,False,False,0.0,0.0,0.0
+A00952,Paddock Riding Academy Brno 3,Riding Academy,EMEA,Commercial,EMEA-COM-02,5,56,9.7,176,True,2,True,True,21700.0,28200.0,14800.0
+A00953,Apex Moto School Barcelona 8,Riding School,EMEA,Commercial,EMEA-COM-02,2,33,1.5,58,True,1,False,False,9500.0,0.0,0.0
+A00954,Highside Moto School Assen,Riding School,EMEA,Commercial,EMEA-COM-02,2,23,2.9,31,False,0,False,False,0.0,0.0,0.0
+A00955,Hairpin Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-02,6,52,3.5,210,True,4,False,False,41200.0,0.0,0.0
+A00956,Wheelie Racing Assen,Race Team,EMEA,Commercial,EMEA-COM-02,4,43,1.8,0,False,0,False,False,0.0,0.0,0.0
+A00957,Tank Slap Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-02,1,16,0.7,0,True,1,False,False,10200.0,0.0,0.0
+A00958,Pitlane Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-02,10,61,4.4,248,True,3,False,False,25500.0,0.0,0.0
+A00959,Hairpin Riding Academy Mugello,Riding Academy,EMEA,Commercial,EMEA-COM-02,10,179,2.2,227,True,3,False,False,30200.0,0.0,0.0
+A00960,Gridline Motorcycles Dubai,Dealership,EMEA,Commercial,EMEA-COM-02,2,27,1.4,0,True,1,False,False,10000.0,0.0,0.0
+A00961,Highside Riding Academy Valencia 6,Riding Academy,EMEA,Commercial,EMEA-COM-02,7,126,9.3,155,True,6,True,False,50500.0,27100.0,0.0
+A00962,Highside Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-02,5,76,7.3,134,False,0,False,False,0.0,0.0,0.0
+A00963,Countersteer Moto School Le Mans 5,Riding School,EMEA,Commercial,EMEA-COM-02,4,75,4.8,114,True,3,True,False,33000.0,14000.0,0.0
+A00964,Tank Slap Moto School Valencia,Riding School,EMEA,Commercial,EMEA-COM-02,6,108,4.0,100,False,0,False,False,0.0,0.0,0.0
+A00965,Redline Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-02,3,26,4.1,93,True,1,False,True,8500.0,0.0,7800.0
+A00966,Chicane Riding Academy Mugello,Riding Academy,EMEA,Commercial,EMEA-COM-02,9,63,12.1,240,False,0,False,False,0.0,0.0,0.0
+A00967,Braking Point Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-02,2,30,1.2,65,True,1,False,False,9300.0,0.0,0.0
+A00968,Apex Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-02,6,71,8.0,166,True,3,True,False,32900.0,23300.0,0.0
+A00969,Quickshift Moto School Portimao,Riding School,EMEA,Commercial,EMEA-COM-02,5,87,2.8,214,False,0,False,False,0.0,0.0,0.0
+A00970,Rev Limit Moto School Portimao,Riding School,EMEA,Commercial,EMEA-COM-02,5,70,9.2,144,False,0,False,False,0.0,0.0,0.0
+A00971,Paddock Sim Center Brno,Sim Center,EMEA,Commercial,EMEA-COM-02,13,100,10.2,0,True,5,True,False,43900.0,29700.0,0.0
+A00972,Torque Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-02,2,30,2.6,0,True,1,True,False,9500.0,7600.0,0.0
+A00973,Tank Slap Riding Academy Munich,Riding Academy,EMEA,Commercial,EMEA-COM-03,16,235,9.3,529,True,12,True,True,100600.0,27100.0,44500.0
+A00974,Apex Riding Academy Valencia 8,Riding Academy,EMEA,Commercial,EMEA-COM-03,10,196,11.3,252,True,4,False,True,32400.0,0.0,21200.0
+A00975,Redline Motorcycles Silverstone,Dealership,EMEA,Commercial,EMEA-COM-03,1,9,1.9,0,True,1,False,False,9200.0,0.0,0.0
+A00976,Countersteer Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-03,5,60,4.7,116,True,2,False,True,17300.0,0.0,9800.0
+A00977,Lean Angle Motorcycles Brno,Dealership,EMEA,Commercial,EMEA-COM-03,3,58,4.0,0,False,0,False,False,0.0,0.0,0.0
+A00978,Chicane Moto School Portimao,Riding School,EMEA,Commercial,EMEA-COM-03,4,69,2.1,150,False,0,False,False,0.0,0.0,0.0
+A00979,Rev Limit Motorcycles Le Mans 3,Dealership,EMEA,Commercial,EMEA-COM-03,4,57,6.7,0,True,3,False,False,34600.0,0.0,0.0
+A00980,Gridline Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-03,12,124,6.6,387,True,11,False,False,96300.0,0.0,0.0
+A00981,Rev Limit Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-03,16,200,25.1,323,False,0,False,False,0.0,0.0,0.0
+A00982,Holeshot Riding Academy Portimao 2,Riding Academy,EMEA,Commercial,EMEA-COM-03,10,184,4.8,155,False,0,False,False,0.0,0.0,0.0
+A00983,Braking Point Racing Le Mans,Race Team,EMEA,Commercial,EMEA-COM-03,3,52,1.8,0,True,2,False,False,16300.0,0.0,0.0
+A00984,Apex Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-03,7,77,5.6,186,True,5,True,False,52800.0,16300.0,0.0
+A00985,Trail Brake Sim Center Barcelona,Sim Center,EMEA,Commercial,EMEA-COM-03,48,657,103.7,0,True,16,True,False,149600.0,301900.0,0.0
+A00986,Checkered Riding Academy Dubai,Riding Academy,EMEA,Commercial,EMEA-COM-03,17,276,52.5,264,True,16,False,False,136600.0,0.0,0.0
+A00987,Paddock Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-03,10,180,13.5,368,False,0,False,False,0.0,0.0,0.0
+A00988,Chicane Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-03,7,72,15.8,314,False,0,False,False,0.0,0.0,0.0
+A00989,Redline Motorcycles Assen,Dealership,EMEA,Commercial,EMEA-COM-03,2,39,2.6,0,False,0,False,False,0.0,0.0,0.0
+A00990,Torque Riding Academy Munich,Riding Academy,EMEA,Commercial,EMEA-COM-03,10,94,7.2,376,True,8,True,False,92600.0,21000.0,0.0
+A00991,Wheelie Racing Portimao,Race Team,EMEA,Commercial,EMEA-COM-03,9,91,12.2,0,True,5,False,False,46300.0,0.0,0.0
+A00992,Slipstream Moto Works Assen,Manufacturer,EMEA,Commercial,EMEA-COM-03,18,309,27.5,0,True,13,False,False,143000.0,0.0,0.0
+A00993,Tank Slap Racing Valencia,Race Team,EMEA,Commercial,EMEA-COM-03,6,63,5.8,0,True,3,False,False,35000.0,0.0,0.0
+A00994,Wheelie Sim Center Valencia,Sim Center,EMEA,Commercial,EMEA-COM-03,12,90,4.6,0,False,0,False,False,0.0,0.0,0.0
+A00995,Hairpin Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-03,3,58,3.1,0,True,1,True,False,11100.0,9000.0,0.0
+A00996,Torque Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-03,2,29,8.0,48,True,1,False,False,10200.0,0.0,0.0
+A00997,Wheelie Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-03,13,128,15.3,563,False,0,False,False,0.0,0.0,0.0
+A00998,Tank Slap Moto School Brno,Riding School,EMEA,Commercial,EMEA-COM-03,11,155,16.6,464,False,0,False,False,0.0,0.0,0.0
+A00999,Paddock Sim Center Barcelona 6,Sim Center,EMEA,Commercial,EMEA-COM-03,15,97,35.7,0,True,12,False,False,130600.0,0.0,0.0
+A01000,Checkered Sim Center Assen,Sim Center,EMEA,Commercial,EMEA-COM-03,10,88,9.7,0,True,8,False,False,64900.0,0.0,0.0
+A01001,Holeshot Sim Center Dubai,Sim Center,EMEA,Commercial,EMEA-COM-03,7,45,4.1,0,False,0,False,False,0.0,0.0,0.0
+A01002,Torque Moto School Assen 4,Riding School,EMEA,Commercial,EMEA-COM-03,2,18,8.6,63,True,1,False,False,11600.0,0.0,0.0
+A01003,Redline Riding Academy Munich,Riding Academy,EMEA,Commercial,EMEA-COM-03,14,202,15.2,491,False,0,False,False,0.0,0.0,0.0
+A01004,Slipstream Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-03,7,46,10.2,145,True,6,True,True,62800.0,29700.0,12200.0
+A01005,Slipstream Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-03,7,126,6.8,138,True,4,False,True,42600.0,0.0,11600.0
+A01006,Paddock Racing Assen,Race Team,EMEA,Commercial,EMEA-COM-03,6,110,9.9,0,True,2,False,False,21400.0,0.0,0.0
+A01007,Slipstream Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-03,9,172,17.9,158,True,7,True,True,84200.0,52100.0,13300.0
+A01008,Braking Point Motorcycles Silverstone 8,Dealership,EMEA,Commercial,EMEA-COM-03,1,12,0.3,0,True,1,False,False,8400.0,0.0,0.0
+A01009,Paddock Riding Academy Brno 8,Riding Academy,EMEA,Commercial,EMEA-COM-03,12,82,8.5,200,True,4,False,False,33300.0,0.0,0.0
+A01010,Throttle Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-03,2,22,1.1,56,True,1,True,False,9100.0,3200.0,0.0
+A01011,Trail Brake Sim Center Silverstone,Sim Center,EMEA,Commercial,EMEA-COM-03,5,93,6.1,0,True,2,False,False,18100.0,0.0,0.0
+A01012,Countersteer Sim Center Le Mans,Sim Center,EMEA,Commercial,EMEA-COM-03,14,120,9.3,0,True,12,False,False,127600.0,0.0,0.0
+A01013,Rev Limit Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-03,3,23,3.2,128,True,2,True,False,19500.0,9300.0,0.0
+A01014,Rev Limit Moto School Mugello 5,Riding School,EMEA,Commercial,EMEA-COM-03,3,33,7.3,62,False,0,False,False,0.0,0.0,0.0
+A01015,Trail Brake Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-03,14,181,19.0,414,False,0,False,False,0.0,0.0,0.0
+A01016,Rev Limit Racing Portimao,Race Team,EMEA,Commercial,EMEA-COM-03,22,352,9.9,0,False,0,False,False,0.0,0.0,0.0
+A01017,Gridline Riding Academy Portimao 2,Riding Academy,EMEA,Commercial,EMEA-COM-03,5,41,3.9,218,True,2,True,False,22200.0,11400.0,0.0
+A01018,Wheelie Riding Academy Portimao 3,Riding Academy,EMEA,Commercial,EMEA-COM-04,15,250,6.5,443,True,4,True,False,36700.0,18900.0,0.0
+A01019,Highside Racing Mugello,Race Team,EMEA,Commercial,EMEA-COM-04,4,51,4.1,0,False,0,False,False,0.0,0.0,0.0
+A01020,Chicane Motorcycles Le Mans 4,Dealership,EMEA,Commercial,EMEA-COM-04,4,53,3.1,0,True,3,False,False,31700.0,0.0,0.0
+A01021,Trail Brake Racing Assen,Race Team,EMEA,Commercial,EMEA-COM-04,6,114,29.4,0,False,0,False,False,0.0,0.0,0.0
+A01022,Pitlane Motorcycles Brno,Dealership,EMEA,Commercial,EMEA-COM-04,2,22,1.2,0,True,1,False,False,8300.0,0.0,0.0
+A01023,Lean Angle Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-04,4,57,1.0,76,True,2,False,False,20600.0,0.0,0.0
+A01024,Paddock Motorcycles Brno,Dealership,EMEA,Commercial,EMEA-COM-04,2,35,5.5,0,True,1,True,False,10500.0,16000.0,0.0
+A01025,Braking Point Sim Center Le Mans 5,Sim Center,EMEA,Commercial,EMEA-COM-04,12,94,18.7,0,False,0,False,False,0.0,0.0,0.0
+A01026,Slipstream Moto School Le Mans,Riding School,EMEA,Commercial,EMEA-COM-04,2,17,1.8,77,False,0,False,False,0.0,0.0,0.0
+A01027,Holeshot Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-04,15,175,31.8,614,True,7,True,False,57700.0,92600.0,0.0
+A01028,Paddock Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-04,8,59,11.8,0,False,0,False,False,0.0,0.0,0.0
+A01029,Tank Slap Moto Works Assen,Manufacturer,EMEA,Commercial,EMEA-COM-04,18,140,14.9,0,False,0,False,False,0.0,0.0,0.0
+A01030,Chicane Racing Mugello,Race Team,EMEA,Commercial,EMEA-COM-04,11,145,9.4,0,True,9,False,False,87000.0,0.0,0.0
+A01031,Paddock Motorcycles Dubai,Dealership,EMEA,Commercial,EMEA-COM-04,1,10,1.4,0,False,0,False,False,0.0,0.0,0.0
+A01032,Hairpin Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-04,11,127,14.5,316,False,0,False,False,0.0,0.0,0.0
+A01033,Highside Sim Center Silverstone,Sim Center,EMEA,Commercial,EMEA-COM-04,3,39,2.5,0,True,1,False,False,11000.0,0.0,0.0
+A01034,Torque Riding Academy Dubai,Riding Academy,EMEA,Commercial,EMEA-COM-04,20,170,19.5,765,True,19,False,False,214900.0,0.0,0.0
+A01035,Gridline Riding Academy Barcelona 2,Riding Academy,EMEA,Commercial,EMEA-COM-04,8,90,7.9,351,True,5,False,False,59600.0,0.0,0.0
+A01036,Hairpin Riding Academy Mugello 7,Riding Academy,EMEA,Commercial,EMEA-COM-04,4,67,7.0,114,True,3,False,True,31100.0,0.0,9600.0
+A01037,Gridline Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-04,7,117,3.9,0,False,0,False,False,0.0,0.0,0.0
+A01038,Chicane Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-04,11,101,18.8,352,False,0,False,False,0.0,0.0,0.0
+A01039,Torque Riding Academy Munich 5,Riding Academy,EMEA,Commercial,EMEA-COM-04,8,88,17.5,131,False,0,False,False,0.0,0.0,0.0
+A01040,Quickshift Moto School Dubai,Riding School,EMEA,Commercial,EMEA-COM-04,4,73,4.5,66,False,0,False,False,0.0,0.0,0.0
+A01041,Chicane Moto School Mugello,Riding School,EMEA,Commercial,EMEA-COM-04,3,18,5.8,118,True,2,True,True,23000.0,16900.0,9900.0
+A01042,Quickshift Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-04,8,89,4.7,148,True,4,True,False,35900.0,13700.0,0.0
+A01043,Trail Brake Moto School Portimao,Riding School,EMEA,Commercial,EMEA-COM-04,3,42,1.9,75,False,0,False,False,0.0,0.0,0.0
+A01044,Holeshot Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-04,3,30,2.6,78,True,1,False,False,12000.0,0.0,0.0
+A01045,Braking Point Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-04,11,198,17.0,310,True,7,False,False,66200.0,0.0,0.0
+A01046,Countersteer Racing Valencia,Race Team,EMEA,Commercial,EMEA-COM-04,10,160,12.7,0,True,9,False,False,83400.0,0.0,0.0
+A01047,Pitlane Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-04,43,719,22.7,775,False,0,False,False,0.0,0.0,0.0
+A01048,Countersteer Sim Center Mugello,Sim Center,EMEA,Commercial,EMEA-COM-04,28,529,21.7,0,True,22,False,False,187500.0,0.0,0.0
+A01049,Checkered Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-04,2,33,0.3,36,False,0,False,False,0.0,0.0,0.0
+A01050,Holeshot Riding Academy Munich,Riding Academy,EMEA,Commercial,EMEA-COM-04,15,281,17.9,226,True,6,False,True,63900.0,0.0,19000.0
+A01051,Redline Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-04,11,144,27.5,247,True,5,False,False,58800.0,0.0,0.0
+A01052,Kneedown Motorcycles Mugello 5,Dealership,EMEA,Commercial,EMEA-COM-04,4,77,4.1,0,True,2,False,False,16700.0,0.0,0.0
+A01053,Kneedown Riding Academy Mugello,Riding Academy,EMEA,Commercial,EMEA-COM-04,19,307,19.2,328,True,18,False,False,203300.0,0.0,0.0
+A01054,Countersteer Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-04,7,87,7.9,178,True,4,True,False,34800.0,23000.0,0.0
+A01055,Torque Moto School Munich 8,Riding School,EMEA,Commercial,EMEA-COM-04,4,51,1.5,152,True,3,False,False,30800.0,0.0,0.0
+A01056,Throttle Moto School Brno 7,Riding School,EMEA,Commercial,EMEA-COM-04,1,14,0.9,44,True,1,False,False,9300.0,0.0,0.0
+A01057,Redline Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-04,5,71,4.6,182,True,2,True,False,17500.0,13400.0,0.0
+A01058,Tank Slap Motorcycles Brno 3,Dealership,EMEA,Commercial,EMEA-COM-04,2,32,1.1,0,False,0,False,False,0.0,0.0,0.0
+A01059,Throttle Motorcycles Silverstone,Dealership,EMEA,Commercial,EMEA-COM-04,2,33,2.0,0,True,1,False,False,10500.0,0.0,0.0
+A01060,Holeshot Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-04,5,73,9.8,216,True,2,False,False,16900.0,0.0,0.0
+A01061,Pitlane Riding Academy Barcelona 2,Riding Academy,EMEA,Commercial,EMEA-COM-04,10,139,6.3,445,True,5,True,True,45100.0,18300.0,37400.0
+A01062,Paddock Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-04,6,88,2.1,213,False,0,False,False,0.0,0.0,0.0
+A01063,Slipstream Riding Academy Mugello,Riding Academy,EMEA,Commercial,EMEA-COM-05,18,199,13.6,680,True,11,True,False,108800.0,39600.0,0.0
+A01064,Chicane Moto School Brno,Riding School,EMEA,Commercial,EMEA-COM-05,6,87,6.0,269,True,4,False,False,47300.0,0.0,0.0
+A01065,Countersteer Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-05,9,176,5.7,201,True,4,False,True,37500.0,0.0,16900.0
+A01066,Holeshot Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-05,13,199,12.7,409,True,6,False,False,72100.0,0.0,0.0
+A01067,Wheelie Moto Works Portimao,Manufacturer,EMEA,Commercial,EMEA-COM-05,27,231,38.8,0,True,16,False,False,152800.0,0.0,0.0
+A01068,Throttle Sim Center Assen,Sim Center,EMEA,Commercial,EMEA-COM-05,9,145,14.3,0,True,6,True,False,49700.0,41600.0,0.0
+A01069,Braking Point Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-05,9,78,12.7,202,True,4,True,True,37400.0,37000.0,17000.0
+A01070,Wheelie Racing Barcelona,Race Team,EMEA,Commercial,EMEA-COM-05,3,36,4.5,0,True,2,False,False,18300.0,0.0,0.0
+A01071,Redline Motorcycles Silverstone 8,Dealership,EMEA,Commercial,EMEA-COM-05,7,113,8.7,0,False,0,False,False,0.0,0.0,0.0
+A01072,Slipstream Riding Academy Le Mans 5,Riding Academy,EMEA,Commercial,EMEA-COM-05,11,130,12.6,183,True,3,False,False,29500.0,0.0,0.0
+A01073,Slipstream Moto School Munich 3,Riding School,EMEA,Commercial,EMEA-COM-05,3,42,6.0,126,False,0,False,False,0.0,0.0,0.0
+A01074,Holeshot Motorcycles Silverstone,Dealership,EMEA,Commercial,EMEA-COM-05,4,67,6.1,0,False,0,False,False,0.0,0.0,0.0
+A01075,Chicane Moto Works Le Mans,Manufacturer,EMEA,Commercial,EMEA-COM-05,38,557,28.3,0,True,26,False,False,224200.0,0.0,0.0
+A01076,Throttle Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-05,8,111,6.2,167,False,0,False,False,0.0,0.0,0.0
+A01077,Kneedown Sim Center Munich 6,Sim Center,EMEA,Commercial,EMEA-COM-05,6,104,7.7,0,True,3,True,False,31400.0,22400.0,0.0
+A01078,Paddock Moto Works Le Mans,Manufacturer,EMEA,Commercial,EMEA-COM-05,53,381,29.6,0,True,30,True,False,281000.0,86200.0,0.0
+A01079,Gridline Moto School Munich,Riding School,EMEA,Commercial,EMEA-COM-05,1,11,1.1,44,False,0,False,False,0.0,0.0,0.0
+A01080,Countersteer Racing Dubai,Race Team,EMEA,Commercial,EMEA-COM-05,6,84,4.0,0,True,5,False,False,42900.0,0.0,0.0
+A01081,Countersteer Riding Academy Barcelona 6,Riding Academy,EMEA,Commercial,EMEA-COM-05,12,149,14.2,401,False,0,False,False,0.0,0.0,0.0
+A01082,Countersteer Sim Center Silverstone,Sim Center,EMEA,Commercial,EMEA-COM-05,16,184,38.1,0,False,0,False,False,0.0,0.0,0.0
+A01083,Holeshot Moto School Le Mans 3,Riding School,EMEA,Commercial,EMEA-COM-05,4,77,1.8,107,True,1,False,False,9200.0,0.0,0.0
+A01084,Throttle Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-05,9,129,11.4,255,False,0,False,False,0.0,0.0,0.0
+A01085,Apex Moto School Dubai 3,Riding School,EMEA,Commercial,EMEA-COM-05,2,12,3.8,44,True,1,True,False,11200.0,11100.0,0.0
+A01086,Lean Angle Riding Academy Portimao,Riding Academy,EMEA,Commercial,EMEA-COM-05,16,197,15.1,498,False,0,False,False,0.0,0.0,0.0
+A01087,Checkered Racing Dubai,Race Team,EMEA,Commercial,EMEA-COM-05,4,29,2.8,0,True,1,True,False,11600.0,8200.0,0.0
+A01088,Countersteer Racing Valencia 8,Race Team,EMEA,Commercial,EMEA-COM-05,2,26,1.0,0,False,0,False,False,0.0,0.0,0.0
+A01089,Throttle Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-05,3,58,1.9,46,False,0,False,False,0.0,0.0,0.0
+A01090,Wheelie Riding Academy Portimao 7,Riding Academy,EMEA,Commercial,EMEA-COM-05,15,161,25.5,507,True,6,False,True,50200.0,0.0,42600.0
+A01091,Quickshift Riding Academy Portimao 8,Riding Academy,EMEA,Commercial,EMEA-COM-05,4,63,3.4,68,True,1,False,True,10300.0,0.0,5700.0
+A01092,Torque Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-05,3,35,3.4,69,True,1,False,False,11800.0,0.0,0.0
+A01093,Tank Slap Moto School Valencia 3,Riding School,EMEA,Commercial,EMEA-COM-05,12,127,16.1,530,True,4,False,True,42600.0,0.0,44600.0
+A01094,Trail Brake Racing Assen 5,Race Team,EMEA,Commercial,EMEA-COM-05,5,63,5.1,0,True,2,False,False,22500.0,0.0,0.0
+A01095,Redline Motorcycles Assen 7,Dealership,EMEA,Commercial,EMEA-COM-05,5,39,4.7,0,False,0,False,False,0.0,0.0,0.0
+A01096,Quickshift Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-05,1,18,0.4,0,True,1,False,False,8100.0,0.0,0.0
+A01097,Kneedown Riding Academy Brno,Riding Academy,EMEA,Commercial,EMEA-COM-05,7,132,5.0,153,True,3,False,False,30400.0,0.0,0.0
+A01098,Redline Sim Center Portimao,Sim Center,EMEA,Commercial,EMEA-COM-05,37,248,25.9,0,True,23,False,False,198500.0,0.0,0.0
+A01099,Torque Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-05,4,67,2.4,77,False,0,False,False,0.0,0.0,0.0
+A01100,Slipstream Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-05,2,28,1.7,85,True,1,False,False,10500.0,0.0,0.0
+A01101,Rev Limit Moto School Valencia,Riding School,EMEA,Commercial,EMEA-COM-05,6,84,14.2,126,True,5,True,False,48400.0,41300.0,0.0
+A01102,Hairpin Motorcycles Barcelona 3,Dealership,EMEA,Commercial,EMEA-COM-05,2,24,4.0,0,False,0,False,False,0.0,0.0,0.0
+A01103,Throttle Moto School Brno 8,Riding School,EMEA,Commercial,EMEA-COM-05,6,113,3.4,223,True,3,True,False,30400.0,9900.0,0.0
+A01104,Lean Angle Sim Center Munich,Sim Center,EMEA,Commercial,EMEA-COM-05,13,87,12.6,0,True,5,False,False,47200.0,0.0,0.0
+A01105,Countersteer Sim Center Dubai,Sim Center,EMEA,Commercial,EMEA-COM-05,20,275,3.6,0,True,14,True,False,161800.0,10500.0,0.0
+A01106,Lean Angle Moto School Le Mans,Riding School,EMEA,Commercial,EMEA-COM-05,1,8,1.5,44,True,1,True,False,8700.0,4400.0,0.0
+A01107,Kneedown Sim Center Silverstone,Sim Center,EMEA,Commercial,EMEA-COM-05,12,148,15.2,0,True,8,False,False,78900.0,0.0,0.0
+A01108,Paddock Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-06,7,64,4.1,203,False,0,False,False,0.0,0.0,0.0
+A01109,Lean Angle Riding Academy Assen 5,Riding Academy,EMEA,Commercial,EMEA-COM-06,14,185,5.4,296,False,0,False,False,0.0,0.0,0.0
+A01110,Kneedown Moto School Dubai 5,Riding School,EMEA,Commercial,EMEA-COM-06,3,38,2.6,67,True,1,False,False,8600.0,0.0,0.0
+A01111,Paddock Riding Academy Munich,Riding Academy,EMEA,Commercial,EMEA-COM-06,9,147,8.1,358,True,3,False,False,29200.0,0.0,0.0
+A01112,Apex Moto School Assen 8,Riding School,EMEA,Commercial,EMEA-COM-06,2,19,1.0,82,False,0,False,False,0.0,0.0,0.0
+A01113,Hairpin Riding Academy Dubai,Riding Academy,EMEA,Commercial,EMEA-COM-06,13,247,47.5,288,True,6,True,False,57800.0,138300.0,0.0
+A01114,Torque Riding Academy Brno 3,Riding Academy,EMEA,Commercial,EMEA-COM-06,9,147,7.3,210,True,5,False,True,55000.0,0.0,17700.0
+A01115,Hairpin Moto Works Assen,Manufacturer,EMEA,Commercial,EMEA-COM-06,12,191,27.5,0,False,0,False,False,0.0,0.0,0.0
+A01116,Braking Point Moto School Valencia,Riding School,EMEA,Commercial,EMEA-COM-06,4,59,7.3,170,True,2,False,True,17600.0,0.0,14300.0
+A01117,Wheelie Motorcycles Silverstone,Dealership,EMEA,Commercial,EMEA-COM-06,2,21,1.8,0,False,0,False,False,0.0,0.0,0.0
+A01118,Apex Moto School Valencia,Riding School,EMEA,Commercial,EMEA-COM-06,5,70,5.0,149,True,2,False,True,19900.0,0.0,12500.0
+A01119,Tank Slap Sim Center Barcelona,Sim Center,EMEA,Commercial,EMEA-COM-06,37,303,51.9,0,False,0,False,False,0.0,0.0,0.0
+A01120,Gridline Moto School Barcelona 3,Riding School,EMEA,Commercial,EMEA-COM-06,2,15,0.7,42,True,1,True,False,9900.0,2000.0,0.0
+A01121,Holeshot Moto School Silverstone 8,Riding School,EMEA,Commercial,EMEA-COM-06,3,59,3.1,72,False,0,False,False,0.0,0.0,0.0
+A01122,Lean Angle Moto School Le Mans 7,Riding School,EMEA,Commercial,EMEA-COM-06,7,46,4.5,252,True,5,False,False,57700.0,0.0,0.0
+A01123,Highside Motorcycles Silverstone,Dealership,EMEA,Commercial,EMEA-COM-06,1,9,1.5,0,False,0,False,False,0.0,0.0,0.0
+A01124,Quickshift Sim Center Valencia,Sim Center,EMEA,Commercial,EMEA-COM-06,3,55,1.6,0,False,0,False,False,0.0,0.0,0.0
+A01125,Highside Motorcycles Silverstone 4,Dealership,EMEA,Commercial,EMEA-COM-06,2,30,0.7,0,False,0,False,False,0.0,0.0,0.0
+A01126,Pitlane Motorcycles Assen,Dealership,EMEA,Commercial,EMEA-COM-06,3,55,9.0,0,True,2,True,False,19500.0,26200.0,0.0
+A01127,Braking Point Riding Academy Dubai,Riding Academy,EMEA,Commercial,EMEA-COM-06,8,97,9.8,290,False,0,False,False,0.0,0.0,0.0
+A01128,Apex Riding Academy Silverstone,Riding Academy,EMEA,Commercial,EMEA-COM-06,22,365,10.8,427,True,7,False,True,73800.0,0.0,35900.0
+A01129,Quickshift Racing Assen,Race Team,EMEA,Commercial,EMEA-COM-06,8,125,2.1,0,True,3,True,False,36100.0,6100.0,0.0
+A01130,Checkered Moto School Mugello 2,Riding School,EMEA,Commercial,EMEA-COM-06,2,37,2.8,38,True,1,False,True,11700.0,0.0,3200.0
+A01131,Trail Brake Sim Center Silverstone 3,Sim Center,EMEA,Commercial,EMEA-COM-06,14,110,23.7,0,False,0,False,False,0.0,0.0,0.0
+A01132,Quickshift Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-06,11,156,9.5,226,True,4,True,False,39300.0,27700.0,0.0
+A01133,Trail Brake Moto School Portimao 8,Riding School,EMEA,Commercial,EMEA-COM-06,2,25,1.5,36,False,0,False,False,0.0,0.0,0.0
+A01134,Pitlane Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-06,15,285,13.5,594,False,0,False,False,0.0,0.0,0.0
+A01135,Apex Riding Academy Le Mans,Riding Academy,EMEA,Commercial,EMEA-COM-06,5,35,2.2,120,False,0,False,False,0.0,0.0,0.0
+A01136,Apex Motorcycles Valencia,Dealership,EMEA,Commercial,EMEA-COM-06,2,22,1.9,0,True,1,False,False,9200.0,0.0,0.0
+A01137,Countersteer Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-06,1,12,0.5,0,False,0,False,False,0.0,0.0,0.0
+A01138,Slipstream Riding Academy Le Mans 7,Riding Academy,EMEA,Commercial,EMEA-COM-06,10,73,17.2,372,False,0,False,False,0.0,0.0,0.0
+A01139,Highside Motorcycles Valencia,Dealership,EMEA,Commercial,EMEA-COM-06,2,23,3.5,0,True,1,False,False,9500.0,0.0,0.0
+A01140,Quickshift Moto School Portimao 8,Riding School,EMEA,Commercial,EMEA-COM-06,2,30,4.3,73,False,0,False,False,0.0,0.0,0.0
+A01141,Apex Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-06,1,8,0.7,0,True,1,True,False,9900.0,2000.0,0.0
+A01142,Holeshot Motorcycles Dubai,Dealership,EMEA,Commercial,EMEA-COM-06,3,55,4.4,0,True,2,False,False,20600.0,0.0,0.0
+A01143,Rev Limit Moto School Assen,Riding School,EMEA,Commercial,EMEA-COM-06,4,32,7.0,60,False,0,False,False,0.0,0.0,0.0
+A01144,Holeshot Racing Silverstone,Race Team,EMEA,Commercial,EMEA-COM-06,4,73,4.3,0,True,2,False,False,22200.0,0.0,0.0
+A01145,Redline Racing Portimao,Race Team,EMEA,Commercial,EMEA-COM-06,7,90,7.3,0,True,5,False,False,44400.0,0.0,0.0
+A01146,Countersteer Sim Center Valencia,Sim Center,EMEA,Commercial,EMEA-COM-06,25,169,10.9,0,True,12,True,False,113000.0,31700.0,0.0
+A01147,Wheelie Motorcycles Barcelona,Dealership,EMEA,Commercial,EMEA-COM-06,2,21,0.7,0,True,1,False,False,12000.0,0.0,0.0
+A01148,Redline Motorcycles Brno,Dealership,EMEA,Commercial,EMEA-COM-06,3,43,2.5,0,True,2,True,False,20900.0,7300.0,0.0
+A01149,Paddock Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-06,5,60,5.2,0,True,3,False,False,26700.0,0.0,0.0
+A01150,Checkered Riding Academy Dubai 8,Riding Academy,EMEA,Commercial,EMEA-COM-06,20,242,40.7,807,True,15,False,True,140400.0,0.0,67900.0
+A01151,Lean Angle Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-06,7,69,15.3,278,True,6,True,False,61800.0,44500.0,0.0
+A01152,Torque Moto School Assen 2,Riding School,EMEA,Commercial,EMEA-COM-06,3,44,5.0,104,True,1,False,False,11300.0,0.0,0.0
+A01153,Trail Brake Racing Brno,Race Team,EMEA,Commercial,EMEA-COM-07,11,214,9.2,0,True,9,True,False,79400.0,26800.0,0.0
+A01154,Gridline Motorcycles Barcelona 4,Dealership,EMEA,Commercial,EMEA-COM-07,1,8,0.8,0,False,0,False,False,0.0,0.0,0.0
+A01155,Slipstream Moto School Le Mans 5,Riding School,EMEA,Commercial,EMEA-COM-07,1,13,1.3,39,True,1,True,True,10200.0,3800.0,3300.0
+A01156,Wheelie Sim Center Munich,Sim Center,EMEA,Commercial,EMEA-COM-07,20,292,9.0,0,True,8,False,False,79400.0,0.0,0.0
+A01157,Wheelie Racing Brno,Race Team,EMEA,Commercial,EMEA-COM-07,3,39,4.5,0,True,2,True,False,20200.0,13100.0,0.0
+A01158,Slipstream Sim Center Dubai,Sim Center,EMEA,Commercial,EMEA-COM-07,9,133,9.5,0,True,6,False,False,64100.0,0.0,0.0
+A01159,Hairpin Riding Academy Mugello 4,Riding Academy,EMEA,Commercial,EMEA-COM-07,13,203,12.4,554,False,0,False,False,0.0,0.0,0.0
+A01160,Highside Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-07,8,140,6.0,198,False,0,False,False,0.0,0.0,0.0
+A01161,Trail Brake Motorcycles Le Mans,Dealership,EMEA,Commercial,EMEA-COM-07,8,136,5.6,0,False,0,False,False,0.0,0.0,0.0
+A01162,Apex Moto School Silverstone,Riding School,EMEA,Commercial,EMEA-COM-07,5,44,4.1,206,True,1,False,True,8200.0,0.0,17300.0
+A01163,Slipstream Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-07,4,24,5.8,0,False,0,False,False,0.0,0.0,0.0
+A01164,Redline Motorcycles Munich,Dealership,EMEA,Commercial,EMEA-COM-07,2,19,5.3,0,True,1,True,False,8100.0,15400.0,0.0
+A01165,Torque Sim Center Valencia,Sim Center,EMEA,Commercial,EMEA-COM-07,8,144,7.4,0,True,4,False,False,43600.0,0.0,0.0
+A01166,Chicane Motorcycles Brno,Dealership,EMEA,Commercial,EMEA-COM-07,1,7,1.0,0,True,1,False,False,9000.0,0.0,0.0
+A01167,Torque Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-07,6,64,4.8,179,False,0,False,False,0.0,0.0,0.0
+A01168,Highside Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-07,3,44,7.0,0,False,0,False,False,0.0,0.0,0.0
+A01169,Hairpin Sim Center Valencia,Sim Center,EMEA,Commercial,EMEA-COM-07,10,106,43.7,0,True,9,False,False,89600.0,0.0,0.0
+A01170,Rev Limit Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-07,11,80,9.6,217,True,9,True,False,92500.0,27900.0,0.0
+A01171,Kneedown Moto School Mugello 7,Riding School,EMEA,Commercial,EMEA-COM-07,3,57,5.9,67,True,2,False,True,20800.0,0.0,5600.0
+A01172,Braking Point Motorcycles Portimao,Dealership,EMEA,Commercial,EMEA-COM-07,4,65,5.9,0,True,1,True,False,8300.0,17200.0,0.0
+A01173,Highside Sim Center Valencia,Sim Center,EMEA,Commercial,EMEA-COM-07,28,551,31.9,0,False,0,False,False,0.0,0.0,0.0
+A01174,Slipstream Riding Academy Munich,Riding Academy,EMEA,Commercial,EMEA-COM-07,7,82,4.0,257,True,3,True,False,34500.0,11600.0,0.0
+A01175,Rev Limit Motorcycles Munich 6,Dealership,EMEA,Commercial,EMEA-COM-07,3,59,3.2,0,False,0,False,False,0.0,0.0,0.0
+A01176,Checkered Racing Le Mans,Race Team,EMEA,Commercial,EMEA-COM-07,7,120,4.7,0,False,0,False,False,0.0,0.0,0.0
+A01177,Kneedown Motorcycles Mugello 7,Dealership,EMEA,Commercial,EMEA-COM-07,3,56,4.6,0,True,2,True,False,21200.0,13400.0,0.0
+A01178,Apex Riding Academy Barcelona,Riding Academy,EMEA,Commercial,EMEA-COM-07,14,103,13.1,265,True,5,False,False,46900.0,0.0,0.0
+A01179,Hairpin Racing Portimao,Race Team,EMEA,Commercial,EMEA-COM-07,5,66,15.2,0,True,3,True,False,30400.0,44300.0,0.0
+A01180,Pitlane Riding Academy Valencia,Riding Academy,EMEA,Commercial,EMEA-COM-07,10,108,9.4,406,True,3,False,False,36100.0,0.0,0.0
+A01181,Gridline Moto School Valencia,Riding School,EMEA,Commercial,EMEA-COM-07,4,55,0.8,112,False,0,False,False,0.0,0.0,0.0
+A01182,Quickshift Riding Academy Brno,Riding Academy,EMEA,Commercial,EMEA-COM-07,9,112,7.8,262,True,3,False,True,35300.0,0.0,22000.0
+A01183,Paddock Motorcycles Assen 6,Dealership,EMEA,Commercial,EMEA-COM-07,3,24,1.9,0,True,1,False,False,10000.0,0.0,0.0
+A01184,Tank Slap Riding Academy Silverstone 6,Riding Academy,EMEA,Commercial,EMEA-COM-07,8,71,6.8,199,False,0,False,False,0.0,0.0,0.0
+A01185,Gridline Motorcycles Valencia,Dealership,EMEA,Commercial,EMEA-COM-07,2,18,4.9,0,False,0,False,False,0.0,0.0,0.0
+A01186,Holeshot Riding Academy Assen 3,Riding Academy,EMEA,Commercial,EMEA-COM-07,11,75,4.5,454,False,0,False,False,0.0,0.0,0.0
+A01187,Wheelie Moto School Portimao,Riding School,EMEA,Commercial,EMEA-COM-07,5,99,2.7,197,True,4,True,False,34300.0,7900.0,0.0
+A01188,Throttle Racing Le Mans,Race Team,EMEA,Commercial,EMEA-COM-07,7,97,9.5,0,False,0,False,False,0.0,0.0,0.0
+A01189,Torque Sim Center Portimao,Sim Center,EMEA,Commercial,EMEA-COM-07,11,146,12.0,0,True,10,False,False,85800.0,0.0,0.0
+A01190,Highside Motorcycles Assen,Dealership,EMEA,Commercial,EMEA-COM-07,4,40,1.6,0,True,3,False,False,31800.0,0.0,0.0
+A01191,Lean Angle Racing Dubai,Race Team,EMEA,Commercial,EMEA-COM-07,3,54,2.1,0,True,1,True,False,8600.0,6100.0,0.0
+A01192,Checkered Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-07,6,74,4.5,258,True,4,False,False,38700.0,0.0,0.0
+A01193,Quickshift Riding Academy Assen,Riding Academy,EMEA,Commercial,EMEA-COM-07,11,177,10.9,255,True,3,True,True,34200.0,31700.0,21400.0
+A01194,Hairpin Moto School Barcelona,Riding School,EMEA,Commercial,EMEA-COM-07,2,14,2.3,30,True,1,True,True,11400.0,6700.0,2500.0
+A01195,Hairpin Moto School Brno,Riding School,EMEA,Commercial,EMEA-COM-07,2,25,1.6,30,False,0,False,False,0.0,0.0,0.0
+A01196,Kneedown Racing Assen,Race Team,EMEA,Commercial,EMEA-COM-07,8,122,7.1,0,True,4,True,False,39600.0,20700.0,0.0
+A01197,Kneedown Motorcycles Dubai,Dealership,EMEA,Commercial,EMEA-COM-07,9,110,5.5,0,True,8,False,False,70100.0,0.0,0.0
+A01198,Countersteer Sim Center Osaka,Sim Center,APAC,Enterprise,APAC-ENT-01,32,383,90.1,0,False,0,False,False,0.0,0.0,0.0
+A01199,Tank Slap Moto School Melbourne,Riding School,APAC,Enterprise,APAC-ENT-01,7,111,4.7,164,True,3,False,True,25000.0,0.0,13800.0
+A01200,Holeshot Racing Sepang,Race Team,APAC,Enterprise,APAC-ENT-01,14,152,11.3,0,True,6,False,False,50100.0,0.0,0.0
+A01201,Kneedown Riding Academy Jakarta,Riding Academy,APAC,Enterprise,APAC-ENT-01,21,184,18.3,900,False,0,False,False,0.0,0.0,0.0
+A01202,Pitlane Moto Works Phillip Island,Manufacturer,APAC,Enterprise,APAC-ENT-01,122,2357,81.2,0,False,0,False,False,0.0,0.0,0.0
+A01203,Kneedown Riding Academy Motegi,Riding Academy,APAC,Enterprise,APAC-ENT-01,20,202,12.4,310,True,7,False,True,80000.0,0.0,26100.0
+A01204,Hairpin Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-01,41,695,92.6,764,False,0,False,False,0.0,0.0,0.0
+A01205,Checkered Moto School Buriram,Riding School,APAC,Enterprise,APAC-ENT-01,25,418,32.1,981,False,0,False,False,0.0,0.0,0.0
+A01206,Wheelie Riding Academy Mandalika,Riding Academy,APAC,Enterprise,APAC-ENT-01,17,155,58.5,542,False,0,False,False,0.0,0.0,0.0
+A01207,Highside Racing Sepang,Race Team,APAC,Enterprise,APAC-ENT-01,11,151,34.9,0,False,0,False,False,0.0,0.0,0.0
+A01208,Checkered Racing Phillip Island,Race Team,APAC,Enterprise,APAC-ENT-01,2,26,1.8,0,True,1,False,False,10600.0,0.0,0.0
+A01209,Kneedown Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-01,27,413,41.0,536,False,0,False,False,0.0,0.0,0.0
+A01210,Gridline Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-01,30,308,44.0,956,True,22,False,False,261700.0,0.0,0.0
+A01211,Slipstream Motorcycles Motegi,Dealership,APAC,Enterprise,APAC-ENT-01,3,54,2.1,0,False,0,False,False,0.0,0.0,0.0
+A01212,Braking Point Moto School Motegi,Riding School,APAC,Enterprise,APAC-ENT-01,5,80,2.1,195,False,0,False,False,0.0,0.0,0.0
+A01213,Countersteer Motorcycles Buriram,Dealership,APAC,Enterprise,APAC-ENT-01,8,61,17.1,0,False,0,False,False,0.0,0.0,0.0
+A01214,Throttle Moto School Jakarta,Riding School,APAC,Enterprise,APAC-ENT-01,7,44,19.7,161,False,0,False,False,0.0,0.0,0.0
+A01215,Highside Motorcycles Mandalika,Dealership,APAC,Enterprise,APAC-ENT-01,6,70,5.9,0,True,5,False,False,47000.0,0.0,0.0
+A01216,Rev Limit Motorcycles Jakarta,Dealership,APAC,Enterprise,APAC-ENT-01,8,142,44.5,0,True,3,False,False,28100.0,0.0,0.0
+A01217,Pitlane Riding Academy Buriram,Riding Academy,APAC,Enterprise,APAC-ENT-01,18,175,12.4,703,True,14,False,False,161700.0,0.0,0.0
+A01218,Paddock Sim Center Jakarta,Sim Center,APAC,Enterprise,APAC-ENT-01,11,137,11.0,0,True,6,True,False,67100.0,32000.0,0.0
+A01219,Throttle Motorcycles Sepang,Dealership,APAC,Enterprise,APAC-ENT-01,3,50,1.3,0,True,2,True,False,17200.0,3800.0,0.0
+A01220,Tank Slap Moto School Sepang,Riding School,APAC,Enterprise,APAC-ENT-01,8,51,8.3,127,True,6,False,True,58400.0,0.0,10700.0
+A01221,Paddock Sim Center Jakarta 8,Sim Center,APAC,Enterprise,APAC-ENT-01,16,287,7.0,0,True,14,False,False,164400.0,0.0,0.0
+A01222,Throttle Riding Academy Sepang,Riding Academy,APAC,Enterprise,APAC-ENT-01,11,130,2.9,493,True,7,False,True,63800.0,0.0,41500.0
+A01223,Trail Brake Riding Academy Buriram,Riding Academy,APAC,Enterprise,APAC-ENT-01,7,101,4.3,177,False,0,False,False,0.0,0.0,0.0
+A01224,Trail Brake Motorcycles Jakarta,Dealership,APAC,Enterprise,APAC-ENT-02,5,74,4.3,0,False,0,False,False,0.0,0.0,0.0
+A01225,Hairpin Moto School Melbourne,Riding School,APAC,Enterprise,APAC-ENT-02,27,512,14.8,695,True,10,False,False,93800.0,0.0,0.0
+A01226,Hairpin Riding Academy Sepang,Riding Academy,APAC,Enterprise,APAC-ENT-02,8,137,5.3,220,False,0,False,False,0.0,0.0,0.0
+A01227,Chicane Sim Center Motegi,Sim Center,APAC,Enterprise,APAC-ENT-02,17,109,15.0,0,True,14,False,False,130100.0,0.0,0.0
+A01228,Gridline Motorcycles Motegi,Dealership,APAC,Enterprise,APAC-ENT-02,7,71,17.5,0,True,3,False,False,34000.0,0.0,0.0
+A01229,Chicane Riding Academy Melbourne,Riding Academy,APAC,Enterprise,APAC-ENT-02,43,310,45.4,880,False,0,False,False,0.0,0.0,0.0
+A01230,Braking Point Racing Sepang,Race Team,APAC,Enterprise,APAC-ENT-02,12,129,12.2,0,True,6,True,False,57200.0,35500.0,0.0
+A01231,Redline Riding Academy Jakarta,Riding Academy,APAC,Enterprise,APAC-ENT-02,15,216,28.3,356,True,11,False,True,115100.0,0.0,29900.0
+A01232,Hairpin Racing Motegi,Race Team,APAC,Enterprise,APAC-ENT-02,12,206,29.7,0,True,4,True,False,40000.0,86500.0,0.0
+A01233,Tank Slap Racing Osaka,Race Team,APAC,Enterprise,APAC-ENT-02,9,171,5.0,0,True,6,True,False,58200.0,14600.0,0.0
+A01234,Chicane Moto School Motegi,Riding School,APAC,Enterprise,APAC-ENT-02,10,162,19.0,218,False,0,False,False,0.0,0.0,0.0
+A01235,Paddock Riding Academy Osaka,Riding Academy,APAC,Enterprise,APAC-ENT-02,20,157,24.5,416,True,11,False,True,121600.0,0.0,35000.0
+A01236,Checkered Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-02,31,410,27.4,1142,False,0,False,False,0.0,0.0,0.0
+A01237,Countersteer Moto School Buriram,Riding School,APAC,Enterprise,APAC-ENT-02,7,81,3.9,211,True,4,False,False,32300.0,0.0,0.0
+A01238,Paddock Motorcycles Buriram,Dealership,APAC,Enterprise,APAC-ENT-02,4,76,6.1,0,True,3,True,False,33300.0,17800.0,0.0
+A01239,Gridline Moto School Jakarta,Riding School,APAC,Enterprise,APAC-ENT-02,10,138,9.4,442,True,3,False,True,30800.0,0.0,37200.0
+A01240,Rev Limit Moto School Buriram,Riding School,APAC,Enterprise,APAC-ENT-02,8,139,16.3,352,False,0,False,False,0.0,0.0,0.0
+A01241,Slipstream Riding Academy Osaka,Riding Academy,APAC,Enterprise,APAC-ENT-02,14,187,10.8,360,True,10,False,False,81400.0,0.0,0.0
+A01242,Rev Limit Moto School Osaka,Riding School,APAC,Enterprise,APAC-ENT-02,7,74,13.5,202,True,3,False,False,33000.0,0.0,0.0
+A01243,Countersteer Motorcycles Buriram 4,Dealership,APAC,Enterprise,APAC-ENT-02,5,69,3.1,0,False,0,False,False,0.0,0.0,0.0
+A01244,Trail Brake Moto Works Motegi,Manufacturer,APAC,Enterprise,APAC-ENT-02,35,281,36.3,0,True,13,False,False,119700.0,0.0,0.0
+A01245,Chicane Moto School Phillip Island,Riding School,APAC,Enterprise,APAC-ENT-02,15,174,13.0,449,True,7,True,True,60200.0,37800.0,37800.0
+A01246,Paddock Moto School Mandalika,Riding School,APAC,Enterprise,APAC-ENT-02,11,135,4.3,370,True,5,False,False,54300.0,0.0,0.0
+A01247,Throttle Riding Academy Motegi,Riding Academy,APAC,Enterprise,APAC-ENT-02,19,334,16.2,419,False,0,False,False,0.0,0.0,0.0
+A01248,Highside Motorcycles Buriram,Dealership,APAC,Enterprise,APAC-ENT-02,3,23,7.0,0,True,1,True,False,11900.0,20400.0,0.0
+A01249,Trail Brake Motorcycles Phillip Island,Dealership,APAC,Enterprise,APAC-ENT-02,8,67,6.7,0,False,0,False,False,0.0,0.0,0.0
+A01250,Chicane Racing Mandalika,Race Team,APAC,Enterprise,APAC-ENT-03,10,87,4.7,0,True,5,False,False,55400.0,0.0,0.0
+A01251,Redline Sim Center Jakarta,Sim Center,APAC,Enterprise,APAC-ENT-03,14,192,9.7,0,True,4,False,False,45700.0,0.0,0.0
+A01252,Hairpin Moto School Mandalika,Riding School,APAC,Enterprise,APAC-ENT-03,13,171,16.5,214,False,0,False,False,0.0,0.0,0.0
+A01253,Checkered Riding Academy Melbourne,Riding Academy,APAC,Enterprise,APAC-ENT-03,36,609,51.5,590,True,17,False,False,174000.0,0.0,0.0
+A01254,Quickshift Moto School Sepang,Riding School,APAC,Enterprise,APAC-ENT-03,10,163,3.5,256,True,8,False,False,86100.0,0.0,0.0
+A01255,Throttle Moto School Mandalika,Riding School,APAC,Enterprise,APAC-ENT-03,8,82,5.0,320,False,0,False,False,0.0,0.0,0.0
+A01256,Wheelie Moto School Buriram,Riding School,APAC,Enterprise,APAC-ENT-03,6,70,8.0,172,True,3,True,True,30400.0,23300.0,14500.0
+A01257,Kneedown Sim Center Phillip Island,Sim Center,APAC,Enterprise,APAC-ENT-03,14,155,11.8,0,True,13,False,False,152000.0,0.0,0.0
+A01258,Gridline Riding Academy Buriram,Riding Academy,APAC,Enterprise,APAC-ENT-03,34,433,67.0,683,False,0,False,False,0.0,0.0,0.0
+A01259,Rev Limit Moto School Motegi,Riding School,APAC,Enterprise,APAC-ENT-03,12,159,20.3,479,True,6,True,False,48600.0,59100.0,0.0
+A01260,Braking Point Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-03,17,234,4.0,571,False,0,False,False,0.0,0.0,0.0
+A01261,Torque Motorcycles Phillip Island,Dealership,APAC,Enterprise,APAC-ENT-03,7,53,3.1,0,False,0,False,False,0.0,0.0,0.0
+A01262,Gridline Sim Center Melbourne,Sim Center,APAC,Enterprise,APAC-ENT-03,18,167,23.8,0,True,7,True,False,57800.0,69300.0,0.0
+A01263,Throttle Sim Center Motegi,Sim Center,APAC,Enterprise,APAC-ENT-03,17,295,38.0,0,False,0,False,False,0.0,0.0,0.0
+A01264,Apex Riding Academy Mandalika,Riding Academy,APAC,Enterprise,APAC-ENT-03,16,279,13.3,357,True,7,True,True,59700.0,38700.0,30000.0
+A01265,Torque Riding Academy Osaka,Riding Academy,APAC,Enterprise,APAC-ENT-03,26,264,10.6,560,False,0,False,False,0.0,0.0,0.0
+A01266,Holeshot Riding Academy Jakarta,Riding Academy,APAC,Enterprise,APAC-ENT-03,26,256,14.1,515,False,0,False,False,0.0,0.0,0.0
+A01267,Slipstream Racing Jakarta,Race Team,APAC,Enterprise,APAC-ENT-03,9,110,18.2,0,False,0,False,False,0.0,0.0,0.0
+A01268,Chicane Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-03,19,280,24.1,604,False,0,False,False,0.0,0.0,0.0
+A01269,Quickshift Moto School Melbourne,Riding School,APAC,Enterprise,APAC-ENT-03,8,53,10.7,254,True,2,False,False,21600.0,0.0,0.0
+A01270,Slipstream Riding Academy Buriram,Riding Academy,APAC,Enterprise,APAC-ENT-03,8,138,11.7,206,False,0,False,False,0.0,0.0,0.0
+A01271,Pitlane Moto Works Melbourne,Manufacturer,APAC,Enterprise,APAC-ENT-03,101,829,51.3,0,True,70,False,False,594700.0,0.0,0.0
+A01272,Throttle Riding Academy Phillip Island,Riding Academy,APAC,Enterprise,APAC-ENT-03,11,185,7.9,290,False,0,False,False,0.0,0.0,0.0
+A01273,Paddock Moto School Phillip Island,Riding School,APAC,Enterprise,APAC-ENT-03,13,139,8.4,515,True,11,False,True,130900.0,0.0,43300.0
+A01274,Trail Brake Moto Works Sepang,Manufacturer,APAC,Enterprise,APAC-ENT-03,53,653,19.8,0,False,0,False,False,0.0,0.0,0.0
+A01275,Holeshot Motorcycles Buriram,Dealership,APAC,Enterprise,APAC-ENT-03,5,51,8.6,0,True,2,True,False,21000.0,25000.0,0.0
+A01276,Paddock Riding Academy Motegi,Riding Academy,APAC,Commercial,APAC-COM-01,8,93,6.3,128,False,0,False,False,0.0,0.0,0.0
+A01277,Pitlane Moto Works Motegi,Manufacturer,APAC,Commercial,APAC-COM-01,28,483,46.5,0,False,0,False,False,0.0,0.0,0.0
+A01278,Holeshot Riding Academy Motegi,Riding Academy,APAC,Commercial,APAC-COM-01,13,207,3.6,542,False,0,False,False,0.0,0.0,0.0
+A01279,Kneedown Riding Academy Jakarta 6,Riding Academy,APAC,Commercial,APAC-COM-01,19,309,9.2,446,True,17,False,False,195400.0,0.0,0.0
+A01280,Chicane Motorcycles Sepang,Dealership,APAC,Commercial,APAC-COM-01,2,39,5.3,0,True,1,True,False,8200.0,15400.0,0.0
+A01281,Gridline Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-01,7,58,14.7,249,False,0,False,False,0.0,0.0,0.0
+A01282,Paddock Moto School Jakarta,Riding School,APAC,Commercial,APAC-COM-01,2,31,3.4,84,True,1,False,False,12000.0,0.0,0.0
+A01283,Highside Motorcycles Motegi,Dealership,APAC,Commercial,APAC-COM-01,2,16,2.2,0,True,1,False,False,9900.0,0.0,0.0
+A01284,Quickshift Sim Center Jakarta,Sim Center,APAC,Commercial,APAC-COM-01,14,105,18.5,0,True,8,True,False,80500.0,53900.0,0.0
+A01285,Braking Point Moto School Melbourne,Riding School,APAC,Commercial,APAC-COM-01,3,41,2.7,130,True,1,False,False,8500.0,0.0,0.0
+A01286,Chicane Motorcycles Motegi,Dealership,APAC,Commercial,APAC-COM-01,2,38,5.3,0,True,1,True,False,11200.0,15400.0,0.0
+A01287,Checkered Racing Motegi,Race Team,APAC,Commercial,APAC-COM-01,7,42,5.2,0,False,0,False,False,0.0,0.0,0.0
+A01288,Braking Point Sim Center Jakarta,Sim Center,APAC,Commercial,APAC-COM-01,10,75,6.7,0,True,6,False,False,66300.0,0.0,0.0
+A01289,Apex Racing Osaka,Race Team,APAC,Commercial,APAC-COM-01,3,43,3.9,0,True,2,False,False,19700.0,0.0,0.0
+A01290,Slipstream Motorcycles Sepang,Dealership,APAC,Commercial,APAC-COM-01,2,21,4.5,0,True,1,True,False,8500.0,13100.0,0.0
+A01291,Checkered Motorcycles Motegi,Dealership,APAC,Commercial,APAC-COM-01,1,6,2.9,0,False,0,False,False,0.0,0.0,0.0
+A01292,Lean Angle Motorcycles Motegi,Dealership,APAC,Commercial,APAC-COM-01,4,48,11.5,0,True,3,False,False,30500.0,0.0,0.0
+A01293,Throttle Motorcycles Buriram,Dealership,APAC,Commercial,APAC-COM-01,2,25,3.4,0,True,1,True,False,8500.0,9900.0,0.0
+A01294,Wheelie Sim Center Jakarta,Sim Center,APAC,Commercial,APAC-COM-01,12,84,13.2,0,True,5,False,False,40800.0,0.0,0.0
+A01295,Rev Limit Moto School Melbourne,Riding School,APAC,Commercial,APAC-COM-01,3,33,3.1,86,False,0,False,False,0.0,0.0,0.0
+A01296,Holeshot Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-01,13,191,12.7,549,True,9,False,False,95600.0,0.0,0.0
+A01297,Countersteer Riding Academy Motegi,Riding Academy,APAC,Commercial,APAC-COM-01,14,186,11.0,486,False,0,False,False,0.0,0.0,0.0
+A01298,Braking Point Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-01,32,386,21.0,722,False,0,False,False,0.0,0.0,0.0
+A01299,Gridline Motorcycles Phillip Island,Dealership,APAC,Commercial,APAC-COM-01,5,61,7.4,0,True,4,False,False,46200.0,0.0,0.0
+A01300,Hairpin Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-01,14,196,6.2,414,True,8,True,False,65200.0,18000.0,0.0
+A01301,Countersteer Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-01,10,97,5.2,171,True,3,False,True,35200.0,0.0,14400.0
+A01302,Trail Brake Motorcycles Melbourne,Dealership,APAC,Commercial,APAC-COM-01,4,54,6.0,0,True,2,True,False,21400.0,17500.0,0.0
+A01303,Hairpin Moto School Sepang,Riding School,APAC,Commercial,APAC-COM-01,2,38,2.6,31,True,1,False,False,9100.0,0.0,0.0
+A01304,Paddock Motorcycles Mandalika,Dealership,APAC,Commercial,APAC-COM-01,2,38,1.8,0,True,1,False,False,11800.0,0.0,0.0
+A01305,Kneedown Sim Center Sepang,Sim Center,APAC,Commercial,APAC-COM-01,29,394,26.2,0,True,25,False,False,262300.0,0.0,0.0
+A01306,Tank Slap Riding Academy Motegi,Riding Academy,APAC,Commercial,APAC-COM-01,16,263,11.4,337,True,11,True,False,126400.0,33200.0,0.0
+A01307,Pitlane Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-01,12,234,9.3,523,True,5,False,True,41300.0,0.0,44000.0
+A01308,Wheelie Racing Sepang,Race Team,APAC,Commercial,APAC-COM-01,4,72,3.8,0,True,2,False,False,18900.0,0.0,0.0
+A01309,Gridline Motorcycles Motegi 3,Dealership,APAC,Commercial,APAC-COM-01,4,64,4.7,0,False,0,False,False,0.0,0.0,0.0
+A01310,Wheelie Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-01,7,131,7.0,141,False,0,False,False,0.0,0.0,0.0
+A01311,Wheelie Moto School Melbourne,Riding School,APAC,Commercial,APAC-COM-01,9,175,9.3,175,False,0,False,False,0.0,0.0,0.0
+A01312,Pitlane Moto School Mandalika,Riding School,APAC,Commercial,APAC-COM-01,3,21,4.3,46,True,2,False,False,21600.0,0.0,0.0
+A01313,Chicane Racing Sepang,Race Team,APAC,Commercial,APAC-COM-01,2,36,1.6,0,False,0,False,False,0.0,0.0,0.0
+A01314,Rev Limit Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-01,6,43,8.7,150,True,3,True,False,29900.0,25300.0,0.0
+A01315,Apex Sim Center Melbourne,Sim Center,APAC,Commercial,APAC-COM-01,9,105,24.3,0,True,3,False,False,30000.0,0.0,0.0
+A01316,Tank Slap Racing Jakarta,Race Team,APAC,Commercial,APAC-COM-01,3,58,2.6,0,False,0,False,False,0.0,0.0,0.0
+A01317,Pitlane Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-01,11,82,17.8,348,True,4,False,True,41200.0,0.0,29300.0
+A01318,Highside Racing Osaka,Race Team,APAC,Commercial,APAC-COM-01,8,125,3.5,0,False,0,False,False,0.0,0.0,0.0
+A01319,Lean Angle Moto School Jakarta,Riding School,APAC,Commercial,APAC-COM-01,2,33,2.5,37,True,1,False,False,11200.0,0.0,0.0
+A01320,Holeshot Racing Osaka,Race Team,APAC,Commercial,APAC-COM-01,2,30,1.6,0,True,1,True,False,9100.0,4700.0,0.0
+A01321,Chicane Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-02,4,37,1.3,77,False,0,False,False,0.0,0.0,0.0
+A01322,Rev Limit Moto Works Jakarta,Manufacturer,APAC,Commercial,APAC-COM-02,24,298,31.1,0,True,23,True,False,213500.0,90500.0,0.0
+A01323,Paddock Sim Center Motegi,Sim Center,APAC,Commercial,APAC-COM-02,14,234,6.3,0,True,6,True,False,59600.0,18300.0,0.0
+A01324,Braking Point Moto School Motegi 6,Riding School,APAC,Commercial,APAC-COM-02,7,98,4.3,231,False,0,False,False,0.0,0.0,0.0
+A01325,Highside Sim Center Mandalika,Sim Center,APAC,Commercial,APAC-COM-02,17,277,20.3,0,True,16,False,False,169200.0,0.0,0.0
+A01326,Torque Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-02,9,175,11.3,168,False,0,False,False,0.0,0.0,0.0
+A01327,Slipstream Racing Mandalika,Race Team,APAC,Commercial,APAC-COM-02,2,24,2.3,0,False,0,False,False,0.0,0.0,0.0
+A01328,Lean Angle Motorcycles Melbourne,Dealership,APAC,Commercial,APAC-COM-02,1,8,4.6,0,False,0,False,False,0.0,0.0,0.0
+A01329,Torque Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-02,3,55,5.2,73,False,0,False,False,0.0,0.0,0.0
+A01330,Braking Point Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-02,14,164,15.1,336,False,0,False,False,0.0,0.0,0.0
+A01331,Kneedown Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-02,5,76,5.8,173,True,2,True,False,18400.0,16900.0,0.0
+A01332,Throttle Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-02,12,176,5.9,370,False,0,False,False,0.0,0.0,0.0
+A01333,Redline Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-02,6,102,3.1,220,True,5,False,False,45000.0,0.0,0.0
+A01334,Rev Limit Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-02,8,130,43.8,300,True,4,False,True,47300.0,0.0,25200.0
+A01335,Checkered Riding Academy Melbourne 5,Riding Academy,APAC,Commercial,APAC-COM-02,19,176,10.0,680,True,17,False,False,203900.0,0.0,0.0
+A01336,Kneedown Motorcycles Buriram,Dealership,APAC,Commercial,APAC-COM-02,2,16,1.5,0,False,0,False,False,0.0,0.0,0.0
+A01337,Throttle Racing Osaka,Race Team,APAC,Commercial,APAC-COM-02,3,43,2.7,0,False,0,False,False,0.0,0.0,0.0
+A01338,Countersteer Moto School Melbourne,Riding School,APAC,Commercial,APAC-COM-02,2,39,2.5,83,True,1,False,False,9200.0,0.0,0.0
+A01339,Quickshift Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-02,3,18,2.8,93,True,2,True,False,22900.0,8200.0,0.0
+A01340,Chicane Racing Phillip Island,Race Team,APAC,Commercial,APAC-COM-02,6,110,5.3,0,True,2,True,False,23800.0,15400.0,0.0
+A01341,Braking Point Sim Center Phillip Island,Sim Center,APAC,Commercial,APAC-COM-02,42,418,78.8,0,True,20,False,False,234900.0,0.0,0.0
+A01342,Tank Slap Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-02,6,37,9.1,122,False,0,False,False,0.0,0.0,0.0
+A01343,Throttle Motorcycles Jakarta,Dealership,APAC,Commercial,APAC-COM-02,1,17,0.2,0,True,1,True,False,11000.0,600.0,0.0
+A01344,Highside Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-02,14,151,2.2,436,True,11,False,True,118000.0,0.0,36700.0
+A01345,Wheelie Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-02,14,147,14.6,245,True,11,False,False,98500.0,0.0,0.0
+A01346,Gridline Motorcycles Sepang,Dealership,APAC,Commercial,APAC-COM-02,3,45,5.0,0,False,0,False,False,0.0,0.0,0.0
+A01347,Countersteer Motorcycles Phillip Island,Dealership,APAC,Commercial,APAC-COM-02,4,45,4.2,0,True,3,False,False,28900.0,0.0,0.0
+A01348,Slipstream Moto Works Buriram,Manufacturer,APAC,Commercial,APAC-COM-02,32,532,46.0,0,False,0,False,False,0.0,0.0,0.0
+A01349,Wheelie Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-02,11,184,29.7,393,True,10,True,False,93600.0,86500.0,0.0
+A01350,Tank Slap Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-02,9,125,11.2,321,True,4,False,False,36100.0,0.0,0.0
+A01351,Braking Point Racing Sepang 6,Race Team,APAC,Commercial,APAC-COM-02,6,99,4.2,0,True,3,True,False,25200.0,12200.0,0.0
+A01352,Checkered Motorcycles Melbourne,Dealership,APAC,Commercial,APAC-COM-02,2,38,1.2,0,True,1,True,False,9500.0,3500.0,0.0
+A01353,Highside Riding Academy Motegi,Riding Academy,APAC,Commercial,APAC-COM-02,14,174,16.0,453,True,4,True,False,44400.0,46600.0,0.0
+A01354,Paddock Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-02,6,91,8.2,193,True,5,False,False,47600.0,0.0,0.0
+A01355,Gridline Motorcycles Motegi 2,Dealership,APAC,Commercial,APAC-COM-02,7,100,10.7,0,False,0,False,False,0.0,0.0,0.0
+A01356,Quickshift Motorcycles Mandalika,Dealership,APAC,Commercial,APAC-COM-02,3,20,1.0,0,True,1,False,False,11100.0,0.0,0.0
+A01357,Redline Motorcycles Melbourne,Dealership,APAC,Commercial,APAC-COM-02,6,40,10.5,0,True,2,True,False,17000.0,30600.0,0.0
+A01358,Redline Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-02,8,92,10.9,211,True,3,False,False,25600.0,0.0,0.0
+A01359,Kneedown Moto School Mandalika,Riding School,APAC,Commercial,APAC-COM-02,4,33,5.7,155,True,2,False,True,24200.0,0.0,13000.0
+A01360,Gridline Riding Academy Melbourne 2,Riding Academy,APAC,Commercial,APAC-COM-02,11,75,14.2,223,False,0,False,False,0.0,0.0,0.0
+A01361,Highside Riding Academy Osaka 5,Riding Academy,APAC,Commercial,APAC-COM-02,10,192,17.2,163,False,0,False,False,0.0,0.0,0.0
+A01362,Highside Sim Center Sepang,Sim Center,APAC,Commercial,APAC-COM-02,23,402,56.9,0,True,8,False,False,79300.0,0.0,0.0
+A01363,Kneedown Moto School Mandalika 7,Riding School,APAC,Commercial,APAC-COM-02,7,92,7.3,139,False,0,False,False,0.0,0.0,0.0
+A01364,Wheelie Racing Mandalika,Race Team,APAC,Commercial,APAC-COM-02,4,65,5.5,0,True,3,False,False,24300.0,0.0,0.0
+A01365,Rev Limit Racing Melbourne,Race Team,APAC,Commercial,APAC-COM-02,5,82,5.0,0,False,0,False,False,0.0,0.0,0.0
+A01366,Quickshift Racing Sepang,Race Team,APAC,Commercial,APAC-COM-03,10,194,8.3,0,True,8,True,False,94300.0,24200.0,0.0
+A01367,Apex Motorcycles Buriram,Dealership,APAC,Commercial,APAC-COM-03,2,34,1.6,0,True,1,True,False,10700.0,4700.0,0.0
+A01368,Gridline Moto Works Sepang,Manufacturer,APAC,Commercial,APAC-COM-03,17,266,24.6,0,True,10,True,False,86100.0,71600.0,0.0
+A01369,Gridline Sim Center Motegi,Sim Center,APAC,Commercial,APAC-COM-03,8,82,10.7,0,True,7,True,False,70900.0,31100.0,0.0
+A01370,Tank Slap Moto School Sepang 5,Riding School,APAC,Commercial,APAC-COM-03,2,30,1.1,80,True,1,True,False,9600.0,3200.0,0.0
+A01371,Highside Moto Works Sepang,Manufacturer,APAC,Commercial,APAC-COM-03,8,159,3.4,0,True,6,False,False,70100.0,0.0,0.0
+A01372,Checkered Riding Academy Melbourne 8,Riding Academy,APAC,Commercial,APAC-COM-03,21,288,18.2,814,True,18,False,True,166500.0,0.0,68500.0
+A01373,Highside Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-03,5,30,8.3,146,False,0,False,False,0.0,0.0,0.0
+A01374,Hairpin Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-03,11,171,15.2,199,True,6,False,True,68600.0,0.0,16700.0
+A01375,Apex Sim Center Osaka,Sim Center,APAC,Commercial,APAC-COM-03,15,138,56.7,0,False,0,False,False,0.0,0.0,0.0
+A01376,Countersteer Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-03,10,98,14.8,282,True,3,False,False,28000.0,0.0,0.0
+A01377,Gridline Riding Academy Phillip Island 4,Riding Academy,APAC,Commercial,APAC-COM-03,9,173,4.4,384,True,4,False,False,33700.0,0.0,0.0
+A01378,Torque Motorcycles Melbourne,Dealership,APAC,Commercial,APAC-COM-03,1,8,1.0,0,True,1,False,False,11100.0,0.0,0.0
+A01379,Tank Slap Sim Center Jakarta,Sim Center,APAC,Commercial,APAC-COM-03,14,156,110.5,0,False,0,False,False,0.0,0.0,0.0
+A01380,Torque Racing Buriram,Race Team,APAC,Commercial,APAC-COM-03,9,98,2.9,0,True,3,False,False,34100.0,0.0,0.0
+A01381,Throttle Riding Academy Melbourne 5,Riding Academy,APAC,Commercial,APAC-COM-03,15,215,8.9,342,True,8,True,False,90000.0,25900.0,0.0
+A01382,Rev Limit Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-03,9,124,5.4,307,True,3,True,False,26400.0,15700.0,0.0
+A01383,Throttle Moto School Osaka,Riding School,APAC,Commercial,APAC-COM-03,4,65,4.2,109,True,3,False,False,35200.0,0.0,0.0
+A01384,Redline Motorcycles Melbourne 3,Dealership,APAC,Commercial,APAC-COM-03,2,23,0.7,0,True,1,False,False,10900.0,0.0,0.0
+A01385,Trail Brake Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-03,11,149,15.0,270,True,9,False,True,95700.0,0.0,22700.0
+A01386,Paddock Motorcycles Jakarta,Dealership,APAC,Commercial,APAC-COM-03,3,45,3.8,0,True,2,False,False,21900.0,0.0,0.0
+A01387,Slipstream Motorcycles Motegi 2,Dealership,APAC,Commercial,APAC-COM-03,1,9,0.7,0,True,1,True,False,8500.0,2000.0,0.0
+A01388,Apex Riding Academy Mandalika 7,Riding Academy,APAC,Commercial,APAC-COM-03,20,388,24.5,864,True,11,False,True,92800.0,0.0,72700.0
+A01389,Kneedown Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-03,16,252,24.5,532,True,4,False,False,41900.0,0.0,0.0
+A01390,Countersteer Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-03,9,95,6.7,273,True,2,False,False,20200.0,0.0,0.0
+A01391,Quickshift Racing Mandalika,Race Team,APAC,Commercial,APAC-COM-03,7,60,2.3,0,False,0,False,False,0.0,0.0,0.0
+A01392,Hairpin Moto School Buriram,Riding School,APAC,Commercial,APAC-COM-03,4,37,3.2,108,True,1,False,False,10400.0,0.0,0.0
+A01393,Chicane Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-03,7,111,16.1,220,False,0,False,False,0.0,0.0,0.0
+A01394,Braking Point Motorcycles Buriram,Dealership,APAC,Commercial,APAC-COM-03,3,52,5.0,0,False,0,False,False,0.0,0.0,0.0
+A01395,Quickshift Sim Center Sepang,Sim Center,APAC,Commercial,APAC-COM-03,13,239,29.2,0,False,0,False,False,0.0,0.0,0.0
+A01396,Hairpin Motorcycles Jakarta,Dealership,APAC,Commercial,APAC-COM-03,1,13,2.6,0,True,1,True,False,11500.0,7600.0,0.0
+A01397,Torque Sim Center Motegi,Sim Center,APAC,Commercial,APAC-COM-03,9,124,26.1,0,True,5,False,False,40900.0,0.0,0.0
+A01398,Gridline Riding Academy Phillip Island 8,Riding Academy,APAC,Commercial,APAC-COM-03,11,107,10.8,260,False,0,False,False,0.0,0.0,0.0
+A01399,Hairpin Moto School Jakarta,Riding School,APAC,Commercial,APAC-COM-03,7,76,2.6,283,False,0,False,False,0.0,0.0,0.0
+A01400,Torque Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-03,8,152,8.1,307,True,6,True,False,62800.0,23600.0,0.0
+A01401,Highside Motorcycles Phillip Island,Dealership,APAC,Commercial,APAC-COM-03,2,22,3.0,0,True,1,True,False,10200.0,8700.0,0.0
+A01402,Pitlane Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-03,4,56,5.6,116,True,2,False,False,20600.0,0.0,0.0
+A01403,Chicane Moto School Mandalika,Riding School,APAC,Commercial,APAC-COM-03,2,30,1.2,59,False,0,False,False,0.0,0.0,0.0
+A01404,Redline Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-03,4,28,1.4,178,True,3,False,False,27300.0,0.0,0.0
+A01405,Redline Motorcycles Melbourne 2,Dealership,APAC,Commercial,APAC-COM-03,4,45,3.4,0,False,0,False,False,0.0,0.0,0.0
+A01406,Apex Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-03,4,52,1.5,173,True,2,False,False,16900.0,0.0,0.0
+A01407,Tank Slap Moto School Melbourne 5,Riding School,APAC,Commercial,APAC-COM-03,2,20,2.8,32,True,1,False,True,11100.0,0.0,2700.0
+A01408,Quickshift Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-03,4,76,9.1,124,True,1,False,False,8600.0,0.0,0.0
+A01409,Paddock Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-03,14,278,35.8,422,False,0,False,False,0.0,0.0,0.0
+A01410,Torque Racing Phillip Island,Race Team,APAC,Commercial,APAC-COM-03,3,28,4.4,0,True,1,False,False,10100.0,0.0,0.0
+A01411,Torque Moto School Sepang,Riding School,APAC,Commercial,APAC-COM-04,2,34,0.6,32,False,0,False,False,0.0,0.0,0.0
+A01412,Wheelie Riding Academy Jakarta 6,Riding Academy,APAC,Commercial,APAC-COM-04,5,35,5.9,179,True,1,False,True,9300.0,0.0,15100.0
+A01413,Torque Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-04,6,118,32.4,227,False,0,False,False,0.0,0.0,0.0
+A01414,Apex Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-04,4,70,4.4,72,True,3,True,True,28000.0,12800.0,6100.0
+A01415,Holeshot Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-04,8,121,4.4,216,True,7,False,False,69600.0,0.0,0.0
+A01416,Hairpin Sim Center Motegi,Sim Center,APAC,Commercial,APAC-COM-04,9,122,10.9,0,True,6,False,False,51000.0,0.0,0.0
+A01417,Highside Motorcycles Phillip Island 3,Dealership,APAC,Commercial,APAC-COM-04,3,57,4.3,0,True,1,False,False,9900.0,0.0,0.0
+A01418,Countersteer Motorcycles Osaka,Dealership,APAC,Commercial,APAC-COM-04,2,31,1.4,0,True,1,False,False,10000.0,0.0,0.0
+A01419,Quickshift Racing Melbourne,Race Team,APAC,Commercial,APAC-COM-04,8,92,8.2,0,True,2,False,False,21500.0,0.0,0.0
+A01420,Wheelie Moto School Jakarta,Riding School,APAC,Commercial,APAC-COM-04,1,13,1.0,33,True,1,False,True,8600.0,0.0,2800.0
+A01421,Torque Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-04,12,145,12.0,500,False,0,False,False,0.0,0.0,0.0
+A01422,Holeshot Motorcycles Jakarta,Dealership,APAC,Commercial,APAC-COM-04,1,16,0.4,0,True,1,False,False,10200.0,0.0,0.0
+A01423,Chicane Riding Academy Melbourne 5,Riding Academy,APAC,Commercial,APAC-COM-04,13,92,32.3,360,True,11,True,True,98500.0,94000.0,30300.0
+A01424,Redline Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-04,8,138,11.7,140,False,0,False,False,0.0,0.0,0.0
+A01425,Kneedown Racing Melbourne,Race Team,APAC,Commercial,APAC-COM-04,6,118,9.8,0,True,4,True,False,33200.0,28500.0,0.0
+A01426,Quickshift Moto School Jakarta,Riding School,APAC,Commercial,APAC-COM-04,5,72,7.0,190,False,0,False,False,0.0,0.0,0.0
+A01427,Wheelie Riding Academy Jakarta 7,Riding Academy,APAC,Commercial,APAC-COM-04,23,384,15.2,679,True,15,True,True,137600.0,44300.0,57100.0
+A01428,Paddock Motorcycles Buriram 2,Dealership,APAC,Commercial,APAC-COM-04,3,38,5.7,0,True,1,True,False,10200.0,16600.0,0.0
+A01429,Chicane Sim Center Jakarta,Sim Center,APAC,Commercial,APAC-COM-04,27,471,36.0,0,True,24,False,False,239500.0,0.0,0.0
+A01430,Holeshot Sim Center Jakarta,Sim Center,APAC,Commercial,APAC-COM-04,5,67,3.7,0,False,0,False,False,0.0,0.0,0.0
+A01431,Braking Point Racing Buriram,Race Team,APAC,Commercial,APAC-COM-04,8,130,3.8,0,True,7,True,False,75400.0,11100.0,0.0
+A01432,Torque Racing Jakarta,Race Team,APAC,Commercial,APAC-COM-04,3,23,2.0,0,False,0,False,False,0.0,0.0,0.0
+A01433,Trail Brake Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-04,12,88,8.4,450,False,0,False,False,0.0,0.0,0.0
+A01434,Highside Motorcycles Jakarta,Dealership,APAC,Commercial,APAC-COM-04,4,35,9.4,0,True,3,False,False,28200.0,0.0,0.0
+A01435,Tank Slap Motorcycles Osaka,Dealership,APAC,Commercial,APAC-COM-04,2,25,2.2,0,False,0,False,False,0.0,0.0,0.0
+A01436,Pitlane Moto School Buriram,Riding School,APAC,Commercial,APAC-COM-04,5,89,2.1,134,False,0,False,False,0.0,0.0,0.0
+A01437,Checkered Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-04,5,52,3.8,180,False,0,False,False,0.0,0.0,0.0
+A01438,Countersteer Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-04,2,25,0.8,57,True,1,False,True,10300.0,0.0,4800.0
+A01439,Highside Motorcycles Motegi 6,Dealership,APAC,Commercial,APAC-COM-04,4,64,8.4,0,True,2,True,False,19500.0,24500.0,0.0
+A01440,Torque Sim Center Osaka,Sim Center,APAC,Commercial,APAC-COM-04,10,195,13.3,0,False,0,False,False,0.0,0.0,0.0
+A01441,Torque Motorcycles Buriram,Dealership,APAC,Commercial,APAC-COM-04,3,32,1.7,0,False,0,False,False,0.0,0.0,0.0
+A01442,Lean Angle Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-04,2,38,2.0,31,False,0,False,False,0.0,0.0,0.0
+A01443,Kneedown Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-04,10,70,26.3,206,True,6,True,False,68200.0,76600.0,0.0
+A01444,Rev Limit Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-04,13,153,17.3,222,True,9,True,False,93200.0,50400.0,0.0
+A01445,Checkered Moto School Jakarta,Riding School,APAC,Commercial,APAC-COM-04,5,94,4.6,218,True,3,False,False,32900.0,0.0,0.0
+A01446,Throttle Motorcycles Jakarta 4,Dealership,APAC,Commercial,APAC-COM-04,6,109,9.7,0,True,3,False,False,35100.0,0.0,0.0
+A01447,Checkered Sim Center Mandalika,Sim Center,APAC,Commercial,APAC-COM-04,18,349,13.4,0,True,9,True,False,95700.0,39000.0,0.0
+A01448,Kneedown Motorcycles Sepang,Dealership,APAC,Commercial,APAC-COM-04,8,152,23.3,0,False,0,False,False,0.0,0.0,0.0
+A01449,Gridline Moto Works Melbourne,Manufacturer,APAC,Commercial,APAC-COM-04,10,80,4.6,0,True,7,True,False,68000.0,13400.0,0.0
+A01450,Braking Point Moto School Melbourne 5,Riding School,APAC,Commercial,APAC-COM-04,6,84,10.1,123,True,5,False,True,51700.0,0.0,10300.0
+A01451,Slipstream Sim Center Mandalika,Sim Center,APAC,Commercial,APAC-COM-04,6,58,2.7,0,True,2,False,False,22200.0,0.0,0.0
+A01452,Lean Angle Racing Melbourne,Race Team,APAC,Commercial,APAC-COM-04,2,20,1.4,0,True,1,True,False,11400.0,4100.0,0.0
+A01453,Redline Moto Works Motegi,Manufacturer,APAC,Commercial,APAC-COM-04,31,487,15.3,0,True,29,False,False,274600.0,0.0,0.0
+A01454,Throttle Moto School Phillip Island,Riding School,APAC,Commercial,APAC-COM-04,3,31,3.3,131,False,0,False,False,0.0,0.0,0.0
+A01455,Gridline Motorcycles Mandalika,Dealership,APAC,Commercial,APAC-COM-04,6,87,12.4,0,False,0,False,False,0.0,0.0,0.0
+A01456,Gridline Motorcycles Sepang 7,Dealership,APAC,Commercial,APAC-COM-05,3,55,2.0,0,True,2,False,False,19400.0,0.0,0.0
+A01457,Checkered Moto School Buriram 5,Riding School,APAC,Commercial,APAC-COM-05,4,61,7.6,154,True,1,False,False,9400.0,0.0,0.0
+A01458,Throttle Motorcycles Motegi,Dealership,APAC,Commercial,APAC-COM-05,4,63,3.4,0,True,3,False,False,29400.0,0.0,0.0
+A01459,Paddock Racing Motegi,Race Team,APAC,Commercial,APAC-COM-05,3,18,2.5,0,False,0,False,False,0.0,0.0,0.0
+A01460,Chicane Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-05,3,29,2.1,94,False,0,False,False,0.0,0.0,0.0
+A01461,Braking Point Sim Center Jakarta 2,Sim Center,APAC,Commercial,APAC-COM-05,12,99,13.1,0,True,9,False,False,92600.0,0.0,0.0
+A01462,Kneedown Riding Academy Jakarta 8,Riding Academy,APAC,Commercial,APAC-COM-05,5,44,7.9,154,False,0,False,False,0.0,0.0,0.0
+A01463,Apex Riding Academy Melbourne,Riding Academy,APAC,Commercial,APAC-COM-05,8,149,11.3,223,False,0,False,False,0.0,0.0,0.0
+A01464,Tank Slap Riding Academy Motegi 6,Riding Academy,APAC,Commercial,APAC-COM-05,17,249,60.2,261,True,12,True,False,116300.0,175300.0,0.0
+A01465,Throttle Racing Jakarta,Race Team,APAC,Commercial,APAC-COM-05,5,56,3.3,0,False,0,False,False,0.0,0.0,0.0
+A01466,Rev Limit Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-05,6,99,8.1,106,False,0,False,False,0.0,0.0,0.0
+A01467,Highside Motorcycles Sepang,Dealership,APAC,Commercial,APAC-COM-05,2,15,2.6,0,True,1,False,False,9200.0,0.0,0.0
+A01468,Slipstream Motorcycles Melbourne,Dealership,APAC,Commercial,APAC-COM-05,3,23,2.0,0,True,1,True,False,11400.0,5800.0,0.0
+A01469,Paddock Sim Center Phillip Island,Sim Center,APAC,Commercial,APAC-COM-05,15,113,22.8,0,False,0,False,False,0.0,0.0,0.0
+A01470,Checkered Moto Works Osaka,Manufacturer,APAC,Commercial,APAC-COM-05,32,503,83.6,0,False,0,False,False,0.0,0.0,0.0
+A01471,Throttle Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-05,11,87,8.7,171,False,0,False,False,0.0,0.0,0.0
+A01472,Paddock Racing Phillip Island,Race Team,APAC,Commercial,APAC-COM-05,15,154,14.1,0,False,0,False,False,0.0,0.0,0.0
+A01473,Checkered Motorcycles Motegi 2,Dealership,APAC,Commercial,APAC-COM-05,2,23,3.3,0,False,0,False,False,0.0,0.0,0.0
+A01474,Tank Slap Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-05,5,46,8.4,178,True,4,False,False,47000.0,0.0,0.0
+A01475,Slipstream Moto School Melbourne,Riding School,APAC,Commercial,APAC-COM-05,6,62,10.0,139,True,3,False,True,35800.0,0.0,11700.0
+A01476,Quickshift Motorcycles Jakarta,Dealership,APAC,Commercial,APAC-COM-05,5,47,2.9,0,True,4,True,False,41800.0,8400.0,0.0
+A01477,Redline Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-05,8,99,4.8,185,False,0,False,False,0.0,0.0,0.0
+A01478,Torque Motorcycles Melbourne 7,Dealership,APAC,Commercial,APAC-COM-05,5,59,6.8,0,True,3,False,False,25600.0,0.0,0.0
+A01479,Apex Racing Melbourne,Race Team,APAC,Commercial,APAC-COM-05,10,129,6.6,0,True,6,False,False,56800.0,0.0,0.0
+A01480,Holeshot Sim Center Sepang,Sim Center,APAC,Commercial,APAC-COM-05,25,355,21.7,0,True,9,False,False,103700.0,0.0,0.0
+A01481,Throttle Moto School Buriram,Riding School,APAC,Commercial,APAC-COM-05,2,30,4.7,81,True,1,False,True,8400.0,0.0,6800.0
+A01482,Rev Limit Riding Academy Buriram,Riding Academy,APAC,Commercial,APAC-COM-05,12,141,8.0,494,True,9,True,True,96000.0,23300.0,41500.0
+A01483,Quickshift Moto School Melbourne 3,Riding School,APAC,Commercial,APAC-COM-05,3,23,1.6,113,True,1,False,True,9900.0,0.0,9500.0
+A01484,Wheelie Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-05,20,142,30.4,890,True,16,True,False,134000.0,88500.0,0.0
+A01485,Trail Brake Motorcycles Motegi,Dealership,APAC,Commercial,APAC-COM-05,3,54,2.4,0,True,1,False,False,9700.0,0.0,0.0
+A01486,Highside Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-05,4,30,3.9,97,True,2,False,False,17200.0,0.0,0.0
+A01487,Wheelie Sim Center Motegi,Sim Center,APAC,Commercial,APAC-COM-05,10,128,8.6,0,True,6,False,False,51500.0,0.0,0.0
+A01488,Throttle Motorcycles Motegi 6,Dealership,APAC,Commercial,APAC-COM-05,5,92,5.8,0,False,0,False,False,0.0,0.0,0.0
+A01489,Quickshift Motorcycles Osaka,Dealership,APAC,Commercial,APAC-COM-05,3,28,2.8,0,False,0,False,False,0.0,0.0,0.0
+A01490,Quickshift Motorcycles Jakarta 3,Dealership,APAC,Commercial,APAC-COM-05,1,12,0.3,0,False,0,False,False,0.0,0.0,0.0
+A01491,Quickshift Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-05,18,259,16.2,432,True,13,False,False,152300.0,0.0,0.0
+A01492,Tank Slap Moto Works Osaka,Manufacturer,APAC,Commercial,APAC-COM-05,9,177,9.8,0,True,3,True,False,32500.0,28500.0,0.0
+A01493,Lean Angle Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-05,10,199,9.5,167,True,6,True,False,58300.0,27700.0,0.0
+A01494,Highside Riding Academy Phillip Island,Riding Academy,APAC,Commercial,APAC-COM-05,8,73,2.1,180,True,7,True,False,77900.0,6100.0,0.0
+A01495,Slipstream Riding Academy Jakarta,Riding Academy,APAC,Commercial,APAC-COM-05,11,172,10.0,399,True,3,False,True,31400.0,0.0,33600.0
+A01496,Kneedown Moto School Motegi,Riding School,APAC,Commercial,APAC-COM-05,2,18,1.5,77,True,1,False,False,10400.0,0.0,0.0
+A01497,Highside Riding Academy Sepang,Riding Academy,APAC,Commercial,APAC-COM-05,6,79,15.0,94,True,5,False,True,52300.0,0.0,7900.0
+A01498,Torque Riding Academy Jakarta 5,Riding Academy,APAC,Commercial,APAC-COM-05,31,499,68.3,714,False,0,False,False,0.0,0.0,0.0
+A01499,Rev Limit Riding Academy Osaka,Riding Academy,APAC,Commercial,APAC-COM-05,10,69,9.7,292,True,9,False,False,87000.0,0.0,0.0
+A01500,Throttle Riding Academy Mandalika,Riding Academy,APAC,Commercial,APAC-COM-05,22,197,12.7,383,False,0,False,False,0.0,0.0,0.0

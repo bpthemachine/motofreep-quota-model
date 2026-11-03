@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
+<title>MotoFreeP Team Quota Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: pit-wall console. Header strip, leader picker, team scoreboard, rep grid, then the move panel and change log side by side. */
+:root{
+  --bg:#f3f5f8; --panel:#ffffff; --ink:#15202e; --muted:#5b6778; --line:#d9dfe7;
+  --accent:#1f3a5f; --accent-soft:#e4ebf4; --warn:#a15c00; --warn-bg:#fff2dc;
+  --bad:#b42318; --bad-bg:#fde8e6; --good:#1d7a46; --good-bg:#e3f4ea; --chip:#eef1f5;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f141b; --panel:#171e28; --ink:#e6ebf2; --muted:#9aa6b6; --line:#2a3442;
+  --accent:#8fb3e0; --accent-soft:#1d2a3b; --warn:#f0b35a; --warn-bg:#33270f;
+  --bad:#ff8a80; --bad-bg:#3a1a18; --good:#6fd39a; --good-bg:#12301f; --chip:#222b37; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141b; --panel:#171e28; --ink:#e6ebf2; --muted:#9aa6b6; --line:#2a3442;
+  --accent:#8fb3e0; --accent-soft:#1d2a3b; --warn:#f0b35a; --warn-bg:#33270f;
+  --bad:#ff8a80; --bad-bg:#3a1a18; --good:#6fd39a; --good-bg:#12301f; --chip:#222b37; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:1240px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+header{display:grid;gap:6px}
+.flag{height:8px;border-radius:2px;background:repeating-conic-gradient(var(--ink) 0 25%,transparent 0 50%) 0 0/8px 8px;opacity:.85;width:96px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,4vw,36px);line-height:1.05;margin:0;text-wrap:balance;letter-spacing:.2px}
+.sub{color:var(--muted);margin:0;max-width:72ch}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.12em;font-size:12px;color:var(--muted);font-weight:600}
+.pick{display:flex;flex-wrap:wrap;gap:8px}
+.pick button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.pick button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:600}
+.pick button:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.board{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:2px;min-width:0}
+.tile .v{font-family:var(--display);font-weight:600;font-size:24px;font-variant-numeric:tabular-nums}
+.tile .k{font-size:13px;color:var(--muted)}
+.tile.bal-ok{border-color:var(--good)} .tile.bal-bad{border-color:var(--bad)}
+.tile.bal-ok .v{color:var(--good)} .tile.bal-bad .v{color:var(--bad)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;min-width:0}
+.card h2{font-family:var(--display);font-size:19px;font-weight:600;margin:0;padding:14px 16px 0}
+.card .hint{color:var(--muted);font-size:13px;margin:2px 16px 10px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:980px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-top:1px solid var(--line);text-align:right;white-space:nowrap;vertical-align:middle}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;border-top:none;background:var(--panel)}
+td.l,th.l{text-align:left}
+td .who{font-weight:600} td .tid{color:var(--muted);font-size:12.5px}
+.qcell{display:inline-flex;align-items:center;gap:4px}
+.qcell button{font:inherit;width:28px;height:28px;border-radius:6px;border:1px solid var(--line);background:var(--chip);color:var(--ink);cursor:pointer;line-height:1}
+.qcell input{width:96px;font:inherit;text-align:right;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);font-variant-numeric:tabular-nums}
+.delta.up{color:var(--warn)} .delta.down{color:var(--accent)}
+.chips{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-start}
+.chip{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}
+.chip.bad{background:var(--bad-bg);color:var(--bad);font-weight:600}
+.chip.warn{background:var(--warn-bg);color:var(--warn)}
+.chip.ok{background:var(--good-bg);color:var(--good)}
+.over{color:var(--bad);font-weight:600}
+.fc{display:grid;gap:3px;justify-items:end}
+.bar{position:relative;width:120px;height:8px;background:var(--chip);border-radius:4px}
+.bar .r{position:absolute;top:0;bottom:0;background:var(--accent-soft);border-radius:4px}
+.bar .p{position:absolute;top:-3px;width:3px;height:14px;background:var(--accent);border-radius:2px}
+.bar .t{position:absolute;top:-4px;width:1px;height:16px;background:var(--muted)}
+.lower{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:18px}
+@media (max-width:860px){.lower{grid-template-columns:1fr}}
+form{display:grid;gap:10px;padding:0 16px 16px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+select,input[type=number],input[type=text]{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:7px 8px;min-width:0}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+.btn{font:inherit;font-weight:600;border-radius:8px;padding:8px 14px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--bg)}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.msg{font-size:13.5px;margin:0}
+.msg.bad{color:var(--bad)} .msg.ok{color:var(--good)}
+ol.log{list-style:none;margin:0;padding:0 16px 16px;display:grid;gap:8px;max-height:340px;overflow:auto}
+ol.log li{border-left:3px solid var(--accent);padding:4px 10px;background:var(--bg);border-radius:0 6px 6px 0;font-size:14px}
+ol.log li.sub{border-left-color:var(--good)}
+ol.log .when{color:var(--muted);font-size:12px}
+.empty{color:var(--muted);font-size:14px;padding:0 16px 16px;margin:0}
+.banner{border-radius:8px;padding:10px 14px;font-size:14px}
+.banner.ok{background:var(--good-bg);color:var(--good)}
+.banner.bad{background:var(--bad-bg);color:var(--bad)}
+footer{color:var(--muted);font-size:13px;display:grid;gap:6px;max-width:90ch}
+footer p{margin:0}
+@media (prefers-reduced-motion:no-preference){.tile .v{transition:color .2s}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="flag" aria-hidden="true"></div>
+  <span class="eyebrow">MotoFreeP · FY2027 planning · Team leader review round</span>
+  <h1 id="h">Team quota review</h1>
+  <p class="sub">Pick a team leader, then move quota between their reps. The team total is fixed at the leader's number × <span id="oaTxt"></span>, so every move is zero-sum. Guardrails and the attainment forecast update as you go. All data is synthetic.</p>
+</header>
+
+<nav class="pick" id="pick" aria-label="Team leader"></nav>
+
+<section class="board" id="board" aria-label="Team summary"></section>
+<div id="banner" class="banner" role="status"></div>
+
+<section class="card">
+  <h2>Reps on this team</h2>
+  <p class="hint">Edit a quota with − / + ($10K steps) or type a number. Proposed = the quota model's allocation. The bar shows forecast attainment (tick) with an 80% range; the thin line is 100%.</p>
+  <div class="scroll"><table id="tbl"><thead><tr>
+    <th class="l">Rep / territory</th><th>Ramp</th><th>Capacity</th><th>FY26 rebased</th><th>Proposed</th>
+    <th>Your quota</th><th>Change</th><th>÷ capacity</th><th>Growth</th><th>Forecast</th><th class="l">Flags</th>
+  </tr></thead><tbody></tbody></table></div>
+</section>
+
+<div class="lower">
+<section class="card">
+  <h2>Move quota</h2>
+  <p class="hint">The reason goes into the change log for the AVP review and for rep conversations.</p>
+  <form id="mv">
+    <div class="row">
+      <label for="from">From rep<select id="from"></select></label>
+      <label for="to">To rep<select id="to"></select></label>
+    </div>
+    <div class="row">
+      <label for="amt">Amount ($)<input id="amt" type="number" min="1000" step="1000" value="25000"></label>
+      <label for="why">Reason<select id="why">
+        <option>Big renewal at risk</option><option>Churn risk</option><option>Rep on leave</option>
+        <option>Territory change</option><option>Pipeline stronger than modeled</option><option>Other</option></select></label>
+    </div>
+    <label for="note">Note (optional)<input id="note" type="text" maxlength="120" placeholder="e.g. Acme renewal slipping to FY2028"></label>
+    <p class="msg" id="mvmsg" aria-live="polite"></p>
+    <div class="btns">
+      <button class="btn" type="submit">Move quota</button>
+      <button class="btn ghost" type="button" id="reset">Reset to proposal</button>
+      <button class="btn ghost" type="button" id="submit">Submit to AVP</button>
+    </div>
+  </form>
+</section>
+<section class="card">
+  <h2>Change log</h2>
+  <p class="hint">Every edit for this team leader, newest first.</p>
+  <ol class="log" id="log"></ol>
+  <p class="empty" id="logEmpty">No changes yet. Moves and edits appear here with who changed what and why.</p>
+</section>
+</div>
+
+<footer>
+  <p><b>How the numbers work.</b> Team target = the leader's core number × over-assignment. Guardrail: no quota above <span id="g1"></span>× the rep's FY2027 capacity or more than +<span id="g2"></span> above their FY2026 rebased quota. The forecast is a regression fitted on FY2023–FY2026 history (tenure capped at 12 months, pipeline coverage, quota growth, potential ÷ quota, region and segment), chosen by chronological backtest. It's a gut check for prioritizing territories, not a commitment. New and heavily ramping territories get no forecast; use capacity instead.</p>
+  <p><a href="https://github.com/bpthemachine/motofreep-quota-model" style="color:var(--accent)">Source, workbooks and method on GitHub</a>. MotoFreeP is a fictional company. Reps are named after MotoGP, Moto2 and MotoAmerica riders; leaders after retired champions.</p>
+</footer>
+</div>
+
+<script>
+const D = {"cfg":{"oa":1.05,"guard":1.2,"growth":0.5,"co":[0.352111,0.019879,0.063752,-0.248605,0.039751,-0.024484,-0.002644,-0.036215],"rng":{"pipe":[1.41,4.61],"growth":[-0.1584,0.4475],"pot":[3.685,6.811]},"se":0.13003,"z":1.2816,"rampMin":0.5},"tls":[{"id":"T-AMER-ENT-1","name":"Eddie Lawson","region":"AMER","seg":"Enterprise","avp":"L-AVP-AMER-ENT","number":2574425,"target":2703146},{"id":"T-AMER-ENT-2","name":"Freddie Spencer","region":"AMER","seg":"Enterprise","avp":"L-AVP-AMER-ENT","number":2625657,"target":2756940},{"id":"T-AMER-COM-1","name":"Kenny Roberts Jr.","region":"AMER","seg":"Commercial","avp":"L-AVP-AMER-COM","number":2552975,"target":2680624},{"id":"T-AMER-COM-2","name":"Marco Lucchinelli","region":"AMER","seg":"Commercial","avp":"L-AVP-AMER-COM","number":2993143,"target":3142800},{"id":"T-EMEA-ENT","name":"Aleix Espargar\u00f3","region":"EMEA","seg":"Enterprise","avp":"L-GEO-EMEA","number":2407920,"target":2528316},{"id":"T-EMEA-COM","name":"Can Akkaya","region":"EMEA","seg":"Commercial","avp":"L-GEO-EMEA","number":3208336,"target":3368753},{"id":"T-APAC-ENT","name":"Casey Stoner","region":"APAC","seg":"Enterprise","avp":"L-GEO-APAC","number":1869980,"target":1963479},{"id":"T-APAC-COM","name":"Wayne Gardner","region":"APAC","seg":"Commercial","avp":"L-GEO-APAC","number":2347563,"target":2464941}],"reps":[{"t":"AMER-ENT-01","team":"T-AMER-ENT-1","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Adrian Huertas","start":"Feb 2021","ramp":1,"cap":638450,"prior":440800,"pot":2202480,"pipe":1787200,"ten":12,"quota":630337},{"t":"AMER-ENT-02","team":"T-AMER-ENT-1","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Daniel Munoz","start":"Feb 2022","ramp":1,"cap":638450,"prior":518800,"pot":2361280,"pipe":1376500,"ten":12,"quota":666796},{"t":"AMER-ENT-03","team":"T-AMER-ENT-2","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Alex Escrig","start":"Feb 2026","ramp":0.8958,"cap":571945,"prior":557000,"pot":2272160,"pipe":1314500,"ten":11,"quota":599976},{"t":"AMER-ENT-04","team":"T-AMER-ENT-1","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Senna Agius","start":"Jan 2019","ramp":1,"cap":638450,"prior":458400,"pot":2157120,"pipe":1392500,"ten":12,"quota":635977},{"t":"AMER-ENT-05","team":"T-AMER-ENT-2","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Manuel Gonzalez","start":"Aug 2018","ramp":1,"cap":638450,"prior":414300,"pot":2182160,"pipe":1364600,"ten":12,"quota":621450},{"t":"AMER-ENT-06","team":"T-AMER-ENT-1","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Aron Canet","start":"Feb 2019","ramp":1,"cap":638450,"prior":434000,"pot":2201360,"pipe":1399200,"ten":12,"quota":651000},{"t":"AMER-ENT-07","team":"T-AMER-ENT-2","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Deniz Oncu","start":"Jun 2018","ramp":1,"cap":638450,"prior":435900,"pot":2193920,"pipe":1292400,"ten":12,"quota":653850},{"t":"AMER-ENT-08","team":"T-AMER-ENT-2","region":"AMER","seg":"Enterprise","isNew":false,"rep":"Angel Piqueras","start":"Jan 2018","ramp":1,"cap":638450,"prior":422100,"pot":2206320,"pipe":1387200,"ten":12,"quota":633150},{"t":"AMER-COM-01","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":false,"rep":"Ivan Ortola","start":"Sep 2018","ramp":1,"cap":487100,"prior":446500,"pot":1894080,"pipe":1231300,"ten":12,"quota":492132},{"t":"AMER-COM-02","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":false,"rep":"Collin Veijer","start":"Dec 2019","ramp":1,"cap":487100,"prior":453900,"pot":1837680,"pipe":1217400,"ten":12,"quota":503918},{"t":"AMER-COM-03","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":false,"rep":"Jose Antonio Rueda","start":"May 2018","ramp":1,"cap":487100,"prior":328100,"pot":1859200,"pipe":1218600,"ten":12,"quota":487772},{"t":"AMER-COM-04","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":false,"rep":"Ayumu Sasaki","start":"Mar 2020","ramp":1,"cap":487100,"prior":453700,"pot":1904480,"pipe":1242600,"ten":12,"quota":489124},{"t":"AMER-COM-05","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":false,"rep":"Zonta van den Goorbergh","start":"Jul 2020","ramp":1,"cap":487100,"prior":404000,"pot":1945280,"pipe":1129700,"ten":12,"quota":502010},{"t":"AMER-COM-06","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":false,"rep":"Celestino Vietti","start":"Jan 2019","ramp":1,"cap":487100,"prior":407600,"pot":1906560,"pipe":1189100,"ten":12,"quota":502433},{"t":"AMER-COM-07","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":false,"rep":"Luca Lunetta","start":"Sep 2021","ramp":1,"cap":487100,"prior":385900,"pot":1820880,"pipe":1228800,"ten":12,"quota":487867},{"t":"AMER-COM-08","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":false,"rep":"To be hired (TBH-BF1)","start":"Mar 2027","ramp":0.25,"cap":121775,"prior":557100,"pot":1834080,"pipe":1214300,"ten":0,"quota":119683},{"t":"AMER-COM-09","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":false,"rep":"JD Beach","start":"Dec 2019","ramp":1,"cap":487100,"prior":341000,"pot":1875280,"pipe":1213800,"ten":12,"quota":497977},{"t":"AMER-COM-10","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":false,"rep":"Cameron Petersen","start":"Jul 2026","ramp":0.8125,"cap":395769,"prior":472100,"pot":1900240,"pipe":1174100,"ten":6,"quota":402767},{"t":"AMER-COM-11","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":false,"rep":"PJ Jacobsen","start":"May 2022","ramp":1,"cap":487100,"prior":350000,"pot":1868400,"pipe":1349100,"ten":12,"quota":493646},{"t":"AMER-COM-12","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":false,"rep":"Richie Escalante","start":"Jun 2020","ramp":1,"cap":487100,"prior":410800,"pot":1888400,"pipe":1216200,"ten":12,"quota":480455},{"t":"EMEA-ENT-01","team":"T-EMEA-ENT","region":"EMEA","seg":"Enterprise","isNew":false,"rep":"Marc Marquez","start":"May 2026","ramp":0.75,"cap":478838,"prior":513300,"pot":2223360,"pipe":1430900,"ten":8,"quota":480396},{"t":"EMEA-ENT-02","team":"T-EMEA-ENT","region":"EMEA","seg":"Enterprise","isNew":false,"rep":"Marco Bezzecchi","start":"Apr 2025","ramp":1,"cap":638450,"prior":551800,"pot":2246480,"pipe":1441500,"ten":12,"quota":644374},{"t":"EMEA-ENT-03","team":"T-EMEA-ENT","region":"EMEA","seg":"Enterprise","isNew":false,"rep":"Alex Marquez","start":"Jun 2022","ramp":1,"cap":638450,"prior":507600,"pot":2294480,"pipe":1425500,"ten":12,"quota":666655},{"t":"EMEA-ENT-04","team":"T-EMEA-ENT","region":"EMEA","seg":"Enterprise","isNew":false,"rep":"Alex Rins","start":"Aug 2021","ramp":1,"cap":638450,"prior":485400,"pot":2206480,"pipe":1454500,"ten":12,"quota":628911},{"t":"EMEA-ENT-05","team":"T-EMEA-ENT","region":"EMEA","seg":"Enterprise","isNew":false,"rep":"To be hired (TBH-BF2)","start":"Mar 2027","ramp":0.1042,"cap":66505,"prior":353100,"pot":2233200,"pipe":1403200,"ten":0,"quota":67472},{"t":"EMEA-COM-01","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Franco Morbidelli","start":"Aug 2024","ramp":1,"cap":487100,"prior":383600,"pot":1738320,"pipe":946400,"ten":12,"quota":529431},{"t":"EMEA-COM-02","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Brad Binder","start":"Jun 2023","ramp":1,"cap":487100,"prior":344000,"pot":1725920,"pipe":951900,"ten":12,"quota":499596},{"t":"EMEA-COM-03","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Luca Marini","start":"Sep 2024","ramp":1,"cap":487100,"prior":363800,"pot":1801920,"pipe":929800,"ten":12,"quota":508209},{"t":"EMEA-COM-04","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Fermin Aldeguer","start":"Mar 2020","ramp":1,"cap":487100,"prior":318800,"pot":1691680,"pipe":941900,"ten":12,"quota":478200},{"t":"EMEA-COM-05","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Maverick Vinales","start":"Dec 2026","ramp":0.4583,"cap":223254,"prior":497900,"pot":1737760,"pipe":952100,"ten":1,"quota":247737},{"t":"EMEA-COM-06","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Enea Bastianini","start":"Oct 2019","ramp":1,"cap":487100,"prior":353300,"pot":1732960,"pipe":953800,"ten":12,"quota":504675},{"t":"EMEA-COM-07","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":false,"rep":"Johann Zarco","start":"Oct 2020","ramp":1,"cap":487100,"prior":269000,"pot":1697360,"pipe":960200,"ten":12,"quota":403500},{"t":"APAC-ENT-01","team":"T-APAC-ENT","region":"APAC","seg":"Enterprise","isNew":false,"rep":"Ai Ogura","start":"Jun 2018","ramp":1,"cap":638450,"prior":427100,"pot":2058800,"pipe":1269000,"ten":12,"quota":640649},{"t":"APAC-ENT-02","team":"T-APAC-ENT","region":"APAC","seg":"Enterprise","isNew":false,"rep":"Taiyo Furusato","start":"Aug 2020","ramp":1,"cap":638450,"prior":360200,"pot":2086480,"pipe":1302300,"ten":12,"quota":540300},{"t":"APAC-ENT-03","team":"T-APAC-ENT","region":"APAC","seg":"Enterprise","isNew":false,"rep":"Daniel Holgado","start":"Mar 2026","ramp":0.8542,"cap":545343,"prior":511000,"pot":2030080,"pipe":1262600,"ten":10,"quota":641689},{"t":"APAC-COM-01","team":"T-APAC-COM","region":"APAC","seg":"Commercial","isNew":false,"rep":"Izan Guevara","start":"Aug 2024","ramp":1,"cap":487100,"prior":387000,"pot":1986560,"pipe":1146800,"ten":12,"quota":408945},{"t":"APAC-COM-02","team":"T-APAC-COM","region":"APAC","seg":"Commercial","isNew":false,"rep":"Alberto Ferrandez","start":"May 2019","ramp":1,"cap":487100,"prior":606000,"pot":2645040,"pipe":1587400,"ten":12,"quota":584520},{"t":"APAC-COM-03","team":"T-APAC-COM","region":"APAC","seg":"Commercial","isNew":false,"rep":"Barry Baltus","start":"May 2022","ramp":1,"cap":487100,"prior":528000,"pot":2582800,"pipe":1433500,"ten":12,"quota":536985},{"t":"APAC-COM-04","team":"T-APAC-COM","region":"APAC","seg":"Commercial","isNew":false,"rep":"Tony Arbolino","start":"May 2019","ramp":1,"cap":487100,"prior":376000,"pot":1818240,"pipe":1020900,"ten":12,"quota":414133},{"t":"APAC-COM-05","team":"T-APAC-COM","region":"APAC","seg":"Commercial","isNew":false,"rep":"Sergio Garcia","start":"Jan 2018","ramp":1,"cap":487100,"prior":585000,"pot":2603760,"pipe":1908900,"ten":12,"quota":520358},{"t":"AMER-ENT-09","team":"T-AMER-ENT-2","region":"AMER","seg":"Enterprise","isNew":true,"rep":"To be hired (TBH-NH3)","start":"Jan 2027","ramp":0.1875,"cap":119709,"prior":443100,"pot":2143200,"pipe":1321200,"ten":0,"quota":122851},{"t":"AMER-ENT-10","team":"T-AMER-ENT-1","region":"AMER","seg":"Enterprise","isNew":true,"rep":"To be hired (TBH-NH4)","start":"Jan 2027","ramp":0.1875,"cap":119709,"prior":442800,"pot":2147440,"pipe":1360900,"ten":0,"quota":119036},{"t":"AMER-ENT-11","team":"T-AMER-ENT-2","region":"AMER","seg":"Enterprise","isNew":true,"rep":"To be hired (TBH-NH10)","start":"Jan 2027","ramp":0.1875,"cap":119709,"prior":442900,"pot":2125120,"pipe":1386400,"ten":0,"quota":125663},{"t":"AMER-COM-13","team":"T-AMER-COM-1","region":"AMER","seg":"Commercial","isNew":true,"rep":"To be hired (TBH-NH1)","start":"Jan 2027","ramp":0.375,"cap":182662,"prior":382900,"pot":1836000,"pipe":1206400,"ten":0,"quota":182614},{"t":"AMER-COM-14","team":"T-AMER-COM-2","region":"AMER","seg":"Commercial","isNew":true,"rep":"To be hired (TBH-NH2)","start":"Jan 2027","ramp":0.375,"cap":182662,"prior":369300,"pot":1836720,"pipe":1215000,"ten":0,"quota":181026},{"t":"EMEA-ENT-06","team":"T-EMEA-ENT","region":"EMEA","seg":"Enterprise","isNew":true,"rep":"To be hired (TBH-NH6)","start":"Apr 2027","ramp":0.0625,"cap":39903,"prior":476900,"pot":2245760,"pipe":1424200,"ten":0,"quota":40508},{"t":"EMEA-COM-08","team":"T-EMEA-COM","region":"EMEA","seg":"Commercial","isNew":true,"rep":"To be hired (TBH-NH9)","start":"Jan 2027","ramp":0.375,"cap":182662,"prior":317600,"pot":1765360,"pipe":936400,"ten":0,"quota":197405},{"t":"APAC-ENT-04","team":"T-APAC-ENT","region":"APAC","seg":"Enterprise","isNew":true,"rep":"To be hired (TBH-NH5)","start":"Jan 2027","ramp":0.1875,"cap":119709,"prior":429700,"pot":2029360,"pipe":1282700,"ten":0,"quota":140841}]};
+const C = D.cfg, K = C.co;
+const fmt$ = v => (v<0?"−":"")+"$"+Math.round(Math.abs(v)).toLocaleString("en-US");
+const fmtK = v => (v<0?"−":"")+"$"+Math.round(Math.abs(v)/1000).toLocaleString("en-US")+"K";
+const pct = (v,d=0) => (v*100).toFixed(d)+"%";
+const S = { tl: D.tls[0].id, quotas: {}, log: {}, submitted: {} };
+D.tls.forEach(t => { S.log[t.id] = []; });
+D.reps.forEach(r => { S.quotas[r.t] = r.quota; });
+
+function capOf(r){ const c1 = r.cap*C.guard; return r.prior>0 ? Math.min(c1, r.prior*(1+C.growth)) : c1; }
+function forecast(r, q){
+  if (r.isNew || r.ramp < C.rampMin) return null;
+  const pc = r.pipe/q, g = r.prior>0 ? q/r.prior-1 : 0, pr = r.pot/q;
+  const f = K[0] + K[1]*r.ten + K[2]*pc + K[3]*g + K[4]*pr + K[5]*(r.seg==="Enterprise") + K[6]*(r.region==="EMEA") + K[7]*(r.region==="APAC");
+  const out = [];
+  if (pc < C.rng.pipe[0] || pc > C.rng.pipe[1]) out.push("pipeline");
+  if (g < C.rng.growth[0] || g > C.rng.growth[1]) out.push("quota growth");
+  if (pr < C.rng.pot[0] || pr > C.rng.pot[1]) out.push("potential");
+  return { f, lo: f - C.z*C.se, hi: f + C.z*C.se, out };
+}
+const teamReps = id => D.reps.filter(r => r.team === id);
+const tlOf = id => D.tls.find(t => t.id === id);
+
+function renderPick(){
+  const nav = document.getElementById("pick"); nav.innerHTML = "";
+  D.tls.forEach(t => {
+    const b = document.createElement("button"); b.type = "button";
+    b.textContent = t.name + " · " + t.region + " " + t.seg;
+    b.setAttribute("aria-pressed", String(t.id === S.tl));
+    b.onclick = () => { S.tl = t.id; render(); };
+    nav.appendChild(b);
+  });
+}
+function stats(){
+  const t = tlOf(S.tl), rs = teamReps(S.tl);
+  const assigned = rs.reduce((a,r) => a + S.quotas[r.t], 0);
+  let fs = 0, fq = 0, breaches = 0, outside = 0;
+  rs.forEach(r => { const q = S.quotas[r.t]; if (q > capOf(r) + 1) breaches++;
+    const f = forecast(r,q); if (f){ fs += f.f*q; fq += q; if (f.out.length) outside++; } });
+  return { t, rs, assigned, diff: assigned - t.target, att: fq ? fs/fq : null, cover: fq/assigned, breaches, outside };
+}
+function render(){
+  renderPick();
+  const s = stats(), t = s.t;
+  document.getElementById("h").textContent = t.name + "'s team · " + t.region + " " + t.seg;
+  const bal = Math.abs(s.diff) < 1;
+  document.getElementById("board").innerHTML = `
+    <div class="tile"><span class="k">Leader's core number</span><span class="v">${fmt$(t.number)}</span></div>
+    <div class="tile"><span class="k">Team target (× ${pct(C.oa)})</span><span class="v">${fmt$(t.target)}</span></div>
+    <div class="tile ${bal?"bal-ok":"bal-bad"}"><span class="k">${bal?"Assigned: balanced":(s.diff>0?"Over-assigned by":"Unassigned")}</span><span class="v">${bal?fmt$(s.assigned):fmt$(Math.abs(s.diff))}</span></div>
+    <div class="tile"><span class="k">Forecast attainment (${pct(s.cover)} of quota forecast)</span><span class="v">${s.att==null?"n/a":pct(s.att)}</span></div>
+    <div class="tile"><span class="k">Guardrail breaches</span><span class="v ${s.breaches?"over":""}">${s.breaches}</span></div>`;
+  const bn = document.getElementById("banner");
+  if (S.submitted[S.tl] && bal && !s.breaches){ bn.className="banner ok"; bn.textContent = "Submitted to the AVP. Further changes reopen the review."; }
+  else if (!bal){ bn.className="banner bad"; bn.textContent = (s.diff>0?"The team is over its target by ":"The team is short of its target by ")+fmt$(Math.abs(s.diff))+". Move quota between reps so the total balances before you submit."; }
+  else if (s.breaches){ bn.className="banner bad"; bn.textContent = s.breaches+" rep"+(s.breaches>1?"s are":" is")+" above the guardrail. Lower their quota or escalate to the AVP."; }
+  else { bn.className="banner ok"; bn.textContent = "Balanced and inside the guardrails. Ready to submit."; }
+
+  const tb = document.querySelector("#tbl tbody"); tb.innerHTML = "";
+  s.rs.forEach(r => {
+    const q = S.quotas[r.t], cap = capOf(r), f = forecast(r,q), d = q - r.quota;
+    const ratio = q/r.cap, g = r.prior>0 ? q/r.prior-1 : null;
+    const chips = [];
+    if (q > r.cap*C.guard + 1) chips.push('<span class="chip bad">Over '+C.guard+'x capacity</span>');
+    if (r.prior>0 && q > r.prior*(1+C.growth) + 1) chips.push('<span class="chip bad">Over +'+pct(C.growth)+' growth</span>');
+    if (!f) chips.push('<span class="chip">'+(r.isNew?"New territory":"Ramping")+': use capacity</span>');
+    else if (f.out.length) chips.push('<span class="chip warn">Outside model range: '+f.out.join(", ")+'</span>');
+    else chips.push('<span class="chip ok">In model range</span>');
+    let fcell = '<span class="tid">n/a</span>';
+    if (f){ const sc = v => Math.max(0,Math.min(100,(v/1.4)*100));
+      fcell = `<div class="fc"><span>${pct(f.f)} <span class="tid">(${pct(f.lo)}–${pct(f.hi)})</span></span>
+        <span class="bar" aria-hidden="true"><span class="r" style="left:${sc(f.lo)}%;width:${sc(f.hi)-sc(f.lo)}%"></span>
+        <span class="t" style="left:${sc(1)}%"></span><span class="p" style="left:calc(${sc(f.f)}% - 1px)"></span></span></div>`; }
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td class="l"><div class="who">${r.rep}</div><div class="tid">${r.t} · started ${r.start}</div></td>
+      <td>${pct(r.ramp)}</td><td>${fmtK(r.cap)}</td><td>${fmtK(r.prior)}</td><td>${fmtK(r.quota)}</td>
+      <td><span class="qcell"><button type="button" aria-label="Lower ${r.rep} by $10K" data-k="${r.t}" data-s="-10000">−</button>
+        <input id="q-${r.t}" aria-label="Quota for ${r.rep}" inputmode="numeric" value="${Math.round(q).toLocaleString("en-US")}">
+        <button type="button" aria-label="Raise ${r.rep} by $10K" data-k="${r.t}" data-s="10000">+</button></span></td>
+      <td class="delta ${d>1?"up":d<-1?"down":""}">${Math.abs(d)<1?"–":(d>0?"+":"")+fmtK(d)}</td>
+      <td class="${q > r.cap*C.guard+1?"over":""}">${ratio.toFixed(2)}x</td>
+      <td class="${g!=null && q > r.prior*(1+C.growth)+1?"over":""}">${g==null?"–":(g>=0?"+":"")+pct(g)}</td>
+      <td>${fcell}</td><td class="l"><div class="chips">${chips.join("")}</div></td>`;
+    tb.appendChild(tr);
+  });
+  tb.querySelectorAll("button[data-k]").forEach(b => b.onclick = () => edit(b.dataset.k, S.quotas[b.dataset.k] + Number(b.dataset.s), "Manual edit"));
+  tb.querySelectorAll("input[id^=q-]").forEach(i => i.onchange = () => {
+    const v = Number(i.value.replace(/[^0-9.]/g,"")); if (!isNaN(v)) edit(i.id.slice(2), v, "Manual edit"); else render(); });
+
+  const opts = s.rs.map(r => `<option value="${r.t}">${r.rep} (${fmtK(S.quotas[r.t])})</option>`).join("");
+  const fSel = document.getElementById("from"), tSel = document.getElementById("to");
+  const fv = fSel.value, tv = tSel.value; fSel.innerHTML = opts; tSel.innerHTML = opts;
+  if (s.rs.some(r => r.t===fv)) fSel.value = fv; if (s.rs.some(r => r.t===tv)) tSel.value = tv; else tSel.selectedIndex = Math.min(1, s.rs.length-1);
+  document.getElementById("submit").disabled = !(bal && !s.breaches);
+
+  const log = S.log[S.tl], ol = document.getElementById("log");
+  ol.innerHTML = log.slice().reverse().map(e => `<li class="${e.sub?"sub":""}"><div>${e.text}</div><div class="when">${e.when}</div></li>`).join("");
+  document.getElementById("logEmpty").hidden = log.length > 0;
+}
+const repName = k => D.reps.find(r => r.t===k).rep;
+const now = () => new Date().toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});
+function edit(k, v, why){
+  v = Math.max(0, Math.round(v)); const old = S.quotas[k]; if (Math.abs(v-old) < 1) { render(); return; }
+  S.quotas[k] = v; S.submitted[S.tl] = false;
+  S.log[S.tl].push({ text: `${repName(k)}: ${fmtK(old)} → ${fmtK(v)} (${why})`, when: now() });
+  render();
+}
+document.getElementById("mv").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = document.getElementById("from").value, t = document.getElementById("to").value;
+  const a = Math.round(Number(document.getElementById("amt").value)), why = document.getElementById("why").value;
+  const note = document.getElementById("note").value.trim(), m = document.getElementById("mvmsg");
+  if (f === t){ m.className="msg bad"; m.textContent = "Pick two different reps."; return; }
+  if (!(a > 0)){ m.className="msg bad"; m.textContent = "Enter an amount above $0."; return; }
+  if (a > S.quotas[f]){ m.className="msg bad"; m.textContent = repName(f)+" only has "+fmtK(S.quotas[f])+" to move."; return; }
+  const r = D.reps.find(x => x.t===t), after = S.quotas[t] + a, warn = after > capOf(r) + 1;
+  S.quotas[f] -= a; S.quotas[t] = after; S.submitted[S.tl] = false;
+  S.log[S.tl].push({ text: `Moved ${fmtK(a)} from ${repName(f)} to ${repName(t)} · ${why}${note?": "+note:""}`, when: now() });
+  m.className = warn ? "msg bad" : "msg ok";
+  m.textContent = warn ? `Moved. ${repName(t)} is now above the guardrail, so this needs AVP approval.` : `Moved ${fmtK(a)}. The team total is unchanged.`;
+  render();
+});
+document.getElementById("reset").onclick = () => {
+  teamReps(S.tl).forEach(r => S.quotas[r.t] = r.quota); S.submitted[S.tl] = false;
+  S.log[S.tl].push({ text: "Reset every rep to the proposed quota", when: now() });
+  document.getElementById("mvmsg").textContent = ""; render();
+};
+document.getElementById("submit").onclick = () => {
+  S.submitted[S.tl] = true;
+  S.log[S.tl].push({ text: "Submitted to the AVP for review", when: now(), sub: true });
+  render();
+};
+document.getElementById("oaTxt").textContent = pct(C.oa);
+document.getElementById("g1").textContent = C.guard;
+document.getElementById("g2").textContent = pct(C.growth);
+render();
+</script>
+
+</body>
+</html>
