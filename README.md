@@ -48,7 +48,7 @@ This part draws on my MBA coursework in Predictive Analytics. The dataset is syn
 | RMSE, average of two folds | 0.152 | 0.235 | **0.141** |
 | Rank correlation (Spearman) | n/a | −0.31 | 0.41 |
 
-Prior-year attainment was the worst predictor of all: last year's laggards tended to bounce back.
+**Prior-year attainment was the worst predictor of all: last year's laggards tended to bounce back.**
 
 **Final model** (160 territory-years, adjusted R² 0.27):
 
